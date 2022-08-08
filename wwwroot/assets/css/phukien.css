@@ -1,0 +1,275 @@
+.warpper-groupcate {
+    position: relative;
+    height: 167px;
+    padding: 20px 0;
+    background: #fffbd1;
+    border: 1px solid #fffbd1;
+}
+.groupcate {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+.groupcate .warpper-group-popup:first-child {
+    margin-left: 0;
+}
+.groupcate .warpper-group-popup {
+    margin-left: 10px;
+    position: relative;
+    padding-bottom: 15px;
+}
+.groupcate .group {
+    background: url(//cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/accessory/tgdd/desk-phone_2.png?v=3);
+    width: 232px;
+    height: 125px;
+    float: left;
+    position: relative;
+    background-size: cover !important;
+    cursor: pointer;
+}
+.groupcate .group.group-iphone div.grp-name {
+    top: 50%;
+    right: 9%;
+    transform: translateX(-9%) translateY(-50%);
+}
+.groupcate .group div.grp-name {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 13%;
+    transform: translateX(-13%) translateY(-50%);
+}
+.groupcate .group div.grp-name p {
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+.groupcate .group div.arrow-filter {
+    width: 32px;
+    height: 20px;
+    bottom: -16px;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+.groupcate div.popup-childcate {
+    position: absolute;
+    width: 588px;
+    padding: 10px;
+    min-height: 100px;
+    max-height: 293px;
+    top: 140px;
+    background: #fff;
+    z-index: 11;
+    display: none;
+    overflow: hidden;
+    overflow-y: auto;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 18%);
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+.warpper-childcate {
+    background-color: #fff;
+    height: auto;
+    padding: 10px 0;
+    position: relative;
+}
+.warpper-childcate .childcate {
+    background: #fff;
+    color: #333;
+    text-transform: unset;
+    text-align: center;
+    width: auto;
+    display: inline-block;
+    vertical-align: text-top;
+    margin: 0 5px 5px 0;
+    width: calc(100%/6 - 8px);
+}
+a {
+    text-decoration: none;
+    transition: .2s;
+    color: #288ad6;
+}
+.warpper-childcate .childcate a img {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.warpper-childcate .childcate img {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    border-radius: 50%;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    background: #f1f1f1;
+    cursor: pointer;
+}
+.warpper-childcate .childcate h3.grpName {
+    display: block;
+    width: 86px;
+    margin-top: 5px;
+}
+
+/* phu kien noi bat */
+.warpper-content {
+    position: relative;
+    background-color: #ffed97;
+}section {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.title-manu, .title-category {
+    display: block;
+    margin: auto;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+    padding-top: 20px;
+}
+.list-category {
+    height: auto;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+}
+.warpper-group-category {
+    vertical-align: text-top;
+    color: #333;
+    text-transform: unset;
+    text-align: center;
+    width: auto;
+    display: inline-block;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    transition: .2s;
+    color: #288ad6;
+}
+.warpper-group-category a img {
+    height: 64px;
+    width: 64px;
+    display: block;
+    position: relative;
+}
+.warpper-group-category:nth-child(1) img {
+    background: linear-gradient(90deg,#6ac1ff 0%,#8bfffe 100%);
+}
+.warpper-group-category img {
+    position: relative;
+    border-radius: 50%;
+    padding: 0;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+}
+.warpper-group-category h3 {
+    display: block;
+    width: 100px;
+    margin-top: 5px;
+}
+.warpper-group-category:nth-child(2) img {
+    background: linear-gradient(90deg,#ff8ca1 0%,#ffd0d0 100%);
+}.warpper-group-category:nth-child(3) img {
+    background: linear-gradient(90deg,#f8d383 0%,#ffbf83 100%);
+}
+.warpper-group-category:nth-child(4) img {
+    background: linear-gradient(90deg,#ede574 0%,#e1f5c4 100%);
+}
+.warpper-group-category:nth-child(6) img {
+    background: linear-gradient(135deg,#f5ee27 14.65%,#8bc34a 85.36%);
+}
+.warpper-group-category:nth-child(7) img {
+    background: linear-gradient(135deg,#ffd740 14.65%,#e040bd 85.36%);
+}
+.warpper-group-category:nth-child(8) img {
+    background: linear-gradient(90deg,#9ce8fb 0%,#b4ffe4 100%);
+}
+.warpper-group-category:nth-child(9) img {
+    background: linear-gradient(143.24deg,#ffd772 14.65%,#f3a618 71.95%);
+}
+.warpper-group-category:nth-child(10) img {
+    background: linear-gradient(135deg,#377ef4 14.65%,#cd48e3 85.36%);
+}
+
+.title-manu, .title-category {
+    display: block;
+    margin: auto;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+    padding-top: 20px;
+}
+.quick-link {
+    display: flex;
+    justify-content: left;
+    padding: 15px 0;
+    max-width: 1920px;
+    margin: auto;
+    flex-wrap: wrap;
+    background-color: #FFFAF0;
+}
+.quick-link a {
+    align-items: center;
+    border-radius: 4px;
+    background-color: #fff;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    margin: 0 3px 6px;
+    width: 114px;
+    padding: 0 14px;
+    border: 1px solid #e0e0e0;
+}
+.quick-link a img {
+    width: 84px;
+    height: auto;
+}
+.discount-max {
+    position: absolute;
+    background: #ffe45f;
+    top: 23%;
+    right: 200px;
+    font-size: 70px;
+    line-height: 79px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    -webkit-text-fill-color: transparent;
+}
+
+.block__tab {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 12px;
+}
+.block__tab li {
+    margin: 0 6px;
+}
+.block__tab li a {
+    background-color: #fff;
+    border-radius: 20px;
+    color: #333;
+    display: block;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 10px 20px;
+    border: 1px solid #e0e0e0;
+    height: 40px;
+}
+.block__tab li.active a {
+    background-color: #f2c94c;
+    font-weight: bold;
+}
+

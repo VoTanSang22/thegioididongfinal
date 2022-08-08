@@ -1,0 +1,255 @@
+
+.quick-link {
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 12px;
+}
+.quick-link>div {
+    display: grid;
+    grid-auto-rows: minmax(min-content,max-content);
+    grid-template-columns: repeat(8,minmax(0,1fr));
+    max-width: 1200px;
+    margin: auto;
+    gap: 20px;
+}
+.quick-link a {
+    align-items: center;
+    border-radius: 34px;
+    background-color: #fff;
+    justify-content: center;
+    display: flex;
+    height: 34px;
+    padding: 0 14px;
+}
+
+/* phan loai laptop */
+.menu-top {
+    background-color: #fff;
+    max-width: 1920px;
+    padding: 15px 0;
+    margin: auto;
+}
+.menu-top>div {
+    display: grid;
+    grid-auto-rows: minmax(min-content,max-content);
+    grid-template-columns: repeat(8,minmax(0,1fr));
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+.menu-top .nav-item {
+    color: #000;
+    font-size: 16px;
+    line-height: 17px;
+}
+.menu-top .nav-item .box-icon {
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    height: 56px;
+    margin: 0 auto 6px;
+    width: 56px;
+    background-color: #fff;
+}
+.iconlt-dealsoc {
+    background-position: 0 0;
+    width: 34px;
+    height: 43px;
+}
+[class^="iconlt-"], [class*="iconlt-"] {
+    background-image: url(//cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/laptop/iconlaptop@2xv3.png?v=2);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 34px;
+    height: 43px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-size: 885px 43px;
+}
+.iconlt-gaming {
+    background-position: -127px -11px;
+    width: 33px;
+    height: 22px;
+}
+.iconlt-macbook {
+    background-position: -258px -7px;
+    width: 24px;
+    height: 29px;
+}
+.iconlt-hoc-tap-van-phong {
+    background-position: -381px -4px;
+    width: 30px;
+    height: 35px;
+}
+.iconlt-do-hoa-ky-thuat {
+    background-position: -507px -6px;
+    width: 34px;
+    height: 34px;
+}
+.iconlt-mong-nhe {
+    background-position: -631px -6px;
+    width: 32px;
+    height: 33px;
+}
+.iconlt-cao-cap-sang-trong {
+    background-position: -760px -14px;
+    width: 27px;
+    height: 24px;
+}
+.iconlt-phan-mem {
+    background-position: -850px -10px;
+    width: 26px;
+    height: 26px;
+}
+/* end */
+
+/* Deal soc */
+.deal {
+    padding-bottom: 30px;
+}
+section {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.deal-main.lunar {
+    background-color: #ffd400;
+    padding-bottom: 25px;
+}
+.lunar .deal__title a span {
+    position: relative;
+    top: 0;
+}
+.lunar span.txtDs {
+    color: #ff0020;
+    font-weight: 600;
+    
+}
+.lunar span.txtGd {
+    color: #fff;
+    font-weight: 600;
+}
+.deal__title {
+    text-align: center;
+    position: relative;
+}
+.lunar .deal__title a {
+    line-height: 2;
+    padding: 0;
+}
+.deal__title a {
+    font-size: 42px;
+    line-height: 50px;
+    text-transform: uppercase;
+    padding: 30px 0 20px 0;
+    display: block;
+}
+.listproduct .item {
+    background-color: #fff;
+    border-bottom: 1px solid #f1f1f1;
+    border-left: 1px solid #f1f1f1;
+    display: block;
+    padding: 10px 12px 15px;
+    width: 20%;
+    box-shadow: 2px 8px 12px rgb(0 0 0 / 6%);
+}
+.deal-main .listproduct {
+    padding: 10px;
+}
+.listproduct img {
+    max-width: 100%;
+}
+.block-btn {
+    background-color: #fff;
+    border-radius: 4px;
+    color: #333;
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 10px auto 0;
+    max-width: 350px;
+    padding: 10px 10px;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+}
+.utility p span:first-child {
+    display: inline-block;
+    min-width: 50px;
+    vertical-align: top;
+    text-transform: uppercase;
+}
+.utility {
+    margin-top: 7px;
+}
+.utility p {
+    color: #222;
+    font-size: 12px;
+    line-height: 22px;
+    display: flex;
+    column-count: 2;
+    column-fill: balance;
+}
+.owl-carousel.listproduct .item:first-child {
+    border: none;
+}
+.owl-carousel.listproduct .item {
+    width: 100%;
+}
+/* end */
+
+/* gaming */
+#gaming {
+    background-color: #25304b;
+}
+.block {
+    padding-bottom: 60px;
+}
+section {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.block__banner {
+    position: relative;
+}
+.listproduct-block {
+    column-gap: 8px;
+    display: grid;
+    grid-auto-rows: minmax(min-content,max-content);
+    grid-template-columns: repeat(5,minmax(0,1fr));
+    margin-top: 8px;
+    row-gap: 8px;
+}
+.listproduct-block .item {
+    width: auto;
+}
+.listproduct .item {
+    padding: 10px 12px 15px;
+}
+.listproduct .item {
+    background-color: #fff;
+    border-bottom: 1px solid #f1f1f1;
+    border-left: 1px solid #f1f1f1;
+    display: block;
+    padding: 10px 15px 20px;
+    width: 20%;
+    box-shadow: 2px 8px 12px rgb(0 0 0 / 6%);
+}
+.owl-stage-outer{
+    margin: 10px 0 0 10px;
+}
+#gaming .block-btn-more, #gaming .block-btn {
+    background: linear-gradient(92.4deg,#ffd400 0%,#febf00 100%);
+    box-shadow: 0 0 20px #b88a00;
+}
+
+
+
+

@@ -1,0 +1,61 @@
+﻿@model thegioididong.Models.Product
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/admin.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Pro_Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Pro_Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Des)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Des)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Ram)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ram)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Rom)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Rom)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Manufacturer)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Manufacturer.Name_manufacturer)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Category)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Category.Name_Category)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id_pro">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

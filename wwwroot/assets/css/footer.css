@@ -1,0 +1,52 @@
+.footer {
+  clear: both;
+  border-top: 1px solid #e2e2e2;
+  margin-top: 35px;
+  background: #fff;
+  padding-top: 20px;
+}
+.footer__top {
+  padding: 15px 0 5px;
+}
+.clearfix {
+  display: block;
+}
+section {
+  max-width: 1200px;
+  width: 100%;
+  min-width: 980px;
+  position: relative;
+}
+.footer__col {
+  float: left;
+  width: 24%;
+}
+ul, ol {
+  list-style: none;
+}
+[class^="icon-"], [class*="icon-"] {
+  background-image: url(//cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/homev2/desk/icon_common@2x.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  background-size: 300px 200px;
+}
+.footer__logo-list {
+  font-size: 0;
+  margin-top: 15px;
+}
+
+.footer__logo-list li {
+  float: left;
+  width: 80px;
+  margin: 0 8px 8px 0;
+}
+.footer__logo-list li a {
+  display: block;
+}
+
+
+

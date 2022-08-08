@@ -1,0 +1,42 @@
+﻿@model IEnumerable<thegioididong.Models.Image>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.link_image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.link_image)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Product.Id_pro)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id_image">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id_image">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id_image">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

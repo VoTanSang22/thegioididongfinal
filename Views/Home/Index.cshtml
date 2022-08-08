@@ -1,0 +1,1088 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model IEnumerable<thegioididong.Models.Product>
+@{
+    ViewData["Title"] = "Index";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Thegioididong.com - Điện thoại, Laptop, Phụ kiện, Đồng hồ chính hãng
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css" />
+    <link rel="stylesheet" href="~/assets/css/base.css" type="text/css" />
+    <link rel="stylesheet" href="~/assets/css/main.css" type="text/css" />
+    <link rel="stylesheet" href="~/assets/css/index.css" type="text/css" />
+    <link rel="stylesheet" href="~/assets/css/footer.css" type="text/css" />
+    <link rel="stylesheet" href="~/assets/css/dienthoai.css" type="text/css">
+    <link rel="stylesheet" href="~/assets/css/tablet.css" type="text/css">
+    <link rel="stylesheet" href="~/assets/css/phukien.css" type="text/css">
+    <link rel="stylesheet" href="~/assets/css/dongho.css" type="text/css">
+    <link rel="stylesheet" href="~/assets/css/chitiet.css" type="text/css">
+    <link rel="stylesheet" href="~/assets/css/smartwatch.css" type="text/css">
+    <link rel="stylesheet" href="~/assets/font/fontawesome-free-6.1.1-web/css/all.min.css" type="text/css" />
+</head>
+
+<body>
+    <div class="app" style="background-color: #f3f3f3">
+        <header class="header">
+            <div class="grid">
+                <div class="header__top">
+                    <div class="header__items">
+                        <a class="header__logo" href="~/Home/Index">
+                            <img class="logo_img" src="~/assets/img/logo2.webp" alt="" />
+                        </a>
+
+                        <a href="" class="header__addres">
+                            <p>Xem giá, tồn tại kho:</p>
+                            <p>Hồ Chí Minh</p>
+                        </a>
+                        <form asp-action="Search" class="header__search">
+                            <input id="skw" type="text" class="input-search" onkeyup="suggestSearch(event);"
+                                   placeholder="Bạn tìm gì..." name="key" autocomplete="off" maxlength="100" />
+                            <button type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <div id="search-result"></div>
+                        </form>
+
+                        <a href="/Orders/historyOrder" class="header__order"> Lịch sử mua hàng </a>
+                        <a href="/Orders/showCart" class="header__cart">
+                            <div class="cart__logo">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                            <span class="list__text">Giỏ hàng</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="header__main">
+                    <div class="main__items">
+                        <ul class="main-menu">
+                            <li class="">
+                                <a asp-action="showmore" asp-route-id="Điện Thoại">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-phone-96x96-2.png" />
+                                    </i>
+                                    <span> Điện thoại</span>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a asp-action="showmore" asp-route-id="Laptop">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-laptop-96x96-1.png" />
+                                    </i>
+                                    <span class="">Laptop</span>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a asp-action="showmore" asp-route-id="Máy Tính Bảng">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-tablet-96x96-1.png" />
+                                    </i>
+                                    <span class="">Tablet</span>
+                                </a>
+                            </li>
+                            <li class="has-list">
+                                <a asp-action="showmore" asp-route-id="Phụ Kiện">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-phu-kien-96x96-1.png" />
+                                    </i>
+                                    <span class="has-child">Phụ kiện</span>
+                                </a>
+
+                            </li>
+                            <li class="">
+                                <a asp-action="showmore" asp-route-id="Smartwatch">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-smartwatch-96x96-1.png" />
+                                    </i>
+                                    <span class="">Smartwatch</span>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a asp-action="showmore" asp-route-id="Đồng Hồ">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/watch-icon-96x96.png">
+                                    </i>
+                                    <span class="">Đồng hồ</span>
+                                </a>
+                            </li>
+
+                            <li class="has-list">
+                                <a asp-action="showmore" asp-route-id="PC,In">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-pc-96x96.png" />
+                                    </i>
+                                    <span class="has-child">PC, Máy in</span>
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="grid">
+            <div class="big-banner">
+                <a>
+                    <img width="1920" height="920" src="//cdn.tgdd.vn/2022/08/banner/Banner-Big-1920x450-1920x450.jpg" alt="Banner Big Campaign">
+                </a>
+            </div>
+        </div>
+
+        <!--  -->
+        <section id="dienthoai" class="wrapper content-2" style="background-image:url('')">
+            <div class="bg-tophome">
+                <div class="home-slider big-campaign" id="owl-home">
+                    <div class="slider-banner home-top owl-carousel owl-loaded owl-drag">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage"
+                                 style="transform: translate3d(0px, 0px, 0px); transition: all 1.25s ease 0s; width: 4235px;">
+
+                                <div class="owl-item active" style="width: 595px; margin-right: 10px;">
+                                    <a aria-label="slide"
+                                       data-cate="0" data-place="2053" href="https://www.thegioididong.com/dtdd-apple-iphone-13-series"
+                                       onclick="jQuery.ajax({ url: '/bannertracking?bid=57689&amp;r='+ (new Date).getTime(), async: true, cache: false });">
+                                        <img width="600" height="180" src="//cdn.tgdd.vn/2022/08/banner/720-220-720x220-23.png"
+                                             alt="iPhone 13 Pro">
+                                    </a>
+                                </div>
+
+                                <div class="owl-item" style="width: 595px; margin-right: 10px;">
+                                    <a aria-label="slide" data-cate="0"
+                                       data-place="2053" href="https://www.thegioididong.com/phu-kien-online-gia-re"
+                                       onclick="jQuery.ajax({ url: '/bannertracking?bid=57772&amp;r='+ (new Date).getTime(), async: true, cache: false });">
+                                        <img width="600" height="180" loading="lazy" class="owl-lazy lazyloaded"
+                                             data-src="//cdn.tgdd.vn/2022/08/banner/720-220-720x220-43.png" alt="Giảm Đến 50%"
+                                             src="//cdn.tgdd.vn/2022/08/banner/720-220-720x220-43.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-dots disabled"></div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- banner sale -->
+            <section class="main-container">
+                <ul class="option-promo">
+                    <li>
+                        <div>
+                            <img src="https://cdn.tgdd.vn//content/Frame46553-80x92.png" />
+                            <span class="sale_text"> Chỉ giảm online </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="https://cdn.tgdd.vn//content/LDP---Icon-Desk-61x60.png" />
+                            <span> Đồng giá từ 99k </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="https://cdn.tgdd.vn//content/Frame46554-81x85-1.png" />
+                            <span> Xả hàng giảm sốc </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="https://cdn.tgdd.vn//content/Frame-46556-120x120.png" />
+                            <span> Bão sale Lenovo </span>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <!-- end -->
+            @{
+                    var dem = 0;
+                }
+            <!-- dien thoai -->
+            <div class="container product" id="dienthoai">
+                <h3 id="dtdd-xiaomi" class="title">
+                    <img class="lazy" src="https://cdn.tgdd.vn/2022/04/campaign/DienthoaiXiaomicuanamDesk(1)-1200x170.png">
+                </h3>
+                <!-- liss -->
+                
+                <ul id="group1912" class="col5 listproduct">
+                    @foreach (var item in Model)
+                    {
+
+                        if (item.Id_Category == 3)
+                        {
+                            dem++;
+                            <div class="item" data-id="246937">
+                                <a asp-action="Details" asp-route-id="@item.Id_pro" class=" main-contain" data-s="Nomal" data-site="1" data-pro="3"
+                           data-cache="False" data-name="Điện thoại Xiaomi Redmi 9C (4GB/128GB)" data-id="246937"
+                           data-price="3290000.0" data-brand="Xiaomi" data-cate="Điện thoại" data-box="BoxHiddenPromotion">
+                                    <div class="item-label">
+                                        <span class="lb-tragop">Trả góp 0%</span>
+                                    </div>
+                                    <div class="item-img item-img_42">
+                                        <img src="@item.Images.FirstOrDefault().link_image"
+                                     alt="Xiaomi Redmi 9C" width="210" height="210">
+                                        <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-02.png" width="40" height="40"
+                                     class="lbliconimg lbliconimg_42 tgdd">
+                                    </div>
+                                    <p class="result-label temp5">
+                                        <img width="20" height="20" alt="TUẦN LỄ XIAOMI"
+                                     src="https://cdn.tgdd.vn/2020/10/content/icon5-50x50.png"><span>TUẦN LỄ XIAOMI</span>
+                                    </p>
+                                    <h3>@item.Pro_Name</h3>
+                                    <div class="item-compare">
+                                        <span>6.53"</span>
+                                        <span>HD+</span>
+                                    </div>
+
+                                    <strong class="price">@item.Price ₫</strong>
+                                    <div class="item-rating">
+                                        <p>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </p>
+                                        <p class="item-rating-total">81</p>
+                                    </div>
+
+                                </a>
+
+                            </div>
+                        }
+                        if (dem == 10)
+                        {
+                            dem = 0;
+                            break;
+                        }
+                    }
+
+
+                </ul>
+                <!-- end list -->
+
+                <div class="view-more ">
+                    <a asp-action="showmore" asp-route-id="Điện Thoại">Xem thêm <span class="remain"></span> Điện Thoại</a>
+                </div>
+            </div>
+            <!-- end -->
+            <!-- tablet-->
+            <div class="prd-promo prd-another" id="tablet" style="background-color:#ff685f;">
+                <p class="prd-promo__title text">
+                    TUẦN LỄ TABLET
+                </p>
+                <div class="home-slider another-slider" id="owl-home">
+                    <div class="slider-banner owl-carousel owl-loaded owl-drag">
+
+
+
+
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage"
+                                 style="transform: translate3d(0px, 0px, 0px); transition: all 0.25s ease 0s; width: 1574px;">
+                                <div class="owl-item active" style="width: 393.333px;">
+                                    <div class="item">
+                                        <a aria-label="slide" data-cate="0" data-place="2000"
+                                           href="https://www.thegioididong.com/dtdd/poco-c40"
+                                           onclick="jQuery.ajax({ url: '/bannertracking?bid=55911&amp;r='+ (new Date).getTime(), async: true, cache: false });">
+                                            <img width="380" height="200" loading="lazy" class="owl-lazy ls-is-cached lazyloaded"
+                                                 data-src="//cdn.tgdd.vn/2022/08/banner/Desktop-380x200--1--380x200.png"
+                                                 alt="Tuần lễ thương hiệu - Desk TGDĐ Banner 3"
+                                                 src="//cdn.tgdd.vn/2022/08/banner/Desktop-380x200--1--380x200.png">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="owl-item active" style="width: 393.333px;">
+                                    <div class="item">
+                                        <a aria-label="slide" data-cate="0" data-place="2000"
+                                           href="https://www.thegioididong.com/khuyen-mai-soc/note-11-series"
+                                           onclick="jQuery.ajax({ url: '/bannertracking?bid=55450&amp;r='+ (new Date).getTime(), async: true, cache: false });">
+                                            <img width="380" height="200" loading="lazy" class="owl-lazy ls-is-cached lazyloaded"
+                                                 data-src="//cdn.tgdd.vn/2022/08/banner/Desktop-380x200-380x200-2.png" alt="Xiaomi"
+                                                 src="//cdn.tgdd.vn/2022/08/banner/Desktop-380x200-380x200-2.png">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="owl-item active" style="width: 393.333px;">
+                                    <div class="item">
+                                        <a aria-label="slide" data-cate="0" data-place="2000"
+                                           href="https://www.thegioididong.com/dtdd/xiaomi-redmi-10a"
+                                           onclick="jQuery.ajax({ url: '/bannertracking?bid=51893&amp;r='+ (new Date).getTime(), async: true, cache: false });">
+                                            <img width="380" height="200" loading="lazy" class="owl-lazy lazyloaded"
+                                                 data-src="//cdn.tgdd.vn/2022/08/banner/Desktop-380x200--2--380x200.png"
+                                                 alt="Tuần lễ thương hiệu - Desk TGDĐ Banner 3"
+                                                 src="//cdn.tgdd.vn/2022/08/banner/Desktop-380x200--2--380x200.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-dots disabled"></div>
+                    </div>
+                    <div id="counter" class="counter"></div>
+                </div>
+                <div class="box-scroll">
+                    <div class="listproduct slider-promo owl-carousel hideCompare owl-loaded owl-drag" data-size="20">
+
+
+                        <div class="box-scroll">
+                            <!-- liss -->
+                            <ul id="group19123" class="col5 listproduct">
+                                @foreach (var item in Model)
+                                {
+                                    if (@item.Id_Category == 4)
+                                    {
+                                        dem++;
+                                        <div class="item" data-id="246937">
+                                            <a asp-action="Details" asp-route-id="@item.Id_pro" class=" main-contain" data-s="Nomal" data-site="1" data-pro="3"
+                                       data-cache="False" data-name="Điện thoại Xiaomi Redmi 9C (4GB/128GB)" data-id="246937"
+                                       data-price="3290000.0" data-brand="Xiaomi" data-cate="Điện thoại" data-box="BoxHiddenPromotion">
+                                                <div class="item-label">
+                                                    <span class="lb-tragop">Trả góp 0%</span>
+                                                </div>
+                                                <div class="item-img item-img_42">
+                                                    <img src="@item.Images.FirstOrDefault().link_image"
+                                                 alt="Xiaomi Redmi 9C" width="210" height="210">
+                                                    <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-02.png" width="40" height="40"
+                                                 class="lbliconimg lbliconimg_42 tgdd">
+                                                </div>
+                                                <h3>@item.Pro_Name</h3>
+                                                <div class="item-compare">
+                                                    <span>6.53"</span>
+                                                    <span>HD+</span>
+                                                </div>
+
+                                                <strong class="price">@item.Price ₫</strong>
+                                                <div class="item-rating">
+                                                    <p>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </p>
+                                                    <p class="item-rating-total">81</p>
+                                                </div>
+
+                                            </a>
+
+                                        </div>
+
+                                    }
+                                    if (dem == 10)
+                                    {
+                                        dem = 0;
+                                        break;
+                                    }
+                                }
+
+
+
+                            </ul>
+                            <!-- end list -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-more ">
+                <a asp-action="showmore" asp-route-id="Máy Tính Bảng">Xem thêm <span class="remain"></span> Máy Tính Bảng</a>
+            </div>
+            @dem=0;
+            <!-- phu kien -->
+            <div class="container product" id="phukien">
+
+                <h2 class="deal__title">
+                    <img style="cursor:pointer"
+                         src="https://cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/laptop/bg_tet_desk.png" alt="Hotdeal"
+                         width="1200" height="90">
+                    <span class="txtDs">Deal sốc</span>
+                    <span class="txtGd">GIẢM TỚI 10.000.000₫</span>
+                    </a>
+                </h2>
+
+                <!-- liss -->
+                <ul id="group1912" class="col5 listproduct">
+                    @foreach (var item in Model)
+                    {
+                        if (@item.Id_Category == 7)
+                        {
+                            dem++;
+                            <div class="item" data-id="246937">
+                                <a asp-action="Details" asp-route-id="@item.Id_pro" class=" main-contain" data-s="Nomal" data-site="1" data-pro="3"
+                           data-cache="False" data-name="Điện thoại Xiaomi Redmi 9C (4GB/128GB)" data-id="246937"
+                           data-price="3290000.0" data-brand="Xiaomi" data-cate="Điện thoại" data-box="BoxHiddenPromotion">
+                                    <div class="item-label">
+                                        <span class="lb-tragop">Trả góp 0%</span>
+                                    </div>
+                                    <div class="item-img item-img_42">
+                                        <img src="@item.Images.FirstOrDefault().link_image"
+                                     alt="Xiaomi Redmi 9C" width="210" height="210">
+                                        <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-02.png" width="40" height="40"
+                                     class="lbliconimg lbliconimg_42 tgdd">
+                                    </div>
+                                    <p class="result-label temp5">
+                                        <img width="20" height="20" alt="TUẦN LỄ XIAOMI"
+                                     src="https://cdn.tgdd.vn/2020/10/content/icon5-50x50.png"><span>TUẦN LỄ XIAOMI</span>
+                                    </p>
+                                    <h3>@item.Pro_Name</h3>
+                                    <div class="item-compare">
+                                        <span>6.53"</span>
+                                        <span>HD+</span>
+                                    </div>
+
+                                    <strong class="price">@item.Price ₫</strong>
+                                    <div class="item-rating">
+                                        <p>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </p>
+                                        <p class="item-rating-total">81</p>
+                                    </div>
+
+                                </a>
+
+                            </div>
+                        }
+                        if (dem == 10)
+                        {
+                            dem = 0;
+                            break;
+                        }
+                    }
+
+
+                </ul>
+                <!-- end list -->
+
+                <div class="view-more ">
+                    <a asp-action="showmore" asp-route-id="Phụ Kiện">Xem thêm <span class="remain"></span> Phụ Kiện</a>
+                </div>
+            </div>
+            <!-- end -->
+            <!-- laptop -->
+            @{
+                var dem1 = 0;
+            }
+            <div class="block" id="hoc-tap-van-phong">
+                <section>
+                    <div class="block__banner">
+                        <a data-cate="44" data-place="1696" href="javascript:;"
+                           onclick="jQuery.ajax({ url: '/bannertracking?bid=45520&amp;r='+ (new Date).getTime(), async: true, cache: false });">
+                            <img style="cursor:pointer" src="https://cdn.tgdd.vn/2021/08/banner/Hoctapvanphong-1200x200.jpg"
+                                 alt="Học tập văn phòng" width="1200" height="200">
+                        </a>
+
+                    </div>
+
+                    <!-- list -->
+                    <div class="listproduct listproduct-block">
+                        @foreach (var item in Model)
+                        {
+                            if (@item.Id_Category == 1)
+                            {
+                                dem1++;
+                                <div class="item" data-id="274463">
+                                    <a asp-action="Details" asp-route-id="@item.Id_pro" data-s="Nomal" data-site="1" data-pro="3"
+                               data-cache="False" data-name="Laptop Lenovo Ideapad 1 11IGL05 N5030/4GB/256GB/Win11 (81VT006FVN)"
+                               data-id="274463" data-price="6290000.0" data-brand="Lenovo" data-cate="Laptop" data-box="BoxCateFilter"
+                               class="main-contain">
+
+                                        <div class="item-label">
+                                            <span class="lb-tragop">Trả góp 0%</span>
+                                        </div>
+
+                                        <div class="item-img item-img_44">
+                                            <img class=" ls-is-cached lazyloaded"
+                                         data-src="@item.Images.FirstOrDefault().link_image"
+                                         alt="Lenovo Ideapad 1 11IGL05 (81VT006FVN)"
+                                         src="@item.Images.FirstOrDefault().link_image">
+                                            <img src="@item.Images.FirstOrDefault().link_image" loading="lazy"
+                                         class="lbliconimg lbliconimg_44 tgdd">
+                                        </div>
+                                        <p class="result-label temp1">
+                                            <img width="20" height="20" class=" ls-is-cached lazyloaded"
+                                         alt="Giảm sốc" data-src="https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png"
+                                         src="https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png"><span>Giảm sốc</span>
+                                        </p>
+                                        <h3 title="Laptop Lenovo Ideapad 1 11IGL05 N5030/4GB/256GB/Win11 (81VT006FVN)">
+                                            @item.Pro_Name
+                                        </h3>
+                                        <div class="item-compare">
+                                            <span>RAM @item.Ram GB</span>
+                                            <span>SSD @item.Rom GB</span>
+                                        </div>
+
+                                        <strong class="price">@item.Price ₫</strong>
+                                        <p class="item-gift">Quà <b>300.000₫</b></p>
+                                    </a>
+                                    <div class="item-rating">
+                                        <p>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </p>
+                                        <p class="item-rating-total">135</p>
+                                    </div>
+                                    <div class="item-bottom">
+                                        <a href="#" class="shiping"></a>
+                                    </div>
+                                </div>
+
+                            }
+                            if (dem1 == 10)
+                            {
+                                dem1 = 0;
+                                break;
+                            }
+                        }
+
+
+                    </div>
+                    <div class="view-more ">
+                        <a asp-action="showmore" asp-route-id="Laptop">Xem thêm <span class="remain"></span> LapTop</a>
+                    </div>
+
+                </section>
+            </div>
+            <!-- end -->
+            <!-- smartwatch -->
+            <div class="content" id="smartwatch">
+                <div id="preloader">
+                    <div id="loader"></div>
+                </div>
+
+                <section>
+
+                    <div class="block" id="thoitrang">
+
+                        <div class="block__banner">
+                            <a data-cate="7077" data-place="1674" href="javascript:;"
+                               onclick="jQuery.ajax({ url: '/bannertracking?bid=45228&amp;r='+ (new Date).getTime(), async: true, cache: false });">
+                                <img style="cursor:pointer" src="https://cdn.tgdd.vn/2021/08/banner/Thờitrang-1200x200.png"
+                                     alt="SMW Thời trang" width="1200" height="200">
+                            </a>
+                        </div>
+
+                        <!-- list -->
+                        <div class="listproduct listproduct-block">
+                            @foreach (var item in Model)
+                            {
+                                if (@item.Id_Category == 6)
+                                {
+                                    dem++;
+                                    <div class="item ajaxed" data-id="278304">
+                                        <a asp-action="Details" asp-route-id="@item.Id_pro" data-s="Nomal" data-site="1" data-pro="3"
+                                   data-cache="False" data-sv="webtgdd-26-85" data-name="Samsung Galaxy Watch 4 40mm Đen"
+                                   data-id="278304" data-price="5490000.0" data-brand="Samsung" data-cate="Đồng hồ thông minh"
+                                   data-box="BoxCate" class="main-contain">
+
+                                            <div class="item-label">
+                                            </div>
+                                            <div class="item-img item-img_7077">
+                                                <img class="thumb ls-is-cached lazyloaded"
+                                             data-src="@item.Images.FirstOrDefault().link_image"
+                                             alt="Samsung Galaxy Watch 4 40mm dây silicone"
+                                             src="https://cdn.tgdd.vn/Products/Images/7077/278304/samsung-galaxy-watch-4-40mm-den-600x600.jpg">
+                                            </div>
+
+                                            <h3>
+                                                @item.Pro_Name
+                                            </h3>
+
+                                            <strong class="price">@item.Price ₫</strong>
+                                            <div class="item-rating">
+                                                <p>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </p>
+                                                <p class="item-rating-total">1</p>
+                                            </div>
+
+                                        </a>
+                                        <div class="item-bottom">
+                                            <a href="#" class="shiping"></a>
+                                        </div>
+
+                                    </div>
+                                }
+                                if (dem == 10)
+                                {
+                                    dem = 0;
+                                    break;
+                                }
+                            }
+
+
+                            <!-- end -->
+
+                        </div>
+                        <div class="view-more ">
+                            <a asp-action="showmore" asp-route-id="Smartwatch">Xem thêm <span class="remain"></span> Smartwatch</a>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+            <!-- end -->
+            <!-- dong ho -->
+            <div class="content" id="dongho">
+                <div id="preloader">
+                    <div id="loader"></div>
+                </div>
+
+
+
+                <div class="block" id="thoitrang">
+                    <div class="collection">
+                        <span></span>
+                        <a class="lnkBst" href="https://www.thegioididong.com/bo-suu-tap-dong-ho-moi">Xem tất cả bộ sưu tập</a>
+
+                        <ul class="owl-carousel owl-theme slide-collection bst-watch owl-loaded owl-drag">
+                            <div class="owl-stage-outer1">
+                                <div class="owl-stage"
+                                     style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1800px;">
+                                    <div class="owl-item active" style="width: 300px;">
+                            <li>
+                                <a data-cate="7264" data-place="1533"
+                                   href="https://www.thegioididong.com/dong-ho-deo-tay-orient-orient-sk"
+                                   onclick="jQuery.ajax({ url: '/bannertracking?bid=53197&amp;r='+ (new Date).getTime(), async: true, cache: false });">
+                                    <img style="cursor:pointer" src="https://cdn.tgdd.vn/2022/04/banner/orrient-420x260.png"
+                                         alt="BST Orient SK" width="420" height="260">
+                                </a>
+                            </li>
+                    </div>
+                    <div class="owl-item active" style="width: 300px;">
+                        <li>
+                            <a data-cate="7264" data-place="1533" href="https://www.thegioididong.com/dong-ho-deo-tay-elio"
+                               onclick="jQuery.ajax({ url: '/bannertracking?bid=41466&amp;r='+ (new Date).getTime(), async: true, cache: false });">
+                                <img style="cursor:pointer" src="https://cdn.tgdd.vn/2022/08/banner/420-x-260-01-420x260.png"
+                                     alt="BST nàng thơ" width="420" height="260">
+                            </a>
+                        </li>
+                    </div>
+                    <div class="owl-item active" style="width: 300px;">
+                        <li>
+                            <a data-cate="7264" data-place="1533"
+                               href="https://www.thegioididong.com/dong-ho-deo-tay-elle?itm_source=NH_watch&amp;itm_medium=BST_banner&amp;itm_campaign=internal_tracking&amp;itm_content=desktop_1533"
+                               onclick="jQuery.ajax({ url: '/bannertracking?bid=44028&amp;r='+ (new Date).getTime(), async: true, cache: false });">
+                                <img style="cursor:pointer" src="https://cdn.tgdd.vn/2021/12/banner/03-420x260.png" alt="ELLE"
+                                     width="420" height="260">
+                            </a>
+                        </li>
+                    </div>
+                    <div class="owl-item active" style="width: 300px;">
+                        <li>
+                            <a data-cate="7264" data-place="1533" href="https://www.thegioididong.com/dong-ho-cao-cap"
+                               onclick="jQuery.ajax({ url: '/bannertracking?bid=55998&amp;r='+ (new Date).getTime(), async: true, cache: false });">
+                                <img style="cursor:pointer" src="https://cdn.tgdd.vn/2022/06/banner/420-x-260-420x260.png"
+                                     alt="ĐỒNG HỒ CAO CẤP" width="420" height="260">
+                            </a>
+                        </li>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+    </div>
+
+    <!-- list -->
+    <div class="listproduct listproduct-block">
+                        @foreach (var item in Model)
+                        {
+                            if (@item.Id_Category == 5)
+                            {
+                                dem++;
+                <div class="item ajaxed" data-id="278304">
+                    <a asp-action="Details" asp-route-id="@item.Id_pro" data-s="Nomal" data-site="1" data-pro="3"
+               data-cache="False" data-sv="webtgdd-26-85" data-name="Samsung Galaxy Watch 4 40mm Đen"
+               data-id="278304" data-price="5490000.0" data-brand="Samsung" data-cate="Đồng hồ thông minh"
+               data-box="BoxCate" class="main-contain">
+
+                        <div class="item-label">
+                        </div>
+                        <div class="item-img item-img_7077">
+                            <img class="thumb ls-is-cached lazyloaded"
+                         data-src="@item.Images.FirstOrDefault().link_image"
+                         alt="Samsung Galaxy Watch 4 40mm dây silicone"
+                         src="@item.Images.FirstOrDefault().link_image">
+                        </div>
+
+                        <h3>
+                                            @item.Pro_Name
+                        </h3>
+
+                        <strong class="price">@item.Price ₫</strong>
+                        <div class="item-rating">
+                            <p>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </p>
+                            <p class="item-rating-total">1</p>
+                        </div>
+
+                    </a>
+                    <div class="item-bottom">
+                        <a href="#" class="shiping"></a>
+                    </div>
+
+                </div>
+
+                            }
+                            if (dem == 10)
+                            {
+                                dem = 0;
+                                break;
+                            }
+                        }
+
+
+
+        <!-- end -->
+
+    </div>
+    <div class="view-more ">
+        <a asp-action="showmore" asp-route-id="Đồng Hồ">Xem thêm <span class="remain"></span> Đồng Hồ</a>
+    </div>
+
+    </div>
+    </section>
+    </div>
+    <!-- end -->
+    <!-- may in-->
+    <div class="content" id="mayin">
+        <div id="preloader">
+            <div id="loader"></div>
+        </div>
+
+        <section>
+
+            <div class="block" id="thoitrang">
+                <div class="box-filter top-box onlymanu block-scroll-main cate-9738">
+                    <section>
+                        <div class="jsfix scrolling_inner scroll-right">
+                            <div class="box-filter block-scroll-main scrolling">
+                                <div class="scroll-btn show-right">
+                                    <div class="btn-right-scroll"></div>
+                                </div>
+
+
+                                <div class="filter-total hide">
+                                    <div class="filter-show show-total" id="wrapper">
+                                        <div class="list-filter-active" style="display: block;">
+                                            <span>Đã chọn: </span>
+                                            <div class="manu">
+                                                <a href="javascript:;" onclick="removeFilterActive(this)" data-type="1"
+                                                   data-id="19112"><span>HP</span><i class="iconcate-closess"></i></a>
+                                            </div>
+                                            <div class="price"></div>
+                                            <div class="props"></div>
+                                            <div class="props-slider"></div>
+                                            <a href="javascript:;" class="clr-filter" onclick="removeAllFilterActive()"
+                                               style="display: none;">Xóa tất cả</a>
+                                        </div>
+                                        <div class="show-total-main">
+                                            <a href="javascript:;" class="close-popup-total"><i class="iconcate-closess"></i>Đóng</a>
+                                            <div class="show-total-item warpper-manu-inside">
+                                                <p class="show-total-txt">Hãng</p>
+                                                <div class="filter-list filter-list--hang manu">
+                                                    <a href="pc-may-in-canon" class="c-btnbox   filter-manu" data-href="canon" data-id="19180"
+                                                       data-name="Canon">
+                                                        <img src="//cdn.tgdd.vn/Brand/1/Canon5693-b46-220x48-220x48.jpeg" width="68" height="30"
+                                                             alt="Canon">
+                                                    </a>
+                                                    <a href="pc-may-in-brother" class="c-btnbox   filter-manu" data-href="brother"
+                                                       data-id="19111" data-name="Brother">
+                                                        <img src="//cdn.tgdd.vn/Brand/1/Brother5693-b32-220x48-220x48.jpeg" width="68"
+                                                             height="30" alt="Brother">
+                                                    </a>
+                                                    <a href="pc-may-in-hp" class="c-btnbox  check filter-manu" data-href="hp" data-id="19112"
+                                                       data-name="HP">
+                                                        <img src="//cdn.tgdd.vn/Brand/1/logo-hp-149x40-6.png" width="68" height="30" alt="HP">
+                                                    </a>
+                                                    <a href="pc-may-in-apple" class="c-btnbox   filter-manu" data-href="apple" data-id="10387"
+                                                       data-name="Apple">
+                                                        <img src="//cdn.tgdd.vn/Brand/1/logo-apple-220x48-2.png" width="68" height="30"
+                                                             alt="Apple">
+                                                    </a>
+                                                    <a href="pc-may-in-asus" class="c-btnbox   filter-manu" data-href="asus" data-id="9069"
+                                                       data-name="Asus">
+                                                        <img src="//cdn.tgdd.vn/Brand/1/logo-asus-149x40-10.png" width="68" height="30"
+                                                             alt="Asus">
+                                                    </a>
+                                                    <a href="pc-may-in-samsung" class="c-btnbox   filter-manu" data-href="samsung"
+                                                       data-id="9058" data-name="Samsung">
+                                                        <img src="//cdn.tgdd.vn/Brand/1/logo-samsung-220x48.png" width="68" height="30"
+                                                             alt="Samsung">
+                                                    </a>
+                                                    <a href="pc-may-in-lenovo" class="c-btnbox   filter-manu" data-href="lenovo"
+                                                       data-id="24449" data-name="Lenovo">
+                                                        <img src="//cdn.tgdd.vn/Brand/1/logo-lenovo-149x40-5.png" width="68" height="30"
+                                                             alt="Lenovo">
+                                                    </a>
+                                                    <a href="pc-may-in-viewsonic" class="c-btnbox   filter-manu" data-href="viewsonic"
+                                                       data-id="24448" data-name="Viewsonic">
+                                                        <img src="//cdn.tgdd.vn/Brand/1/viewsonictgdd-220x48.png" width="68" height="30"
+                                                             alt="Viewsonic">
+                                                    </a>
+                                                    <a href="pc-may-in-dell" class="c-btnbox   filter-manu" data-href="dell" data-id="9060"
+                                                       data-name="Dell">
+                                                        <img src="//cdn.tgdd.vn/Brand/1/logo-dell-149x40-1.png" width="68" height="30"
+                                                             alt="Dell">
+                                                    </a>
+
+                                                </div>
+                                            </div>
+
+
+
+                                            <div class="bg-whitefix" style="display: none;"></div>
+                                            <div class="filter-button filter-button--total" style="display: block;">
+                                                <a href="javascript:void(0)" class="btn-filter-close">Bỏ chọn</a>
+                                                <a href="javascript:;" class="btn-filter-readmore">
+                                                    Xem <b class="total-reloading">21</b> kết
+                                                    quả
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="filter-list filter-list--hang manu single-manu">
+                                    <a href="pc-may-in-canon" class="c-btnbox   filter-manu" data-href="canon" data-id="19180"
+                                       data-name="Canon">
+                                        <img src="//cdn.tgdd.vn/Brand/1/Canon5693-b46-220x48-220x48.jpeg" width="68" height="30"
+                                             alt="Canon">
+                                    </a>
+                                    <a href="pc-may-in-brother" class="c-btnbox   filter-manu" data-href="brother" data-id="19111"
+                                       data-name="Brother">
+                                        <img src="//cdn.tgdd.vn/Brand/1/Brother5693-b32-220x48-220x48.jpeg" width="68" height="30"
+                                             alt="Brother">
+                                    </a>
+                                    <a href="pc-may-in-hp" class="c-btnbox  check filter-manu" data-href="hp" data-id="19112"
+                                       data-name="HP">
+                                        <img src="//cdn.tgdd.vn/Brand/1/logo-hp-149x40-6.png" width="68" height="30" alt="HP">
+                                    </a>
+                                    <a href="pc-may-in-apple" class="c-btnbox   filter-manu" data-href="apple" data-id="10387"
+                                       data-name="Apple">
+                                        <img src="//cdn.tgdd.vn/Brand/1/logo-apple-220x48-2.png" width="68" height="30" alt="Apple">
+                                    </a>
+                                    <a href="pc-may-in-asus" class="c-btnbox   filter-manu" data-href="asus" data-id="9069"
+                                       data-name="Asus">
+                                        <img src="//cdn.tgdd.vn/Brand/1/logo-asus-149x40-10.png" width="68" height="30" alt="Asus">
+                                    </a>
+                                    <a href="pc-may-in-samsung" class="c-btnbox   filter-manu" data-href="samsung" data-id="9058"
+                                       data-name="Samsung">
+                                        <img src="//cdn.tgdd.vn/Brand/1/logo-samsung-220x48.png" width="68" height="30" alt="Samsung">
+                                    </a>
+                                    <a href="pc-may-in-lenovo" class="c-btnbox   filter-manu" data-href="lenovo" data-id="24449"
+                                       data-name="Lenovo">
+                                        <img src="//cdn.tgdd.vn/Brand/1/logo-lenovo-149x40-5.png" width="68" height="30" alt="Lenovo">
+                                    </a>
+                                    <a href="pc-may-in-viewsonic" class="c-btnbox   filter-manu" data-href="viewsonic" data-id="24448"
+                                       data-name="Viewsonic">
+                                        <img src="//cdn.tgdd.vn/Brand/1/viewsonictgdd-220x48.png" width="68" height="30"
+                                             alt="Viewsonic">
+                                    </a>
+                                    <a href="pc-may-in-dell" class="c-btnbox   filter-manu" data-href="dell" data-id="9060"
+                                       data-name="Dell">
+                                        <img src="//cdn.tgdd.vn/Brand/1/logo-dell-149x40-1.png" width="68" height="30" alt="Dell">
+                                    </a>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="box-quicklink  block-scroll-main">
+                        </div>
+                    </section>
+                </div>
+
+                <!-- list -->
+                <div class="listproduct listproduct-block">
+                    @foreach (var item in Model)
+                    {
+                         dem = 0;
+                        if (@item.Id_Category == 2)
+                        {
+                            dem++;
+                            <div class="item ajaxed" data-id="278304">
+                                <a asp-action="Details" asp-route-id="@item.Id_pro" data-s="Nomal" data-site="1" data-pro="3"
+                           data-cache="False" data-sv="webtgdd-26-85" data-name="Samsung Galaxy Watch 4 40mm Đen"
+                           data-id="278304" data-price="5490000.0" data-brand="Samsung" data-cate="Đồng hồ thông minh"
+                           data-box="BoxCate" class="main-contain">
+
+                                    <div class="item-label">
+                                    </div>
+                                    <div class="item-img item-img_7077">
+                                        <img class="thumb ls-is-cached lazyloaded"
+                                     data-src="@item.Images.FirstOrDefault().link_image"
+                                     alt="Samsung Galaxy Watch 4 40mm dây silicone"
+                                     src="@item.Images.FirstOrDefault().link_image">
+                                    </div>
+
+                                    <h3>
+                                        @item.Pro_Name
+                                    </h3>
+
+                                    <strong class="price">@item.Price ₫</strong>
+                                    <div class="item-rating">
+                                        <p>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+
+                                        </p>
+
+                                        <p class="item-rating-total">1</p>
+                                    </div>
+
+                                </a>
+                                <div class="item-bottom">
+                                    <a href="#" class="shiping"></a>
+                                </div>
+
+                            </div>
+
+                        }
+                        if (@dem == 10)
+                        {
+                            dem = 0;
+                            break;
+                        }
+                    }
+
+
+                    <!-- end -->
+
+                </div>
+                <div class="view-more ">
+                    <a asp-action="showmore" asp-route-id="PC,In">Xem thêm <span class="remain"></span> PC & MáyIn</a>
+                </div>
+
+            </div>
+        </section>
+    </div>
+    <!-- end -->
+    </div>
+    <!-- end -->
+    </section>
+    <!-- end deal -->
+    </div>
+    </section>
+
+    <!-- footer-->
+    <footer class="footer" style="margin-top: 10px;">
+        <section class="clearfix footer__top">
+            <div class="footer__col">
+                <ul class="f-listmenu">
+                    <li>
+                        <a rel="nofollow" href="/tin-tuc/chuong-trinh-tich-diem-danh-cho-khach-hang-than-thiet-1434806">
+                            Tích điểm
+                            Quà tặng VIP
+                        </a>
+                    </li>
+                    <li><a rel="nofollow" href="/lich-su-mua-hang">Lịch sử mua hàng</a></li>
+                    <li><a rel="nofollow" href="/daily">Cộng tác bán hàng cùng TGDĐ</a></li>
+                    <li><a rel="nofollow" href="/tra-gop">Tìm hiểu về mua trả góp</a></li>
+                    <li><a rel="nofollow" href="/bao-hanh">Chính sách bảo hành</a></li>
+                    <li><a href="javascript:void(0)" class="arrow showtaga">Xem thêm</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/chinh-sach-bao-hanh-san-pham">Chính sách đổi trả</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/giao-hang">Giao hàng &amp; Thanh toán</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/huong-dan-mua-hang">Hướng dẫn mua online</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/b2b">Bán hàng doanh nghiệp</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/phieu-mua-hang">Phiếu mua hàng</a></li>
+                    <li class="hidden"><a rel="nofollow" href="https://hddt.thegioididong.com">In hóa đơn điện tử</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/tos">Quy chế hoạt động</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/noi-quy-cua-hang">Nội quy cửa hàng</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/chat-luong-phuc-vu">Chất lượng phục vụ</a></li>
+                    <li class="hidden">
+                        <a rel="nofollow"
+                           href="/tin-tuc/can-trong-voi-nhung-sieu-thi-thegioididong-khong-chinh-chu--683321">Cảnh báo giả mạo</a>
+                    </li>
+                    <li class="hidden">
+                        <a rel="nofollow" href="/chinh-sach-khui-hop-apple">Chính sách khui hộp sản phẩm Apple</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <ul class="f-listmenu">
+                    <li><a rel="nofollow" href="https://mwg.vn">Giới thiệu công ty (MWG.vn)</a></li>
+                    <li><a rel="nofollow" href="https://vieclam.thegioididong.com">Tuyển dụng</a></li>
+                    <li><a rel="nofollow" href="/lien-he">Gửi góp ý, khiếu nại</a></li>
+                    <li><a rel="nofollow" href="/he-thong-sieu-thi-the-gioi-di-dong">Tìm siêu thị (3.256 shop)</a></li>
+                    <li>
+                        <a rel="nofollow" class="linkversion" href="https://www.thegioididong.com/pc-may-in-hp?sclient=mobile">
+                            Xem
+                            bản mobile
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <div class="f-listtel">
+                    <p class="f-listtel__title">
+                        <strong>Tổng đài hỗ trợ</strong>
+                        (Miễn phí gọi)
+                    </p>
+                    <p class="f-listtel__content"><span>Gọi mua:</span> <a href="tel:18001060">1800.1060</a> (7:30 - 22:00)</p>
+                    <p class="f-listtel__content"><span>Kỹ thuật:</span> <a href="tel:18001763">1800.1763</a> (7:30 - 22:00)</p>
+                    <p class="f-listtel__content"><span>Khiếu nại:</span> <a href="tel:18001062">1800.1062</a> (8:00 - 21:30)</p>
+                    <p class="f-listtel__content"><span>Bảo hành:</span> <a href="tel:18001064">1800.1064</a> (8:00 - 21:00)</p>
+                </div>
+            </div>
+            <div class="footer__col">
+                <div class="f-social">
+                    <a href="https://www.facebook.com/thegioididongcom" class="link-fb">
+                        <i class="fa-brands fa-facebook" style="color: blue;"></i>
+                        3750.1k Fan
+                    </a>
+                    <a href="https://www.youtube.com/user/TGDDVideoReviews" class="link-ytb">
+                        <i class="fa-brands fa-youtube" style="color: red;"></i>
+                        847k Đăng ký
+                    </a>
+                </div>
+                <div class="f-certify">
+                    <a class="_ncsc" rel="nofollow" href="https://tinnhiemmang.vn/danh-ba-tin-nhiem/thegioididongcom-1632835473"
+                       title="Chung nhan Tin Nhiem Mang" target="_blank">
+                        <img class="lazy ls-is-cached lazyloaded" style="margin-left: 20px; margin-top: 10px;"
+                             data-original="https://tinnhiemmang.vn/handle_cert?id=thegioididong.com"
+                             data-src="https://tinnhiemmang.vn/handle_cert?id=thegioididong.com" width="150"
+                             alt="Chung nhan Tin Nhiem Mang" src="https://tinnhiemmang.vn/handle_cert?id=thegioididong.com">
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+    </footer>
+    <!-- end -->
+    </div>
+
+</body>
+
+</html>

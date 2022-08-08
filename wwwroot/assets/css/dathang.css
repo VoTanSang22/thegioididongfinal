@@ -1,0 +1,704 @@
+#app>section {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    min-width: 0;
+}
+section {
+    margin-top: 0 !important;
+}
+.yourCart {
+    display: block;
+    overflow: hidden;
+}
+.buymore {
+    float: left;
+    overflow: hidden;
+    font-size: 14px;
+    color: #288ad6;
+    line-height: 16px;
+    padding: 10px;
+}
+.buymore:before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-top: 1px solid #288ad6;
+    border-left: 1px solid #288ad6;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 3px 2px 0;
+    transform: rotate(-45deg);
+}
+.yourCart>span {
+    float: right;
+    padding: 9px 10px;
+}
+.middleCart {
+    display: block;
+    background: #fff;
+    box-shadow: 0 0 18px rgb(0 0 0 / 12%);
+    border-radius: 2px;
+}
+.listing-cart {
+    display: flex;
+    flex-flow: column wrap;
+}
+ol, ul {
+    list-style: none;
+}
+.listing-cart .product-item {
+    display: block;
+    padding: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.listing-cart .product-item .imgsp {
+    float: left;
+    width: 10%;
+}
+.listing-cart .imgsp a, .listing-cart .imgsp a img {
+    display: block;
+    overflow: hidden;
+}
+#app img.lazyloaded {
+    opacity: 1;
+}
+.listing-cart .imgsp a img {
+    width: 75px;
+    margin: auto;
+}
+.listing-cart .imgsp a, .listing-cart .imgsp a img {
+    display: block;
+    overflow: hidden;
+}
+img {
+    border: 0;
+}
+.listing-cart .imgsp button {
+    display: block;
+    overflow: hidden;
+    margin: 15px auto 0;
+    border: 0;
+    background: #fff;
+    color: #999;
+    font-size: 12px;
+    cursor: pointer;
+}
+.listing-cart .imgsp button span {
+    float: left;
+    background: #ccc;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    margin: 2px 3px 0 0;
+}
+.listing-cart .imgsp button span:after, .listing-cart .imgsp button span:before {
+    content: "";
+    width: 2px;
+    height: 8px;
+    background: #fff;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 2px;
+    left: 5px;
+}
+.listing-cart .imgsp button span:after, .listing-cart .imgsp button span:before {
+    content: "";
+    width: 2px;
+    height: 8px;
+    background: #fff;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 2px;
+    left: 5px;
+}
+.listing-cart .name-price a {
+    float: left;
+    width: 70%;
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.listing-cart .name-price span {
+    float: right;
+    color: #f30c28;
+    font-size: 14px;
+    text-align: right;
+    margin-bottom: 2px;
+}
+.choosenumber {
+    float: right;
+    overflow: hidden;
+    position: relative;
+    width: 100px;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+    border-radius: 3px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #333;
+}
+.listing-cart .choose-color {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+.listing-cart .product-size-and-color-selection {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+}
+.listing-cart .choose-color aside>span {
+    float: left;
+    color: #666;
+    font-size: 12px;
+    padding: 6px 0 0;
+    margin-right: 30px;
+}
+.listing-cart .choose-color .sg-color {
+    position: absolute;
+    top: 30px;
+    left: -35px;
+    width: 210px;
+    padding: 0 10px;
+    background: #fff;
+    border: 1px solid #d8d8d8;
+    z-index: 1;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+}
+.listing-cart .choose-color .sg-color .select-color {
+    display: block;
+    overflow: hidden;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+#app .lazyload, #app .lazyloading {
+    opacity: 0;
+    transition: opacity .4s;
+}
+.listing-cart .choose-color .select-color img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+}
+.choosenumber {
+    float: right;
+    overflow: hidden;
+    position: relative;
+    width: 100px;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+    border-radius: 3px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #333;
+}
+.choosenumber .minus {
+    float: left;
+    border-right: 1px solid #dfdfdf;
+    background: #fff;
+    width: 32%;
+    height: 30px;
+    position: relative;
+    pointer-events: none;
+    cursor: pointer;
+}
+.choosenumber .number {
+    font-size: 14px;
+    color: #333;
+    float: left;
+    width: 33%;
+    height: 30px;
+    text-align: center;
+}
+.choosenumber .plus {
+    float: right;
+    border-left: 1px solid #dfdfdf;
+    background: #fff;
+    width: 32%;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.choosenumber .plus i:first-child {
+    width: 12px;
+    height: 2px;
+    background: #288ad6;
+    display: block;
+    margin: 14px auto;
+}
+.choosenumber .plus i:nth-child(2) {
+    width: 2px;
+    height: 12px;
+    background: #288ad6;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 9px;
+    left: 0;
+    right: 0;
+}
+.choosenumber input {
+    border: none;
+    margin: 1px 0 1px 1px;
+}
+.total-provisional {
+    display: block;
+    overflow: hidden;
+    padding: 10px 30px;
+}
+.total-provisional>span {
+    float: left;
+    color: #333;
+}
+.total-provisional>span:nth-child(2) {
+    float: right;
+}
+.total-provisional>span {
+    float: left;
+    color: #333;
+}
+.infor-customer {
+    display: block;
+    overflow: hidden;
+    border-top: 1px solid #d1d1d1;
+    padding: 10px 30px;
+}
+.infor-customer h4 {
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333;
+}
+.infor-customer .form-customer {
+    display: none;
+    overflow: hidden;
+    padding: 10px 0 0;
+}
+.infor-customer .form-customer, .texterror {
+    display: block!important;
+}
+.choosegetgoods {
+    display: block;
+    padding: 0 30px;
+}
+.choosegetgoods h4 {
+    display: block;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+.choosegetgoods .click-choose {
+    display: block;
+}
+.choosegetgoods .click-choose .choose-link {
+    background: none;
+    color: #333;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 20px 10px 0;
+    position: relative;
+    cursor: pointer;
+}
+.choosegetgoods .click-choose .choose-link.current i {
+    background-position: 0 0;
+}
+.cartnew-choose {
+    background-position: -19px 0;
+    width: 14px;
+    height: 14px;
+    margin: 0 7px 3px 0;
+}
+[class*=cartnew-], [class^=cartnew-] {
+    /* background-image: url(../img/cart-mobile-1.png); */
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-size: 133px 305px;
+}
+.form-label {
+    position: absolute;
+    top: 11px;
+    left: 10px;
+    transition: all .2s;
+    cursor: text!important;
+}body, button, h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a, input, label, legend, option, select, textarea {
+    font: 14px/18px Arial,Helvetica,sans-serif;
+    color: #333;
+    outline: none;
+}
+
+.choosegetgoods .choose-content.current {
+    display: inherit!important;
+}
+
+.choosegetgoods .choose-content {
+    display: none;
+    background: #f6f6f6;
+    padding: 10px 10px;
+    border: 1px solid #e1e1e1;
+}
+.anotheroption {
+    display: block;
+    border-bottom: 1px solid #d1d1d1;
+    padding: 20px 30px;
+}
+.anotheroption .customer-note {
+    position: relative;
+}
+.anotheroption input {
+    display: block;
+    overflow: hidden;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 7px;
+}
+body, button, h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a, input, label, legend, option, select, textarea {
+    font: 14px/18px Arial,Helvetica,sans-serif;
+    color: #333;
+    outline: none;
+}
+.anotheroption ul li {
+    padding: 10px 0 0;
+}
+.anotheroption ul, .anotheroption ul li {
+    display: block;
+    overflow: hidden;
+}
+.anotheroption ul li label {
+    display: block;
+    overflow: hidden;
+    color: #333;
+    cursor: pointer;
+}
+body, button, h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a, input, label, legend, option, select, textarea {
+    font: 14px/18px Arial,Helvetica,sans-serif;
+    color: #333;
+    outline: none;
+}
+.cartnew-select {
+    background-position: -80px 0;
+    width: 17px;
+    height: 16px;
+}
+[class*=cartnew-], [class^=cartnew-] {
+    /* background-image: url(../img/cart-mobile-1.png); */
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-size: 133px 305px;
+}
+.anotheroption li form {
+    border: 1px solid #288ad6;
+    padding: 10px 10px 3px;
+    border-radius: 4px;
+    background: #f6f6f6;
+    margin: 10px 0 0;
+    position: relative;
+}
+.anotheroption li form .cough {
+    display: block;
+    overflow: hidden;
+    padding: 0 0 10px;
+}
+.anotheroption input {
+    display: block;
+    overflow: hidden;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 7px;
+}
+.anotheroption form .cough span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.anotheroption ul li i {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 4px 2px 0;
+}
+.cartnew-choose {
+    background-position: -19px 0;
+    width: 14px;
+    height: 14px;
+    margin: 0 7px 3px 0;
+}
+[class*=cartnew-], [class^=cartnew-] {
+    /* background-image: url(../img/cart-mobile-1.png); */
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-size: 133px 305px;
+}
+.area-total, .area-total .discountcode {
+    display: block;
+    overflow: visible;
+}
+.area-total .discountcode {
+    margin-bottom: 20px;
+    position: relative;
+}
+.area-total, .area-total .discountcode {
+    display: block;
+    overflow: visible;
+}
+.area-total .discountcode .usecode.coupon-code {
+    margin-right: 10px;
+}
+.area-total .discountcode .usecode {
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+    width: calc(50% - 5px);
+    border-radius: 4px;
+    float: left;
+    text-align: left;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+.area-total .discountcode .usecode .usecode__icon {
+    display: flex;
+    justify-content: center;
+    width: 23px;
+    flex-direction: row-reverse;
+}
+.cartnew-discount {
+    background-position: 0 -158px;
+    width: 18px;
+    height: 13px;
+}
+[class*=cartnew-], [class^=cartnew-] {
+    /* background-image: url(../img/cart-mobile-1.png); */
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-size: 133px 305px;
+}
+.area-total .discountcode .usecode span {
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    font-size: 14px;
+    margin-left: 10px;
+    text-align: left;
+}
+.area-total .discountcode .usecode.coupon-code:after {
+    content: "";
+    border-top: 6px solid #000;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    position: absolute;
+    right: 10px;
+}
+.area-total, .area-total .discountcode {
+    display: block;
+    overflow: visible;
+}
+.area-total .total-price {
+    display: block;
+    overflow: hidden;
+    padding: 10px 0 10px;
+    width: 100%;
+}
+.area-total .total-price strong {
+    float: left;
+    color: #333;
+}
+.area-total .total-price strong:nth-child(2) {
+    float: right;
+    color: #f30c28;
+}
+.finaltotal button.submitorder {
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    margin: 10px auto;
+    width: 100%;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    background: linear-gradient(180deg,#f79429,#f7712e);
+}
+.finaltotal small {
+    display: block;
+    overflow: hidden;
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+}
+.finaltotal {
+    display: block;
+    overflow: visible;
+    padding: 20px 30px;
+    position: relative;
+}
+.footCart {
+    display: block;
+    overflow: hidden;
+    color: #999;
+    font-size: 11px;
+    text-align: center;
+    padding: 20px 0;
+}
+.choosenumber .minus {
+    float: left;
+    border-right: 1px solid #dfdfdf;
+    background: #fff;
+    width: 32%;
+    height: 30px;
+    position: relative;
+    pointer-events: none;
+    cursor: pointer;
+}
+.choosenumber .minus i {
+    width: 12px;
+    height: 2px;
+    background: #ccc;
+    display: block;
+    margin: 14px auto;
+}
+.listing-cart .infosp .name-price {
+    display: block;
+}
+small {
+    font-size: 80%;
+}
+.listing-cart .promo small.active {
+    display: block;
+}
+.listing-cart .product-item {
+    display: block;
+    padding: 10px 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.listing-cart .promo small.active {
+    display: block;
+}
+
+.listing-cart .promo small {
+    display: none;
+    overflow: hidden;
+    font-size: 12px;
+    color: #666;
+    padding: 6px 0 0 10px;
+}
+.form-customer .fillinform .fillname input {
+    display: block;
+    overflow: hidden;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    padding: 10px;
+    color: #333;
+    box-sizing: border-box;
+    width: 100%;
+}.form-customer .fillinform {
+    display: block;
+    overflow: hidden;
+    padding: 12px 0 10px;
+}
+.form-customer .fillinform .fillname {
+    float: left;
+    width: 50%;
+    margin: 0 1% 0 0;
+}
+.form-customer .fillinform .fillname input {
+    display: block;
+    overflow: hidden;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    padding: 10px;
+    color: #333;
+    box-sizing: border-box;
+    width: 100%;
+}
+.form-label {
+    position: absolute;
+    top: 11px;
+    left: 10px;
+    transition: all .2s;
+    cursor: text!important;
+}
+body, button, h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a, input, label, legend, option, select, textarea {
+    font: 14px/18px Arial,Helvetica,sans-serif;
+    color: #333;
+    outline: none;
+}
+.deli-address .wards.disable button {
+    background: #f5f5f5;
+}
+
+.deli-address .wards button {
+    display: block;
+    background: #fff;
+    border: 1px solid #d1d1d1;
+    color: #288ad6;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    text-align: left;
+    cursor: pointer;
+}
+.choosegetgoods .deli-address {
+    display: block;
+}
+.deli-address form .filladdress input {
+    margin: 0;
+}
+
+.deli-address form input {
+    display: block;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 1.7% 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.cntry-district, .filladdress, .fillname {
+    position: relative;
+}

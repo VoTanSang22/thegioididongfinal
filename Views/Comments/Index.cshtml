@@ -1,0 +1,60 @@
+﻿@model IEnumerable<thegioididong.Models.Comment>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name_cus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.mail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.content)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name_cus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.mail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.content)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Product.Id_pro)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id_Com">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id_Com">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id_Com">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

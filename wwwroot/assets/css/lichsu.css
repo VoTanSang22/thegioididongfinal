@@ -1,0 +1,136 @@
+.right {
+    float: right;
+    width: 96%;
+    padding: 25px 0;
+}
+
+.right1 {
+    float: right;
+    width: 96%;
+    padding: 25px 0;
+}
+.list {
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+}
+.cate .list>b {
+    font-size: 20px;
+    padding-bottom: 10px;
+    display: block;
+}.cate .list aside.h-date {
+    overflow: hidden;
+}
+.cate .list table {
+    width: 100%;
+    word-break: break-word;
+}
+.cate .list table th {
+    color: #818181;
+    padding: 10px 5px;
+    font-weight: normal;
+    text-align: left;
+}
+.cate .list table td {
+    border-top: 1px solid #e3e3e3;
+    padding: 10px 5px;
+    vertical-align: top;
+    color: #818181;
+    position: relative;
+}
+.cate .list table td>a {
+    width: 50px;
+    float: left;
+}
+.cate .list table td {
+    border-top: 1px solid #e3e3e3;
+    padding: 10px 5px;
+    vertical-align: top;
+    color: #818181;
+    position: relative;
+}
+a {
+    text-decoration: none;
+    transition: .2s;
+    color: #288ad6;
+}
+.cate .list table td>a>img {
+    display: block;
+    max-width: 100%;
+}
+.cate .list table td>div {
+    margin-left: 55px;
+    min-height: 50px;
+}
+.cate .list table td>div>a {
+    color: #333;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.cate .list table td>div>div {
+    margin-top: 5px;
+}
+.cate .list table td>div>* {
+    display: block;
+    margin-bottom: 3px;
+}
+.cate .list table td>div>div>a {
+    display: inline-block;
+    vertical-align: top;
+    color: #288ad6;
+    font-size: 13px;
+    padding-right: 20px;
+}
+.cate .list table td:nth-child(3) {
+    width: 100px;
+}
+.cate .list table td {
+    border-top: 1px solid #e3e3e3;
+    padding: 10px 5px;
+    vertical-align: top;
+    color: #818181;
+    position: relative;
+}
+.cate .list table td>b {
+    font-weight: normal;
+    color: #d0021b;
+}
+.cate .list table td:nth-child(4) {
+    width: 14%;
+}
+.cate .list table td {
+    border-top: 1px solid #e3e3e3;
+    padding: 10px 5px;
+    vertical-align: top;
+    color: #818181;
+    position: relative;
+}
+.cate .list table td {
+    border-top: 1px solid #e3e3e3;
+    padding: 10px 5px;
+    vertical-align: top;
+    color: #818181;
+    position: relative;
+}
+.cate .list table td i.success {
+    color: #289666;
+}
+.cate .list table td i {
+    font-style: normal;
+    display: block;
+}
+.user {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.user>a {
+    float: right;
+    color: #288ad6;
+}

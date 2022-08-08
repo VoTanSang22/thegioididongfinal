@@ -1,0 +1,49 @@
+﻿@model IEnumerable<thegioididong.Models.Product>
+@using thegioididong.Models
+@using thegioididong.Models.DAO
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div class="middleCart " style="display: flex;
+    background: #fff;
+    box-shadow: 0 0 18px rgb(0 0 0 / 12%);
+    border-radius: 2px;
+    justify-content:center"
+    >
+        <form class="form-cus" asp-action="dathang" asp-controller="Orders">
+            @for (int i = 0; i < ViewBag.listcart.Count; ++i)
+            {
+                Product product = ViewBag.listcart[i];
+
+                <ul class="listing-cart" style="padding-left:0;">
+                    <li class="product-item" style="display:flex">
+                        <div class="imgsp" style=" padding-right:10px;">
+                              <img src="@product.Amount" />                
+                        </div>                   
+                        <div class="infosp" style="display:flex;">
+                            <p style=" padding-right:10px;">
+                            @Html.DisplayFor(modelItem => product.Pro_Name)
+                            </p>
+                            <p style=" padding-right:10px;">
+                                @Html.DisplayFor(modelItem => product.Price)
+                            </p>                            
+                        </div>
+                    </li>
+                </ul>
+            } 
+            
+            <h4>
+                    THÔNG TIN KHÁCH HÀNG
+                </h4>
+            <div>
+                <input value="@ViewBag.namecus" name="namecus" readonly/>              
+                <input value="@ViewBag.phone" name="phone" readonly/>              
+                <input value="@ViewBag.address" name="address" readonly/>              
+            </div>
+            
+            <input id="submit-btn" type="submit" hidden />
+           <div id="paypal-btn-container" style="margin-top: 5px;"></div>
+        </form>
+    </div>
+    <script src="/js/payment.js"></script>   

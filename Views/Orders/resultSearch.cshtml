@@ -1,0 +1,264 @@
+﻿@model IEnumerable<thegioididong.Models.Order>
+@using thegioididong.Models
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Thegioididong.com - Điện thoại, Laptop, Phụ kiện, Đồng hồ chính hãng
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="~/assets/css/base.css" type="text/css"/>
+    <link rel="stylesheet" href="~/assets/css/main.css" type="text/css"/>
+    <link rel="stylesheet" href="~/assets/css/index.css" type="text/css"/>
+    <link rel="stylesheet" href="~/assets/css/footer.css" type="text/css"/>
+    <link rel="stylesheet" href="~/assets/css/dienthoai.css" type="text/css">
+    <link rel="stylesheet" href="~/assets/css/tablet.css" type="text/css">
+    <link rel="stylesheet" href="~/assets/css/phukien.css" type="text/css">
+    <link rel="stylesheet" href="~/assets/css/dongho.css" type="text/css">
+    <link rel="stylesheet" href="~/assets/css/smartwatch.css" type="text/css">
+    <link rel="stylesheet" href="~/assets/css/dathang.css" type="text/css">
+    <link rel="stylesheet" href="~/assets/css/chitiet.css" type="text/css">
+    <link rel="stylesheet" href="~/assets/css/lichsu.css" type="text/css">
+    <link rel="stylesheet" href="~/assets/font/fontawesome-free-6.1.1-web/css/all.min.css" type="text/css"/>
+</head>
+<body>   
+    <header class="header">
+            <div class="grid">
+                <div class="header__top">
+                    <div class="header__items">
+                        <a class="header__logo" href="~/Home/Index">
+                            <img class="logo_img" src="~/assets/img/logo2.webp" alt="" />
+                        </a>
+
+                        <a href="" class="header__addres">
+                            <p>Xem giá, tồn tại kho:</p>
+                            <p>Hồ Chí Minh</p>
+                        </a>
+                        <form asp-action="Search" class="header__search">
+                            <input id="skw" type="text" class="input-search" onkeyup="suggestSearch(event);"
+                                   placeholder="Bạn tìm gì..." name="key" autocomplete="off" maxlength="100" />
+                            <button type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <div id="search-result"></div>
+                        </form>
+
+                        <a href="/Orders/historyOrder" class="header__order"> Lịch sử mua hàng </a>
+                        <a href="/Orders/showCart" class="header__cart">
+                            <div class="cart__logo">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                            <span class="list__text">Giỏ hàng</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="header__main">
+                    <div class="main__items">
+                        <ul class="main-menu">
+                            <li class="">
+                                <a asp-action="showmore" asp-route-id="Điện Thoại">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-phone-96x96-2.png" />
+                                    </i>
+                                    <span> Điện thoại</span>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a asp-action="showmore" asp-route-id="Laptop">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-laptop-96x96-1.png" />
+                                    </i>
+                                    <span class="">Laptop</span>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a asp-action="showmore" asp-route-id="Máy Tính Bảng">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-tablet-96x96-1.png" />
+                                    </i>
+                                    <span class="">Tablet</span>
+                                </a>
+                            </li>
+                            <li class="has-list">
+                                <a asp-action="showmore" asp-route-id="Phụ Kiện">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-phu-kien-96x96-1.png" />
+                                    </i>
+                                    <span class="has-child">Phụ kiện</span>
+                                </a>
+
+                            </li>
+                            <li class="">
+                                <a asp-action="showmore" asp-route-id="Smartwatch">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-smartwatch-96x96-1.png" />
+                                    </i>
+                                    <span class="">Smartwatch</span>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a asp-action="showmore" asp-route-id="Đồng Hồ">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/watch-icon-96x96.png">
+                                    </i>
+                                    <span class="">Đồng hồ</span>
+                                </a>
+                            </li>
+
+                            <li class="has-list">
+                                <a asp-action="showmore" asp-route-id="PC,In">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-pc-96x96.png" />
+                                    </i>
+                                    <span class="has-child">PC, Máy in</span>
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    <section class="wrapper cate">
+    <div class="container">
+      <div class="left">
+
+      </div>
+      <div class="right">
+        <div id="overbackgroud"></div>
+
+        <div class="result"></div>
+
+        <div class="list" id="list_order">
+          <b>Đơn hàng đã mua gần đây</b>
+
+          <table cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                  <th>Ảnh</th>
+                <th>Sản phẩm</th>
+                <th>Giá</th>
+                <th>Trạng thái</th>
+              </tr>
+            @foreach(Order order in ViewBag.listorder){
+             <!-- list -->
+              <tr class="" >
+                <th>
+                    <div>
+                        <img src="@order.pro_image" width="10%" height="10%"/> 
+                    </div>
+
+                 </th>
+                 <th>
+                  <div>
+                    <a class="order_item">@Html.DisplayFor(modelItem => order.pro_name)</a>
+
+                  </div>
+                </th>
+
+                <th>
+                  <b>@Html.DisplayFor(modelItem => order.pro_price)</b>
+                </th>
+                <th>
+                  <i class="success" data-status="1">Đã nhận hàng</i>
+                </th>
+              </tr>                            
+              <!-- end -->
+              }
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    </section>
+     <footer class="footer" style="margin-top: 10px;">
+        <section class="clearfix footer__top">
+            <div class="footer__col">
+                <ul class="f-listmenu">
+                    <li>
+                        <a rel="nofollow" href="/tin-tuc/chuong-trinh-tich-diem-danh-cho-khach-hang-than-thiet-1434806">
+                            Tích điểm
+                            Quà tặng VIP
+                        </a>
+                    </li>
+                    <li><a rel="nofollow" href="/lich-su-mua-hang">Lịch sử mua hàng</a></li>
+                    <li><a rel="nofollow" href="/daily">Cộng tác bán hàng cùng TGDĐ</a></li>
+                    <li><a rel="nofollow" href="/tra-gop">Tìm hiểu về mua trả góp</a></li>
+                    <li><a rel="nofollow" href="/bao-hanh">Chính sách bảo hành</a></li>
+                    <li><a href="javascript:void(0)" class="arrow showtaga">Xem thêm</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/chinh-sach-bao-hanh-san-pham">Chính sách đổi trả</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/giao-hang">Giao hàng &amp; Thanh toán</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/huong-dan-mua-hang">Hướng dẫn mua online</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/b2b">Bán hàng doanh nghiệp</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/phieu-mua-hang">Phiếu mua hàng</a></li>
+                    <li class="hidden"><a rel="nofollow" href="https://hddt.thegioididong.com">In hóa đơn điện tử</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/tos">Quy chế hoạt động</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/noi-quy-cua-hang">Nội quy cửa hàng</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/chat-luong-phuc-vu">Chất lượng phục vụ</a></li>
+                    <li class="hidden">
+                        <a rel="nofollow"
+                           href="/tin-tuc/can-trong-voi-nhung-sieu-thi-thegioididong-khong-chinh-chu--683321">Cảnh báo giả mạo</a>
+                    </li>
+                    <li class="hidden">
+                        <a rel="nofollow" href="/chinh-sach-khui-hop-apple">Chính sách khui hộp sản phẩm Apple</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <ul class="f-listmenu">
+                    <li><a rel="nofollow" href="https://mwg.vn">Giới thiệu công ty (MWG.vn)</a></li>
+                    <li><a rel="nofollow" href="https://vieclam.thegioididong.com">Tuyển dụng</a></li>
+                    <li><a rel="nofollow" href="/lien-he">Gửi góp ý, khiếu nại</a></li>
+                    <li><a rel="nofollow" href="/he-thong-sieu-thi-the-gioi-di-dong">Tìm siêu thị (3.256 shop)</a></li>
+                    <li>
+                        <a rel="nofollow" class="linkversion" href="https://www.thegioididong.com/pc-may-in-hp?sclient=mobile">
+                            Xem
+                            bản mobile
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <div class="f-listtel">
+                    <p class="f-listtel__title">
+                        <strong>Tổng đài hỗ trợ</strong>
+                        (Miễn phí gọi)
+                    </p>
+                    <p class="f-listtel__content"><span>Gọi mua:</span> <a href="tel:18001060">1800.1060</a> (7:30 - 22:00)</p>
+                    <p class="f-listtel__content"><span>Kỹ thuật:</span> <a href="tel:18001763">1800.1763</a> (7:30 - 22:00)</p>
+                    <p class="f-listtel__content"><span>Khiếu nại:</span> <a href="tel:18001062">1800.1062</a> (8:00 - 21:30)</p>
+                    <p class="f-listtel__content"><span>Bảo hành:</span> <a href="tel:18001064">1800.1064</a> (8:00 - 21:00)</p>
+                </div>
+            </div>
+            <div class="footer__col">
+                <div class="f-social">
+                    <a href="https://www.facebook.com/thegioididongcom" class="link-fb">
+                        <i class="fa-brands fa-facebook" style="color: blue;"></i>
+                        3750.1k Fan
+                    </a>
+                    <a href="https://www.youtube.com/user/TGDDVideoReviews" class="link-ytb">
+                        <i class="fa-brands fa-youtube" style="color: red;"></i>
+                        847k Đăng ký
+                    </a>
+                </div>
+                <div class="f-certify">
+                    <a class="_ncsc" rel="nofollow" href="https://tinnhiemmang.vn/danh-ba-tin-nhiem/thegioididongcom-1632835473"
+                       title="Chung nhan Tin Nhiem Mang" target="_blank">
+                        <img class="lazy ls-is-cached lazyloaded" style="margin-left: 20px; margin-top: 10px;"
+                             data-original="https://tinnhiemmang.vn/handle_cert?id=thegioididong.com"
+                             data-src="https://tinnhiemmang.vn/handle_cert?id=thegioididong.com" width="150"
+                             alt="Chung nhan Tin Nhiem Mang" src="https://tinnhiemmang.vn/handle_cert?id=thegioididong.com">
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+    </footer>
+</body>
+
+</html>

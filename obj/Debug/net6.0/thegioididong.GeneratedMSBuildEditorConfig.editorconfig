@@ -1,0 +1,212 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = thegioididong
+build_property.RootNamespace = thegioididong
+build_property.ProjectDir = D:\ProjectOJT\Projectf\Project\thegioididong\thegioididong\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\ProjectOJT\Projectf\Project\thegioididong\thegioididong
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Categories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Comments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Comments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Comments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Comments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Comments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Home/comment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjb21tZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Home/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Home/showmore.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzaG93bW9yZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Images/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Images/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Images/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Images/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Images/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Manufacturers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudWZhY3R1cmVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Manufacturers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudWZhY3R1cmVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Manufacturers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudWZhY3R1cmVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Manufacturers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudWZhY3R1cmVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Manufacturers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudWZhY3R1cmVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Orders/comment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXGNvbW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Orders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Orders/historyOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXGhpc3RvcnlPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Orders/resultSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXHJlc3VsdFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Orders/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Orders/showCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXHNob3dDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Orders/showmore.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXHNob3dtb3JlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Orders/viewOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXHZpZXdPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Products/resultSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNccmVzdWx0U2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Products/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Shared/admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Shared/adminfoter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGFkbWluZm90ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ProjectOJT/Projectf/Project/thegioididong/thegioididong/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2q21q34jze

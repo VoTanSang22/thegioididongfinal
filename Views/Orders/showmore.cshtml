@@ -1,0 +1,846 @@
+﻿@model IEnumerable<thegioididong.Models.Product>
+@{
+    ViewData["Title"] = "Showmore";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Thegioididong.com - Điện thoại, Laptop, Phụ kiện, Đồng hồ chính hãng
+    </title>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css type="text/css" />
+    <link rel="stylesheet" href="~/assets/css/base.css" type="text/css" />
+    <link rel="stylesheet" href="~/assets/css/main.css" type="text/css" />
+    <link rel="stylesheet" href="~/assets/css/index.css" type="text/css" />
+    <link rel="stylesheet" href="~/assets/css/footer.css" type="text/css" />
+    <link rel="stylesheet" href="~/assets/css/dienthoai.css" type="text/css" />
+    <link rel="stylesheet"
+          href="~/assets/font/fontawesome-free-6.1.1-web/css/all.min.css" type="text/css" />
+</head>
+<body>
+    <div class="app" style="background-color: #f3f3f3">
+        <header class="header">
+            <div class="grid">
+                <div class="header__top">
+                    <div class="header__items">
+                        <a class="header__logo" href="~/Home/Index">
+                            <img class="logo_img" src="~/assets/img/logo2.webp" alt="" />
+                        </a>
+
+                        <a href="" class="header__addres">
+                            <p>Xem giá, tồn tại kho:</p>
+                            <p>Hồ Chí Minh</p>
+                        </a>
+                        <form asp-action="Search" class="header__search">
+                            <input id="skw" type="text" class="input-search" onkeyup="suggestSearch(event);"
+                                   placeholder="Bạn tìm gì..." name="key" autocomplete="off" maxlength="100" />
+                            <button type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <div id="search-result"></div>
+                        </form>
+
+                        <a href="/Orders/historyOrder" class="header__order"> Lịch sử mua hàng </a>
+                        <a href="/Orders/showCart" class="header__cart">
+                            <div class="cart__logo">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                            <span class="list__text">Giỏ hàng</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="header__main">
+                    <div class="main__items">
+                        <ul class="main-menu">
+                            <li class="">
+                                <a asp-action="showmore" asp-route-id="Điện Thoại">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-phone-96x96-2.png" />
+                                    </i>
+                                    <span> Điện thoại</span>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a asp-action="showmore" asp-route-id="Laptop">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-laptop-96x96-1.png" />
+                                    </i>
+                                    <span class="">Laptop</span>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a asp-action="showmore" asp-route-id="Máy Tính Bảng">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-tablet-96x96-1.png" />
+                                    </i>
+                                    <span class="">Tablet</span>
+                                </a>
+                            </li>
+                            <li class="has-list">
+                                <a asp-action="showmore" asp-route-id="Phụ Kiện">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-phu-kien-96x96-1.png" />
+                                    </i>
+                                    <span class="has-child">Phụ kiện</span>
+                                </a>
+
+                            </li>
+                            <li class="">
+                                <a asp-action="showmore" asp-route-id="Smartwatch">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-smartwatch-96x96-1.png" />
+                                    </i>
+                                    <span class="">Smartwatch</span>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a asp-action="showmore" asp-route-id="Đồng Hồ">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/watch-icon-96x96.png">
+                                    </i>
+                                    <span class="">Đồng hồ</span>
+                                </a>
+                            </li>
+
+                            <li class="has-list">
+                                <a asp-action="showmore" asp-route-id="PC,In">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-pc-96x96.png" />
+                                    </i>
+                                    <span class="has-child">PC, Máy in</span>
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    <div class="container">
+        <div class="top-banner">
+            <section>
+                <div class="slider-bannertop owl-carousel owl-theme owl-loaded owl-drag">
+
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 8000px;">
+                            <div class="owl-item active" style="width: 800px;">
+                                <div class="item">
+                                    <a aria-label="slide" data-cate="42" data-place="1554" href="https://www.thegioididong.com/uu-dai-soc#dtdd" onclick="jQuery.ajax({ url: '/bannertracking?bid=55276&amp;r='+ (new Date).getTime(), async: true, cache: false });"><img width="800" height="200" src="//cdn.tgdd.vn/2022/05/banner/xk-smart-800-200-800x200.png" alt="big xả kho"></a>
+                                </div>
+                            </div><div class="owl-item" style="width: 800px;">
+                                <div class="item">
+                                    <a aria-label="slide" data-cate="42" data-place="1554" href="https://www.thegioididong.com/dtdd-samsung-galaxy-a" onclick="jQuery.ajax({ url: '/bannertracking?bid=55220&amp;r='+ (new Date).getTime(), async: true, cache: false });"><img width="800" height="200" loading="lazy" class=" owl-lazy lazyloading" data-src="//cdn.tgdd.vn/2022/06/banner/xk-aseri-800-200-800x200.png" alt="A series" src="//cdn.tgdd.vn/2022/06/banner/xk-aseri-800-200-800x200.png"></a>
+                                </div>
+                            </div><div class="owl-item" style="width: 800px;">
+                                <div class="item">
+                                    <a aria-label="slide" data-cate="42" data-place="1554" href="https://www.thegioididong.com/dtdd-apple-iphone-13-series" onclick="jQuery.ajax({ url: '/bannertracking?bid=55814&amp;r='+ (new Date).getTime(), async: true, cache: false });"><img width="800" height="200" loading="lazy" class=" owl-lazy lazyloading" data-src="//cdn.tgdd.vn/2022/06/banner/800-200-800x200-95.png" alt="iPhone 13" src="//cdn.tgdd.vn/2022/06/banner/800-200-800x200-95.png"></a>
+                                </div>
+                            </div><div class="owl-item" style="width: 800px;">
+                                <div class="item">
+                                    <a aria-label="slide" data-cate="42" data-place="1554" href="https://www.thegioididong.com/dtdd/poco-c40" onclick="jQuery.ajax({ url: '/bannertracking?bid=55955&amp;r='+ (new Date).getTime(), async: true, cache: false });"><img width="800" height="200" loading="lazy" class="lazyload owl-lazy" data-src="//cdn.tgdd.vn/2022/06/banner/poco40-800-200-800x200.png" alt="POCO"></a>
+                                </div>
+                            </div><div class="owl-item" style="width: 800px;">
+                                <div class="item">
+                                    <a aria-label="slide" data-cate="42" data-place="1554" href="https://www.thegioididong.com/dtdd/vivo-y33s" onclick="jQuery.ajax({ url: '/bannertracking?bid=55460&amp;r='+ (new Date).getTime(), async: true, cache: false });"><img width="800" height="200" loading="lazy" class="lazyload owl-lazy" data-src="//cdn.tgdd.vn/2022/06/banner/800-200-800x200-24.png" alt="Vivo Y33s"></a>
+                                </div>
+                            </div><div class="owl-item" style="width: 800px;">
+                                <div class="item">
+                                    <a aria-label="slide" data-cate="42" data-place="1554" href="https://www.thegioididong.com/dtdd/oppo-reno6-z-5g" onclick="jQuery.ajax({ url: '/bannertracking?bid=55270&amp;r='+ (new Date).getTime(), async: true, cache: false });"><img width="800" height="200" loading="lazy" class="lazyload owl-lazy" data-src="//cdn.tgdd.vn/2022/06/banner/xk-reno6-800-200-800x200.png" alt="Reno7"></a>
+                                </div>
+                            </div><div class="owl-item" style="width: 800px;">
+                                <div class="item">
+                                    <a aria-label="slide" data-cate="42" data-place="1554" href="https://www.thegioididong.com/dtdd/nokia-c21-plus-32gb/" onclick="jQuery.ajax({ url: '/bannertracking?bid=55927&amp;r='+ (new Date).getTime(), async: true, cache: false });"><img width="800" height="200" loading="lazy" class="lazyload owl-lazy" data-src="//cdn.tgdd.vn/2022/06/banner/800-200-800x200-105.png" alt="Nokia C21plus"></a>
+                                </div>
+                            </div><div class="owl-item" style="width: 800px;">
+                                <div class="item">
+                                    <a aria-label="slide" data-cate="42" data-place="1554" href="https://www.thegioididong.com/khuyen-mai-soc/note-11-series" onclick="jQuery.ajax({ url: '/bannertracking?bid=55185&amp;r='+ (new Date).getTime(), async: true, cache: false });"><img width="800" height="200" loading="lazy" class="lazyload owl-lazy" data-src="//cdn.tgdd.vn/2022/05/banner/xk-redmi11-800-200-800x200.png" alt="đt"></a>
+                                </div>
+                            </div><div class="owl-item" style="width: 800px;">
+                                <div class="item">
+                                    <a aria-label="slide" data-cate="42" data-place="1554" href="https://www.thegioididong.com/dtdd-realme" onclick="jQuery.ajax({ url: '/bannertracking?bid=55308&amp;r='+ (new Date).getTime(), async: true, cache: false });"><img width="800" height="200" loading="lazy" class="lazyload owl-lazy" data-src="//cdn.tgdd.vn/2022/05/banner/800-200-800x200-221.png" alt="Realme"></a>
+                                </div>
+                            </div><div class="owl-item" style="width: 800px;">
+                                <div class="item">
+                                    <a aria-label="slide" data-cate="42" data-place="1554" href="https://www.thegioididong.com/dtdd/samsung-galaxy-s22-ultra" onclick="jQuery.ajax({ url: '/bannertracking?bid=55649&amp;r='+ (new Date).getTime(), async: true, cache: false });"><img width="800" height="200" loading="lazy" class="lazyload owl-lazy" data-src="//cdn.tgdd.vn/2022/06/banner/xk-s22-800-200-800x200-3.png" alt="S22"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button></div>
+                </div>
+                <div class="promote-banner ">
+                    <a href="/Fold Flip" class="promote-item">
+                    </a><a aria-label="slide" data-cate="42" data-place="1555" href="https://www.thegioididong.com/dtdd-samsung-galaxy-m" onclick="jQuery.ajax({ url: '/bannertracking?bid=55798&amp;r='+ (new Date).getTime(), async: true, cache: false });"><img src="//cdn.tgdd.vn/2022/06/banner/sticky-mseri-390-97-390x97.png" alt="Samsung"></a>
+
+                    <a href="/OPPO" class="promote-item">
+                    </a><a aria-label="slide" data-cate="42" data-place="1555" href="https://www.thegioididong.com/dtdd/oppo-a95-4g" onclick="jQuery.ajax({ url: '/bannertracking?bid=55272&amp;r='+ (new Date).getTime(), async: true, cache: false });"><img src="//cdn.tgdd.vn/2022/05/banner/sticky-a95-390-97-390x97.png" alt="OPPO"></a>
+
+                </div>
+
+            </section>
+        </div>
+        <div class="box-filter top-box  block-scroll-main cate-42">
+            <section>
+                <div class="jsfix scrolling_inner scroll-right">
+                    <div class="box-filter block-scroll-main scrolling">
+                        <div class="scroll-btn show-right" style="display: none;">
+                            <div class="btn-right-scroll"></div>
+                        </div>
+
+
+                        <div class="filter-total ">
+                            <div class="filter-item__title jsTitle">
+                                <div class="arrow-filter"></div>
+                                <i class="icon-filter"></i>Bộ lọc
+                                <strong class="number count-total" style="display: none;">0</strong>
+                            </div>
+                            <div class="filter-show show-total" id="wrapper">
+                                <div class="list-filter-active" style="display: none;">
+                                    <span>Đã chọn: </span>
+                                    <div class="manu"></div>
+                                    <div class="price"></div>
+                                    <div class="props"></div>
+                                    <div class="props-slider"></div>
+                                    <a href="javascript:;" class="clr-filter" onclick="removeAllFilterActive()" style="display: none;">Xóa tất cả</a>
+                                </div>
+                                <div class="show-total-main">
+                                    <a href="javascript:;" class="close-popup-total"><i class="iconcate-closess"></i>Đóng</a>
+
+                                    <div class="show-total-item clearfix warpper-manu-inside arranged">
+                                        <p class="show-total-txt">Hãng</p>
+                                        <div class="filter-list filter-list--hang manu">
+                                            <a href="dtdd-apple-iphone" class="c-btnbox   filter-manu" data-href="apple-iphone" data-id="80" data-name="iPhone (Apple)">
+                                                <img src="//cdn.tgdd.vn/Brand/1/logo-iphone-220x48.png" width="68" height="30" alt="iPhone (Apple)">
+                                            </a>
+                                            <a href="dtdd-samsung" class="c-btnbox   filter-manu" data-href="samsung" data-id="2" data-name="Samsung">
+                                                <img src="//cdn.tgdd.vn/Brand/1/samsungnew-220x48-1.png" width="68" height="30" alt="Samsung">
+                                            </a>
+                                            <a href="dtdd-oppo" class="c-btnbox   filter-manu" data-href="oppo" data-id="1971" data-name="OPPO">
+                                                <img src="//cdn.tgdd.vn/Brand/1/OPPO42-b_5.jpg" width="68" height="30" alt="OPPO">
+                                            </a>
+                                            <a href="dtdd-xiaomi" class="c-btnbox   filter-manu" data-href="xiaomi" data-id="2235" data-name="Xiaomi">
+                                                <img src="//cdn.tgdd.vn/Brand/1/logo-xiaomi-220x48-5.png" width="68" height="30" alt="Xiaomi">
+                                            </a>
+                                            <a href="dtdd-vivo" class="c-btnbox   filter-manu" data-href="vivo" data-id="2236" data-name="Vivo">
+                                                <img src="//cdn.tgdd.vn/Brand/1/vivo-logo-220-220x48-3.png" width="68" height="30" alt="Vivo">
+                                            </a>
+                                            <a href="dtdd-realme" class="c-btnbox   filter-manu" data-href="realme" data-id="17201" data-name="Realme">
+                                                <img src="//cdn.tgdd.vn/Brand/1/Realme42-b_37.png" width="68" height="30" alt="Realme">
+                                            </a>
+                                            <a href="dtdd-nokia" class="c-btnbox   filter-manu" data-href="nokia" data-id="1" data-name="Nokia">
+                                                <img src="//cdn.tgdd.vn/Brand/1/Nokia42-b_21.jpg" width="68" height="30" alt="Nokia">
+                                            </a>
+                                            <a href="dtdd-itel" class="c-btnbox   filter-manu" data-href="itel" data-id="5332" data-name="Itel">
+                                                <img src="//cdn.tgdd.vn/Brand/1/Itel42-b_54.jpg" width="68" height="30" alt="Itel">
+                                            </a>
+                                            <a href="dtdd-masstel" class="c-btnbox   filter-manu" data-href="masstel" data-id="4832" data-name="Masstel">
+                                                <img src="//cdn.tgdd.vn/Brand/1/Masstel42-b_0.png" width="68" height="30" alt="Masstel">
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <div class="filter-border"></div>
+                                    <div class="show-total-item count-item arranged">
+                                        <p class="show-total-txt">Giá</p>
+                                        <div class="filter-list price">
+                                            <a href="dtdd?p=duoi-2-trieu" data-href="duoi-2-trieu" class="c-btnbox " data-id="7">Dưới 2 triệu</a>
+                                            <a href="dtdd?p=tu-2-4-trieu" data-href="tu-2-4-trieu" class="c-btnbox " data-id="9">Từ 2 - 4 triệu</a>
+                                            <a href="dtdd?p=tu-4-7-trieu" data-href="tu-4-7-trieu" class="c-btnbox " data-id="289">Từ 4 - 7 triệu</a>
+                                            <a href="dtdd?p=tu-7-13-trieu" data-href="tu-7-13-trieu" class="c-btnbox " data-id="562">Từ 7 - 13 triệu</a>
+                                            <a href="dtdd?p=tu-13-20-trieu" data-href="tu-13-20-trieu" class="c-btnbox " data-id="252">Từ 13 - 20 triệu</a>
+                                            <a href="dtdd?p=tren-20-trieu" data-href="tren-20-trieu" class="c-btnbox " data-id="253">Trên 20 triệu</a>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="show-total-item  count-item">
+                                        <p class="show-total-txt">Loại điện thoại</p>
+                                        <div class="filter-list filter-list--loai-dien-thoai  props">
+                                            <a href="dtdd?g=android" data-smooth="0" data-id="39237" class="c-btnbox ">Android</a>
+                                            <a href="dtdd?g=iphone-ios" data-smooth="0" data-id="39238" class="c-btnbox ">iPhone (iOS)</a>
+                                            <a href="dtdd?g=dien-thoai-pho-thong" data-smooth="0" data-id="62879" class="c-btnbox ">Điện thoại phổ thông</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="show-total-item  count-item">
+                                        <p class="show-total-txt">Hiệu năng &amp; Pin</p>
+                                        <div class="filter-list filter-list--hieu-nang-pin  props">
+                                            <a href="dtdd-choi-game" data-smooth="1" data-id="181956" class="c-btnbox ">Chơi game / Cấu hình cao</a>
+                                            <a href="dtdd-pin-khung" data-smooth="1" data-id="163467" class="c-btnbox ">Pin khủng trên 5000 mAh</a>
+                                            <a href="dtdd-sac-pin-nhanh" data-smooth="1" data-id="181957" class="c-btnbox ">Sạc pin nhanh</a>
+
+                                        </div>
+                                    </div><div class="filter-border"></div>
+                                    <div class="show-total-item  count-item">
+                                        <p class="show-total-txt">RAM</p>
+                                        <div class="filter-list filter-list--ram  props">
+                                            <a href="dtdd-ram-2gb" data-smooth="1" data-id="37897" class="c-btnbox ">2 GB</a>
+                                            <a href="dtdd-ram-3gb" data-smooth="1" data-id="41172" class="c-btnbox ">3 GB</a>
+                                            <a href="dtdd-ram-4gb" data-smooth="1" data-id="46927" class="c-btnbox ">4 GB</a>
+                                            <a href="dtdd-ram-6gb" data-smooth="1" data-id="52473" class="c-btnbox ">6 GB</a>
+                                            <a href="dtdd-ram-8gb" data-smooth="1" data-id="55436" class="c-btnbox ">8 GB</a>
+                                            <a href="dtdd-ram-12gb" data-smooth="1" data-id="136259" class="c-btnbox ">12 GB</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="show-total-item  count-item">
+                                        <p class="show-total-txt">Bộ nhớ trong</p>
+                                        <div class="filter-list filter-list--bo-nho-trong  props">
+                                            <a href="dtdd-rom-8gb" data-smooth="1" data-id="191" class="c-btnbox ">8 GB</a>
+                                            <a href="dtdd-rom-16gb" data-smooth="1" data-id="192" class="c-btnbox ">16 GB</a>
+                                            <a href="dtdd-rom-32gb" data-smooth="1" data-id="193" class="c-btnbox ">32 GB</a>
+                                            <a href="dtdd-rom-64gb" data-smooth="1" data-id="21987" class="c-btnbox ">64 GB</a>
+                                            <a href="dtdd-rom-128gb" data-smooth="1" data-id="43032" class="c-btnbox ">128 GB</a>
+                                            <a href="dtdd-rom-256gb" data-smooth="1" data-id="58037" class="c-btnbox ">256 GB</a>
+                                            <a href="dtdd-rom-512gb" data-smooth="1" data-id="105828" class="c-btnbox ">512 GB</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="show-total-item  count-item">
+                                        <p class="show-total-txt">Camera</p>
+                                        <div class="filter-list filter-list--camera  props">
+                                            <a href="dtdd-camera-macro" data-smooth="1" data-id="163409" class="c-btnbox ">Chụp cận cảnh (Macro)</a>
+                                            <a href="dtdd-camera-goc-rong" data-smooth="1" data-id="140894" class="c-btnbox ">Chụp góc rộng</a>
+                                            <a href="dtdd-camera-xoa-phong" data-smooth="1" data-id="140895" class="c-btnbox ">Chụp xoá phông</a>
+                                            <a href="dtdd-camera-zoom" data-smooth="1" data-id="140896" class="c-btnbox ">Chụp zoom xa</a>
+
+                                        </div>
+                                    </div><div class="filter-border"></div>
+                                    <div class="show-total-item  count-item">
+                                        <p class="show-total-txt">Tính năng đặc biệt</p>
+                                        <div class="filter-list filter-list--tinh-nang-dac-biet  props">
+                                            <a href="dtdd-5g" data-smooth="1" data-id="181958" class="c-btnbox ">Hỗ trợ 5G</a>
+                                            <a href="dtdd-bao-mat-khuon-mat" data-smooth="1" data-id="173170" class="c-btnbox ">Bảo mật khuôn mặt</a>
+                                            <a href="dtdd-bao-mat-van-tay" data-smooth="1" data-id="173171" class="c-btnbox ">Bảo mật vân tay</a>
+                                            <a href="dtdd-sac-khong-day" data-smooth="1" data-id="173173" class="c-btnbox ">Sạc không dây</a>
+                                            <a href="dtdd-chong-nuoc-bui" data-smooth="1" data-id="173174" class="c-btnbox ">Kháng nước, bụi</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="show-total-item  count-item">
+                                        <p class="show-total-txt">Thiết kế</p>
+                                        <div class="filter-list filter-list--thiet-ke  props">
+                                            <a href="dtdd-man-hinh-tran-vien" data-smooth="1" data-id="140890" class="c-btnbox ">Tràn viền</a>
+                                            <a href="dtdd-mong-nhe" data-smooth="1" data-id="181955" class="c-btnbox ">Mỏng nhẹ</a>
+                                            <a href="dtdd-mat-lung-kinh" data-smooth="1" data-id="182026" class="c-btnbox ">Mặt lưng kính</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="show-total-item  count-item">
+                                        <p class="show-total-txt">Màn hình</p>
+                                        <div class="filter-list filter-list--man-hinh  props">
+                                            <a href="dtdd-nho-gon" data-smooth="1" data-id="163351" class="c-btnbox ">Nhỏ gọn dễ cầm</a>
+                                            <a href="dtdd-tu-6-inch-tro-len" data-smooth="1" data-id="181979" class="c-btnbox ">Từ 6 inch trở lên</a>
+                                            <a href="dtdd-man-hinh-gap" data-smooth="1" data-id="197090" class="c-btnbox ">Màn hình gập</a>
+
+                                        </div>
+                                    </div><div class="filter-border"></div>
+                                    <div class="show-total-item child-filter hide">
+                                        <p class="show-total-txt">Chọn theo dòng</p>
+                                        <div class="filter-list filter-list--chon-theo-dong  props">
+                                            <a href="dtdd-a" data-smooth="1" data-id="176484" class="c-btnbox ">OPPO A</a>
+                                            <a href="dtdd-reno" data-smooth="1" data-id="176486" class="c-btnbox ">OPPO Reno</a>
+                                            <a href="dtdd-find-x" data-smooth="1" data-id="176487" class="c-btnbox ">OPPO Find X</a>
+                                            <a href="dtdd-galaxy-z" data-smooth="1" data-id="176455" class="c-btnbox ">Galaxy Z (Màn hình gập)</a>
+                                            <a href="dtdd-galaxy-note" data-smooth="1" data-id="176452" class="c-btnbox ">Galaxy Note</a>
+                                            <a href="dtdd-galaxy-s" data-smooth="1" data-id="176453" class="c-btnbox ">Galaxy S</a>
+                                            <a href="dtdd-galaxy-a" data-smooth="1" data-id="176454" class="c-btnbox ">Galaxy A</a>
+                                            <a href="dtdd-galaxy-m" data-smooth="1" data-id="176456" class="c-btnbox ">Galaxy M</a>
+                                            <a href="dtdd-redmi" data-smooth="1" data-id="176488" class="c-btnbox ">Xiaomi Redmi</a>
+                                            <a href="dtdd-mi" data-smooth="1" data-id="176489" class="c-btnbox ">Xiaomi Mi</a>
+                                            <a href="dtdd-poco" data-smooth="1" data-id="176490" class="c-btnbox ">Xiaomi POCO</a>
+                                            <a href="dtdd-aris" data-smooth="1" data-id="180887" class="c-btnbox ">Vsmart Aris</a>
+                                            <a href="dtdd-live" data-smooth="1" data-id="180888" class="c-btnbox ">Vsmart Live</a>
+                                            <a href="dtdd-active" data-smooth="1" data-id="180892" class="c-btnbox ">Vsmart Active</a>
+                                            <a href="dtdd-joy" data-smooth="1" data-id="180890" class="c-btnbox ">Vsmart Joy</a>
+                                            <a href="dtdd-star" data-smooth="1" data-id="180891" class="c-btnbox ">Vsmart Star</a>
+                                            <a href="dtdd-13-series" data-smooth="1" data-id="199629" class="c-btnbox ">iPhone 13 (Mini, Pro, Pro Max)</a>
+                                            <a href="dtdd-12-series" data-smooth="1" data-id="180894" class="c-btnbox ">iPhone 12 (Mini, Pro, Pro Max)</a>
+                                            <a href="dtdd-11-series" data-smooth="1" data-id="180897" class="c-btnbox ">iPhone 11</a>
+                                            <a href="dtdd-v" data-smooth="1" data-id="180909" class="c-btnbox ">Vivo V</a>
+                                            <a href="dtdd-y" data-smooth="1" data-id="180914" class="c-btnbox ">Vivo Y</a>
+                                            <a href="dtdd-se-series" data-smooth="1" data-id="180904" class="c-btnbox ">iPhone SE</a>
+                                            <a href="dtdd-xr-series" data-smooth="1" data-id="180902" class="c-btnbox ">iPhone Xr</a>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="bg-whitefix" style="display: none;"></div>
+                                    <div class="filter-button filter-button--total">
+                                        <a href="javascript:void(0)" class="btn-filter-close">Bỏ chọn</a>
+                                        <a href="javascript:;" class="btn-filter-readmore">Xem <b class="total-reloading">97</b> kết quả</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="filter-item block-manu ">
+                            <div class="filter-item__title jsTitle"><div class="arrow-filter"></div><span>Hãng</span></div>
+                            <div class="filter-show">
+                                <div class="filter-list filter-list--hang manu">
+                                    <a href="dtdd-apple-iphone" class="c-btnbox   filter-manu" data-href="apple-iphone" data-id="80" data-name="iPhone (Apple)">
+                                        <img src="//cdn.tgdd.vn/Brand/1/logo-iphone-220x48.png" width="68" height="30" alt="iPhone (Apple)">
+                                    </a>
+                                    <a href="dtdd-samsung" class="c-btnbox   filter-manu" data-href="samsung" data-id="2" data-name="Samsung">
+                                        <img src="//cdn.tgdd.vn/Brand/1/samsungnew-220x48-1.png" width="68" height="30" alt="Samsung">
+                                    </a>
+                                    <a href="dtdd-oppo" class="c-btnbox   filter-manu" data-href="oppo" data-id="1971" data-name="OPPO">
+                                        <img src="//cdn.tgdd.vn/Brand/1/OPPO42-b_5.jpg" width="68" height="30" alt="OPPO">
+                                    </a>
+                                    <a href="dtdd-xiaomi" class="c-btnbox   filter-manu" data-href="xiaomi" data-id="2235" data-name="Xiaomi">
+                                        <img src="//cdn.tgdd.vn/Brand/1/logo-xiaomi-220x48-5.png" width="68" height="30" alt="Xiaomi">
+                                    </a>
+                                    <a href="dtdd-vivo" class="c-btnbox   filter-manu" data-href="vivo" data-id="2236" data-name="Vivo">
+                                        <img src="//cdn.tgdd.vn/Brand/1/vivo-logo-220-220x48-3.png" width="68" height="30" alt="Vivo">
+                                    </a>
+                                    <a href="dtdd-realme" class="c-btnbox   filter-manu" data-href="realme" data-id="17201" data-name="Realme">
+                                        <img src="//cdn.tgdd.vn/Brand/1/Realme42-b_37.png" width="68" height="30" alt="Realme">
+                                    </a>
+                                    <a href="dtdd-nokia" class="c-btnbox   filter-manu" data-href="nokia" data-id="1" data-name="Nokia">
+                                        <img src="//cdn.tgdd.vn/Brand/1/Nokia42-b_21.jpg" width="68" height="30" alt="Nokia">
+                                    </a>
+                                    <a href="dtdd-itel" class="c-btnbox   filter-manu" data-href="itel" data-id="5332" data-name="Itel">
+                                        <img src="//cdn.tgdd.vn/Brand/1/Itel42-b_54.jpg" width="68" height="30" alt="Itel">
+                                    </a>
+                                    <a href="dtdd-masstel" class="c-btnbox   filter-manu" data-href="masstel" data-id="4832" data-name="Masstel">
+                                        <img src="//cdn.tgdd.vn/Brand/1/Masstel42-b_0.png" width="68" height="30" alt="Masstel">
+                                    </a>
+
+                                </div>
+                                <div class="filter-button ">
+                                    <a href="javascript:void(0)" class="btn-filter-close">Bỏ chọn</a>
+                                    <a href="#" class="btn-filter-readmore">Xem <b class="total-reloading">97</b> kết quả</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-item warpper-price-outside">
+                            <div class="filter-item__title jsTitle"><div class="arrow-filter"></div><span>Giá</span></div>
+                            <div class="filter-show">
+                                <div class="filter-list price">
+                                    <a href="dtdd?p=duoi-2-trieu" data-href="duoi-2-trieu" class="c-btnbox " data-id="7">Dưới 2 triệu</a>
+                                    <a href="dtdd?p=tu-2-4-trieu" data-href="tu-2-4-trieu" class="c-btnbox " data-id="9">Từ 2 - 4 triệu</a>
+                                    <a href="dtdd?p=tu-4-7-trieu" data-href="tu-4-7-trieu" class="c-btnbox " data-id="289">Từ 4 - 7 triệu</a>
+                                    <a href="dtdd?p=tu-7-13-trieu" data-href="tu-7-13-trieu" class="c-btnbox " data-id="562">Từ 7 - 13 triệu</a>
+                                    <a href="dtdd?p=tu-13-20-trieu" data-href="tu-13-20-trieu" class="c-btnbox " data-id="252">Từ 13 - 20 triệu</a>
+                                    <a href="dtdd?p=tren-20-trieu" data-href="tren-20-trieu" class="c-btnbox " data-id="253">Trên 20 triệu</a>
+
+                                </div>
+
+                                <div class="filter-button">
+                                    <a href="javascript:void(0)" class="btn-filter-close">Bỏ chọn</a>
+                                    <a href="javascript:filterPros();" class="btn-filter-readmore">Xem <b class="total-reloading">97</b> kết quả</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-item " propertyid="6060">
+                            <div class="filter-item__title jsTitle noselecttext" data-textorg="Loại điện thoại">
+                                <div class="arrow-filter"></div>
+                                <span>Loại điện thoại</span>
+                            </div>
+
+                            <div class="filter-show">
+                                <div class="filter-list  props">
+                                    <a href="dtdd?g=android" data-order="3" data-tooltip="" data-smooth="0" data-href="android" data-id="39237" class="c-btnbox ">Android</a>
+                                    <a href="dtdd?g=iphone-ios" data-order="4" data-tooltip="" data-smooth="0" data-href="iphone-ios" data-id="39238" class="c-btnbox ">iPhone (iOS)</a>
+                                    <a href="dtdd?g=dien-thoai-pho-thong" data-order="5" data-tooltip="" data-smooth="0" data-href="dien-thoai-pho-thong" data-id="62879" class="c-btnbox ">Điện thoại phổ thông</a>
+                                </div>
+                                <div class="filter-button">
+                                    <a href="javascript:void(0)" class="btn-filter-close">Bỏ chọn</a>
+                                    <a href="javascript:filterPros();" class="btn-filter-readmore">Xem <b class="total-reloading">97</b> kết quả</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-item " propertyid="9006">
+                            <div class="filter-item__title jsTitle noselecttext" data-textorg="Hiệu năng &amp; Pin">
+                                <div class="arrow-filter"></div>
+                                <span>Hiệu năng &amp; Pin</span>
+                            </div>
+
+                            <div class="filter-show">
+                                <div class="filter-list  props">
+                                    <a href="dtdd-choi-game" data-order="3" data-tooltip="" data-smooth="1" data-href="choi-game" data-id="181956" class="c-btnbox ">Chơi game / Cấu hình cao</a>
+                                    <a href="dtdd-pin-khung" data-order="5" data-tooltip="" data-smooth="1" data-href="pin-khung" data-id="163467" class="c-btnbox ">Pin khủng trên 5000 mAh</a>
+                                    <a href="dtdd-sac-pin-nhanh" data-order="6" data-tooltip="" data-smooth="1" data-href="sac-pin-nhanh" data-id="181957" class="c-btnbox ">Sạc pin nhanh</a>
+                                </div>
+                                <div class="filter-button">
+                                    <a href="javascript:void(0)" class="btn-filter-close">Bỏ chọn</a>
+                                    <a href="javascript:filterPros();" class="btn-filter-readmore">Xem <b class="total-reloading">97</b> kết quả</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-item " propertyid="50">
+                            <div class="filter-item__title jsTitle noselecttext" data-textorg="RAM">
+                                <div class="arrow-filter"></div>
+                                <span>RAM</span>
+                            </div>
+
+                            <div class="filter-show">
+                                <div class="filter-list  props">
+                                    <a href="dtdd-ram-2gb" data-order="10" data-tooltip="" data-smooth="1" data-href="ram-2gb" data-id="37897" class="c-btnbox ">2 GB</a>
+                                    <a href="dtdd-ram-3gb" data-order="15" data-tooltip="" data-smooth="1" data-href="ram-3gb" data-id="41172" class="c-btnbox ">3 GB</a>
+                                    <a href="dtdd-ram-4gb" data-order="20" data-tooltip="" data-smooth="1" data-href="ram-4gb" data-id="46927" class="c-btnbox ">4 GB</a>
+                                    <a href="dtdd-ram-6gb" data-order="25" data-tooltip="" data-smooth="1" data-href="ram-6gb" data-id="52473" class="c-btnbox ">6 GB</a>
+                                    <a href="dtdd-ram-8gb" data-order="30" data-tooltip="" data-smooth="1" data-href="ram-8gb" data-id="55436" class="c-btnbox ">8 GB</a>
+                                    <a href="dtdd-ram-12gb" data-order="35" data-tooltip="" data-smooth="1" data-href="ram-12gb" data-id="136259" class="c-btnbox ">12 GB</a>
+                                </div>
+                                <div class="filter-button">
+                                    <a href="javascript:void(0)" class="btn-filter-close">Bỏ chọn</a>
+                                    <a href="javascript:filterPros();" class="btn-filter-readmore">Xem <b class="total-reloading">97</b> kết quả</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-item " propertyid="49">
+                            <div class="filter-item__title jsTitle noselecttext" data-textorg="Bộ nhớ trong">
+                                <div class="arrow-filter"></div>
+                                <span>Bộ nhớ trong</span>
+                            </div>
+
+                            <div class="filter-show">
+                                <div class="filter-list  props">
+                                    <a href="dtdd-rom-8gb" data-order="5" data-tooltip="" data-smooth="1" data-href="rom-8gb" data-id="191" class="c-btnbox ">8 GB</a>
+                                    <a href="dtdd-rom-16gb" data-order="10" data-tooltip="" data-smooth="1" data-href="rom-16gb" data-id="192" class="c-btnbox ">16 GB</a>
+                                    <a href="dtdd-rom-32gb" data-order="15" data-tooltip="" data-smooth="1" data-href="rom-32gb" data-id="193" class="c-btnbox ">32 GB</a>
+                                    <a href="dtdd-rom-64gb" data-order="20" data-tooltip="" data-smooth="1" data-href="rom-64gb" data-id="21987" class="c-btnbox ">64 GB</a>
+                                    <a href="dtdd-rom-128gb" data-order="25" data-tooltip="" data-smooth="1" data-href="rom-128gb" data-id="43032" class="c-btnbox ">128 GB</a>
+                                    <a href="dtdd-rom-256gb" data-order="30" data-tooltip="" data-smooth="1" data-href="rom-256gb" data-id="58037" class="c-btnbox ">256 GB</a>
+                                    <a href="dtdd-rom-512gb" data-order="35" data-tooltip="" data-smooth="1" data-href="rom-512gb" data-id="105828" class="c-btnbox ">512 GB</a>
+                                </div>
+                                <div class="filter-button">
+                                    <a href="javascript:void(0)" class="btn-filter-close">Bỏ chọn</a>
+                                    <a href="javascript:filterPros();" class="btn-filter-readmore">Xem <b class="total-reloading">97</b> kết quả</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-item " propertyid="19879">
+                            <div class="filter-item__title jsTitle noselecttext" data-textorg="Camera">
+                                <div class="arrow-filter"></div>
+                                <span>Camera</span>
+                            </div>
+
+                            <div class="filter-show">
+                                <div class="filter-list  props">
+                                    <a href="dtdd-camera-macro" data-order="3" data-tooltip="" data-smooth="1" data-href="camera-macro" data-id="163409" class="c-btnbox ">Chụp cận cảnh (Macro)</a>
+                                    <a href="dtdd-camera-goc-rong" data-order="4" data-tooltip="" data-smooth="1" data-href="camera-goc-rong" data-id="140894" class="c-btnbox ">Chụp góc rộng</a>
+                                    <a href="dtdd-camera-xoa-phong" data-order="5" data-tooltip="" data-smooth="1" data-href="camera-xoa-phong" data-id="140895" class="c-btnbox ">Chụp xoá phông</a>
+                                    <a href="dtdd-camera-zoom" data-order="6" data-tooltip="" data-smooth="1" data-href="camera-zoom" data-id="140896" class="c-btnbox ">Chụp zoom xa</a>
+                                </div>
+                                <div class="filter-button">
+                                    <a href="javascript:void(0)" class="btn-filter-close">Bỏ chọn</a>
+                                    <a href="javascript:filterPros();" class="btn-filter-readmore">Xem <b class="total-reloading">97</b> kết quả</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-item " propertyid="25379">
+                            <div class="filter-item__title jsTitle noselecttext" data-textorg="Tính năng đặc biệt">
+                                <div class="arrow-filter"></div>
+                                <span>Tính năng đặc biệt</span>
+                            </div>
+
+                            <div class="filter-show filter-show--right">
+                                <div class="filter-list  props">
+                                    <a href="dtdd-5g" data-order="3" data-tooltip="" data-smooth="1" data-href="5g" data-id="181958" class="c-btnbox ">Hỗ trợ 5G</a>
+                                    <a href="dtdd-bao-mat-khuon-mat" data-order="4" data-tooltip="" data-smooth="1" data-href="bao-mat-khuon-mat" data-id="173170" class="c-btnbox ">Bảo mật khuôn mặt</a>
+                                    <a href="dtdd-bao-mat-van-tay" data-order="5" data-tooltip="" data-smooth="1" data-href="bao-mat-van-tay" data-id="173171" class="c-btnbox ">Bảo mật vân tay</a>
+                                    <a href="dtdd-sac-khong-day" data-order="7" data-tooltip="" data-smooth="1" data-href="sac-khong-day" data-id="173173" class="c-btnbox ">Sạc không dây</a>
+                                    <a href="dtdd-chong-nuoc-bui" data-order="8" data-tooltip="" data-smooth="1" data-href="chong-nuoc-bui" data-id="173174" class="c-btnbox ">Kháng nước, bụi</a>
+                                </div>
+                                <div class="filter-button">
+                                    <a href="javascript:void(0)" class="btn-filter-close">Bỏ chọn</a>
+                                    <a href="javascript:filterPros();" class="btn-filter-readmore">Xem <b class="total-reloading">97</b> kết quả</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-item " propertyid="19878">
+                            <div class="filter-item__title jsTitle noselecttext" data-textorg="Thiết kế">
+                                <div class="arrow-filter"></div>
+                                <span>Thiết kế</span>
+                            </div>
+
+                            <div class="filter-show filter-show--right">
+                                <div class="filter-list  props">
+                                    <a href="dtdd-man-hinh-tran-vien" data-order="3" data-tooltip="" data-smooth="1" data-href="man-hinh-tran-vien" data-id="140890" class="c-btnbox ">Tràn viền</a>
+                                    <a href="dtdd-mong-nhe" data-order="4" data-tooltip="Mỏng [26720], [100]" data-smooth="1" data-href="mong-nhe" data-id="181955" class="c-btnbox ">Mỏng nhẹ</a>
+                                    <a href="dtdd-mat-lung-kinh" data-order="5" data-tooltip="" data-smooth="1" data-href="mat-lung-kinh" data-id="182026" class="c-btnbox ">Mặt lưng kính</a>
+                                </div>
+                                <div class="filter-button">
+                                    <a href="javascript:void(0)" class="btn-filter-close">Bỏ chọn</a>
+                                    <a href="javascript:filterPros();" class="btn-filter-readmore">Xem <b class="total-reloading">97</b> kết quả</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-item " propertyid="6240">
+                            <div class="filter-item__title jsTitle noselecttext" data-textorg="Màn hình">
+                                <div class="arrow-filter"></div>
+                                <span>Màn hình</span>
+                            </div>
+
+                            <div class="filter-show filter-show--right">
+                                <div class="filter-list  props">
+                                    <a href="dtdd-nho-gon" data-order="3" data-tooltip="" data-smooth="1" data-href="nho-gon" data-id="163351" class="c-btnbox ">Nhỏ gọn dễ cầm</a>
+                                    <a href="dtdd-tu-6-inch-tro-len" data-order="4" data-tooltip="" data-smooth="1" data-href="tu-6-inch-tro-len" data-id="181979" class="c-btnbox ">Từ 6 inch trở lên</a>
+                                    <a href="dtdd-man-hinh-gap" data-order="5" data-tooltip="" data-smooth="1" data-href="man-hinh-gap" data-id="197090" class="c-btnbox ">Màn hình gập</a>
+                                </div>
+                                <div class="filter-button">
+                                    <a href="javascript:void(0)" class="btn-filter-close">Bỏ chọn</a>
+                                    <a href="javascript:filterPros();" class="btn-filter-readmore">Xem <b class="total-reloading">97</b> kết quả</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-quicklink  block-scroll-main">
+                    <div class="lst-quickfilter q-manu ">
+                        <a href="dtdd-apple-iphone" data-href="dtdd-apple-iphone" data-index="0" class="box-quicklink__item bd-radius quicklink-logo">
+                            <img src="//cdn.tgdd.vn/Brand/1/logo-iphone-220x48.png" width="30" class="no-text">
+
+                        </a>
+                        <a href="dtdd-samsung" data-href="dtdd-samsung" data-index="0" class="box-quicklink__item bd-radius quicklink-logo">
+                            <img src="//cdn.tgdd.vn/Brand/1/samsungnew-220x48-1.png" width="30" class="no-text">
+
+                        </a>
+                        <a href="dtdd-oppo" data-href="dtdd-oppo" data-index="0" class="box-quicklink__item bd-radius quicklink-logo">
+                            <img src="//cdn.tgdd.vn/Brand/1/OPPO42-b_5.jpg" width="30" class="no-text">
+
+                        </a>
+                        <a href="dtdd-xiaomi" data-href="dtdd-xiaomi" data-index="0" class="box-quicklink__item bd-radius quicklink-logo">
+                            <img src="//cdn.tgdd.vn/Brand/1/logo-xiaomi-220x48-5.png" width="30" class="no-text">
+
+                        </a>
+                        <a href="dtdd-vivo" data-href="dtdd-vivo" data-index="0" class="box-quicklink__item bd-radius quicklink-logo">
+                            <img src="//cdn.tgdd.vn/Brand/1/vivo-logo-220-220x48-3.png" width="30" class="no-text">
+
+                        </a>
+                        <a href="dtdd-realme" data-href="dtdd-realme" data-index="0" class="box-quicklink__item bd-radius quicklink-logo">
+                            <img src="//cdn.tgdd.vn/Brand/1/Realme42-b_37.png" width="30" class="no-text">
+
+                        </a>
+                        <a href="dtdd-nokia" data-href="dtdd-nokia" data-index="0" class="box-quicklink__item bd-radius quicklink-logo">
+                            <img src="//cdn.tgdd.vn/Brand/1/Nokia42-b_21.jpg" width="30" class="no-text">
+
+                        </a>
+                        <a href="dtdd-itel" data-href="dtdd-itel" data-index="0" class="box-quicklink__item bd-radius quicklink-logo">
+                            <img src="//cdn.tgdd.vn/Brand/1/Itel42-b_54.jpg" width="30" class="no-text">
+
+                        </a>
+                        <a href="dtdd-masstel" data-href="dtdd-masstel" data-index="0" class="box-quicklink__item bd-radius quicklink-logo">
+                            <img src="//cdn.tgdd.vn/Brand/1/Masstel42-b_0.png" width="30" class="no-text">
+
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- uu dai -->
+        <section id="categoryPage" data-id="42" data-name="Điện thoại" data-template="cate">
+
+            <div class="box-sort ">
+                <p class="sort-total"><b>97</b> Điện thoại <strong class="manu-sort"></strong></p>
+                <div class="box-checkbox extend  ">
+                    <a href="javascript:;" data-href="" data-type="fast" class="c-checkitem fastdeli">
+                        <span class="tick-checkbox"></span>
+                        <i class="thunder-icon">
+                            <img src="//cdn.tgdd.vn/mwgcart/mwgcore/ContentMwg/images/icon-thunder.png">
+                        </i>
+                        <p>Giao nhanh</p>
+                    </a>
+                    <a href="javascript:;" data-href="" data-type="sp2020" class="c-checkitem ">
+                        <span class="tick-checkbox"></span>
+                        <p>Giảm giá</p>
+                    </a>
+                    <a href="javascript:;" data-href="-tra-gop-0-phan-tram" data-type="installment0" class="c-checkitem ">
+                        <span class="tick-checkbox"></span>
+                        <p>Góp 0%</p>
+                    </a>
+                    <a href="javascript:;" data-href="" data-type="monopoly" class="c-checkitem">
+                        <span class="tick-checkbox"></span>
+                        <p>Độc quyền</p>
+                    </a>
+                    <a href="javascript:;" data-href="-moi-ra-mat" data-type="new" data-prop="0" data-newv2="False" class="c-checkitem ">
+                        <span class="tick-checkbox"></span>
+                        <p>Mới</p>
+                    </a>
+
+                </div>
+                <div class="sort-select ">
+                    <p class="click-sort">Xếp theo: <span class="sort-show">Nổi bật</span></p>
+                    <div class="sort-select-main sort ">
+                        <p><a href="javascript:;" class="check" data-id="9"><i></i>Nổi bật</a></p>
+                        <p><a href="javascript:;" class="" data-id="5"><i></i>% Giảm</a></p>
+                        <p><a href="javascript:;" class="" data-id="3"><i></i>Giá cao đến thấp</a></p>
+                        <p><a href="javascript:;" class="" data-id="2"><i></i>Giá thấp đến cao</a></p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="container-productbox">
+                <div id="preloader">
+                    <div id="loader"></div>
+                </div>
+                <ul class="listproduct">
+                        @foreach (var item in Model)
+                        {
+                        <li class=" item ajaxed __cate_42" data-index="5" data-id="248293" data-issetup="0" data-maingroup="13" data-subgroup="1491" data-type="1" data-vehicle="1" data-productcode="0131491002815" data-price="10990000.0" data-ordertypeid="2" data-pos="5">
+                            <a asp-action="Details" asp-route-id="@item.Id_pro" data-s="Nomal" data-site="1" data-pro="3" data-cache="True" data-sv="webtgddnginx6-173" data-name="Điện thoại Xiaomi 11T 5G 128GB" data-id="248293" data-price="10990000.0" data-brand="Xiaomi" data-cate="Điện thoại" data-box="BoxCate" class="main-contain">
+
+                                <div class="item-label">
+                                    <span class="lb-tragop">Trả góp 0%</span>
+                                </div>
+                                <div class="item-img item-img_42">
+                                    <img class="thumb" src="@item.Images.FirstOrDefault().link_image" alt="Xiaomi 11T">
+                                    <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-01.png" width="40" height="40" class="lbliconimg lbliconimg_42 tgdd">
+                                </div>
+
+                                <p class="result-label temp1"><img width="20" height="20" class=" ls-is-cached lazyloaded" alt="Xả kho - Giảm Sốc" data-src="https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png" src="https://cdn.tgdd.vn/2020/10/content/icon1-50x50.png"><span>Xả kho - Giảm Sốc</span></p>
+                                <h3>
+                                    @item.Pro_Name
+                                </h3>
+                                <div class="prods-group" data-iscompare="True" data-mergename="Xiaomi 11T" data-lstarranged="248293,251216">
+                                    <ul>
+                                        <li data-url="/dtdd/xiaomi-11t" data-id="248293" data-index="0" class="merge__item item act">128GB</li>
+                                        <li data-url="/dtdd/xiaomi-11t-256gb" data-id="251216" data-index="1" class="merge__item item ">256GB</li>
+                                    </ul>
+                                </div>
+                                <strong class="price">@item.Price ₫</strong>
+                                <div class="item-rating">
+                                        <p>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </p>
+                                        <p class="item-rating-total">81</p>
+                                    </div>
+
+                            </a>
+                            <div class="item-bottom">
+                                <a href="#" class="shiping"></a>
+                            </div>
+
+
+                            
+
+                        </li>
+
+                        }
+
+
+
+
+
+
+
+                </ul>
+                
+            </div>
+
+            <div class="errorcompare" style="display:none;"></div>
+
+            <div class="block__banner banner__topzone hide">
+            </div>
+
+            <div class="watched"></div>
+            <div class="overlay" style="display: none;"></div>
+        </section>
+        <!-- end -->
+    </div>
+
+    <!-- footer-->
+    <footer class="footer" style="margin-top: 10px;">
+        <section class="clearfix footer__top">
+            <div class="footer__col">
+                <ul class="f-listmenu">
+                    <li>
+                        <a rel="nofollow" href="/tin-tuc/chuong-trinh-tich-diem-danh-cho-khach-hang-than-thiet-1434806">
+                            Tích điểm
+                            Quà tặng VIP
+                        </a>
+                    </li>
+                    <li><a rel="nofollow" href="/lich-su-mua-hang">Lịch sử mua hàng</a></li>
+                    <li><a rel="nofollow" href="/daily">Cộng tác bán hàng cùng TGDĐ</a></li>
+                    <li><a rel="nofollow" href="/tra-gop">Tìm hiểu về mua trả góp</a></li>
+                    <li><a rel="nofollow" href="/bao-hanh">Chính sách bảo hành</a></li>
+                    <li><a href="javascript:void(0)" class="arrow showtaga">Xem thêm</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/chinh-sach-bao-hanh-san-pham">Chính sách đổi trả</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/giao-hang">Giao hàng &amp; Thanh toán</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/huong-dan-mua-hang">Hướng dẫn mua online</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/b2b">Bán hàng doanh nghiệp</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/phieu-mua-hang">Phiếu mua hàng</a></li>
+                    <li class="hidden"><a rel="nofollow" href="https://hddt.thegioididong.com">In hóa đơn điện tử</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/tos">Quy chế hoạt động</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/noi-quy-cua-hang">Nội quy cửa hàng</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/chat-luong-phuc-vu">Chất lượng phục vụ</a></li>
+                    <li class="hidden">
+                        <a rel="nofollow"
+                           href="/tin-tuc/can-trong-voi-nhung-sieu-thi-thegioididong-khong-chinh-chu--683321">Cảnh báo giả mạo</a>
+                    </li>
+                    <li class="hidden">
+                        <a rel="nofollow" href="/chinh-sach-khui-hop-apple">Chính sách khui hộp sản phẩm Apple</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <ul class="f-listmenu">
+                    <li><a rel="nofollow" href="https://mwg.vn">Giới thiệu công ty (MWG.vn)</a></li>
+                    <li><a rel="nofollow" href="https://vieclam.thegioididong.com">Tuyển dụng</a></li>
+                    <li><a rel="nofollow" href="/lien-he">Gửi góp ý, khiếu nại</a></li>
+                    <li><a rel="nofollow" href="/he-thong-sieu-thi-the-gioi-di-dong">Tìm siêu thị (3.256 shop)</a></li>
+                    <li>
+                        <a rel="nofollow" class="linkversion" href="https://www.thegioididong.com/pc-may-in-hp?sclient=mobile">
+                            Xem
+                            bản mobile
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <div class="f-listtel">
+                    <p class="f-listtel__title">
+                        <strong>Tổng đài hỗ trợ</strong>
+                        (Miễn phí gọi)
+                    </p>
+                    <p class="f-listtel__content"><span>Gọi mua:</span> <a href="tel:18001060">1800.1060</a> (7:30 - 22:00)</p>
+                    <p class="f-listtel__content"><span>Kỹ thuật:</span> <a href="tel:18001763">1800.1763</a> (7:30 - 22:00)</p>
+                    <p class="f-listtel__content"><span>Khiếu nại:</span> <a href="tel:18001062">1800.1062</a> (8:00 - 21:30)</p>
+                    <p class="f-listtel__content"><span>Bảo hành:</span> <a href="tel:18001064">1800.1064</a> (8:00 - 21:00)</p>
+                </div>
+            </div>
+            <div class="footer__col">
+                <div class="f-social">
+                    <a href="https://www.facebook.com/thegioididongcom" class="link-fb">
+                        <i class="fa-brands fa-facebook" style="color: blue;"></i>
+                        3750.1k Fan
+                    </a>
+                    <a href="https://www.youtube.com/user/TGDDVideoReviews" class="link-ytb">
+                        <i class="fa-brands fa-youtube" style="color: red;"></i>
+                        847k Đăng ký
+                    </a>
+                </div>
+                <div class="f-certify">
+                    <a class="_ncsc" rel="nofollow" href="https://tinnhiemmang.vn/danh-ba-tin-nhiem/thegioididongcom-1632835473"
+                       title="Chung nhan Tin Nhiem Mang" target="_blank">
+                        <img class="lazy ls-is-cached lazyloaded" style="margin-left: 20px; margin-top: 10px;"
+                             data-original="https://tinnhiemmang.vn/handle_cert?id=thegioididong.com"
+                             data-src="https://tinnhiemmang.vn/handle_cert?id=thegioididong.com" width="150"
+                             alt="Chung nhan Tin Nhiem Mang" src="https://tinnhiemmang.vn/handle_cert?id=thegioididong.com">
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+    </footer>
+    <!-- end -->
+    </div>
+</body>
+</html>

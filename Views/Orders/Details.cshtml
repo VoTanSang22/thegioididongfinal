@@ -1,0 +1,1769 @@
+﻿@model thegioididong.Models.Product
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = null;
+}
+
+@*<h1>Details</h1>
+
+    <div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="row">
+    <dt class = "col-sm-2">
+    @Html.DisplayNameFor(model => model.Pro_Name)
+    </dt>
+    <dd class = "col-sm-10">
+    @Html.DisplayFor(model => model.Pro_Name)
+    </dd>
+    <dt class = "col-sm-2">
+    @Html.DisplayNameFor(model => model.Des)
+    </dt>
+    <dd class = "col-sm-10">
+    @Html.DisplayFor(model => model.Des)
+    </dd>
+    <dt class = "col-sm-2">
+    @Html.DisplayNameFor(model => model.Price)
+    </dt>
+    <dd class = "col-sm-10">
+    @Html.DisplayFor(model => model.Price)
+    </dd>
+    <dt class = "col-sm-2">
+    @Html.DisplayNameFor(model => model.Ram)
+    </dt>
+    <dd class = "col-sm-10">
+    @Html.DisplayFor(model => model.Ram)
+    </dd>
+    <dt class = "col-sm-2">
+    @Html.DisplayNameFor(model => model.Rom)
+    </dt>
+    <dd class = "col-sm-10">
+    @Html.DisplayFor(model => model.Rom)
+    </dd>
+    <dt class = "col-sm-2">
+    @Html.DisplayNameFor(model => model.Manufacturer)
+    </dt>
+    <dd class = "col-sm-10">
+    @Html.DisplayFor(model => model.Manufacturer.Name_manufacturer)
+    </dd>
+    <dt class = "col-sm-2">
+    @Html.DisplayNameFor(model => model.Category)
+    </dt>
+    <dd class = "col-sm-10">
+    @Html.DisplayFor(model => model.Category.Name_Category)
+    </dd>
+    </dl>
+    </div>
+    <div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id_pro">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+    </div>*@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Thegioididong.com - Điện thoại, Laptop, Phụ kiện, Đồng hồ chính hãng
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css" />
+    <link rel="stylesheet" href="~/assets/css/base.css" type="text/css" />
+    <link rel="stylesheet" href="~/assets/css/main.css" type="text/css" />
+    <link rel="stylesheet" href="~/assets/css/index.css" type="text/css" />
+    <link rel="stylesheet" href="~/assets/css/footer.css" type="text/css" />
+    <link rel="stylesheet" href="~/assets/css/dienthoai.css" type="text/css">
+    <link rel="stylesheet" href="~/assets/css/tablet.css">
+    <link rel="stylesheet" href="./assets/css/phukien.css" type="text/css">
+    <link rel="stylesheet" href="~/assets/css/dongho.css" type="text/css">
+    <link rel="stylesheet" href="~/assets/css/smartwatch.css" type="text/css">
+    <link rel="stylesheet" href="~/assets/css/chitiet.css" type="text/css">
+    <link rel="stylesheet" href="~/assets/font/fontawesome-free-6.1.1-web/css/all.min.css" type="text/css" />
+</head>
+
+<body>
+   <header class="header">
+            <div class="grid">
+                <div class="header__top">
+                    <div class="header__items">
+                        <a class="header__logo" href="~/Home/Index">
+                            <img class="logo_img" src="~/assets/img/logo2.webp" alt="" />
+                        </a>
+
+                        <a href="" class="header__addres">
+                            <p>Xem giá, tồn tại kho:</p>
+                            <p>Hồ Chí Minh</p>
+                        </a>
+                        <form asp-action="Search" class="header__search">
+                            <input id="skw" type="text" class="input-search" onkeyup="suggestSearch(event);"
+                                   placeholder="Bạn tìm gì..." name="key" autocomplete="off" maxlength="100" />
+                            <button type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <div id="search-result"></div>
+                        </form>
+
+                        <a href="/Orders/historyOrder" class="header__order"> Lịch sử mua hàng </a>
+                        <a href="/Orders/showCart" class="header__cart">
+                            <div class="cart__logo">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                            <span class="list__text">Giỏ hàng</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="header__main">
+                    <div class="main__items">
+                        <ul class="main-menu">
+                            <li class="">
+                                <a asp-action="showmore" asp-route-id="Điện Thoại">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-phone-96x96-2.png" />
+                                    </i>
+                                    <span> Điện thoại</span>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a asp-action="showmore" asp-route-id="Laptop">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-laptop-96x96-1.png" />
+                                    </i>
+                                    <span class="">Laptop</span>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a asp-action="showmore" asp-route-id="Máy Tính Bảng">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-tablet-96x96-1.png" />
+                                    </i>
+                                    <span class="">Tablet</span>
+                                </a>
+                            </li>
+                            <li class="has-list">
+                                <a asp-action="showmore" asp-route-id="Phụ Kiện">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-phu-kien-96x96-1.png" />
+                                    </i>
+                                    <span class="has-child">Phụ kiện</span>
+                                </a>
+
+                            </li>
+                            <li class="">
+                                <a asp-action="showmore" asp-route-id="Smartwatch">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-smartwatch-96x96-1.png" />
+                                    </i>
+                                    <span class="">Smartwatch</span>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a asp-action="showmore" asp-route-id="Đồng Hồ">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/watch-icon-96x96.png">
+                                    </i>
+                                    <span class="">Đồng hồ</span>
+                                </a>
+                            </li>
+
+                            <li class="has-list">
+                                <a asp-action="showmore" asp-route-id="PC,In">
+                                    <i>
+                                        <img class="list__pro" src="https://cdn.tgdd.vn//content/icon-pc-96x96.png" />
+                                    </i>
+                                    <span class="has-child">PC, Máy in</span>
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    <section data-id="270471" data-cate-id="42" class="detail ">
+        <ul class="breadcrumb">
+            <li>
+                <a href="/dtdd">@Model.Category.Name_Category</a>
+                <meta property="position" content="1">
+            </li>
+            <li>
+                <span>›</span>
+                <a href="/dtdd-xiaomi">@Model.Category.Name_Category @Model.Manufacturer.Name_manufacturer</a>
+                <meta property="position" content="2">
+            </li>
+        </ul>
+
+
+        <h1>@Model.Pro_Name</h1>
+
+
+        <div class="box02">
+            <div class="box02__left">
+
+                <div class="detail-rate">
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="like-fanpage" data-url="http://www.thegioididong.com/dtdd/xiaomi-redmi-note-11-pro-4g?src=osp">
+            <iframe src="//www.facebook.com/plugins/like.php?href=http://www.thegioididong.com/dtdd/xiaomi-redmi-note-11-pro-4g?src=osp&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=35"
+                    scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:150px; height:40px;"
+                    allowtransparency="true" data-gtm-yt-inspected-10="true" data-gtm-yt-inspected-1070012_61="true"
+                    data-gtm-yt-inspected-1070012_79="true" data-gtm-yt-inspected-1070012_187="true"></iframe>
+        </div>
+
+        <div class="box_main">
+            <div class="box_left">
+
+                <div class="box01 ">
+                    <div class="box01__show">
+                        <div class="show-tab active" data-gallery-id="featured-images-gallery" data-color-id="0">
+                            <div class="detail-slider owl-carousel owl-loaded owl-drag">
+
+
+
+
+
+
+
+
+
+
+
+
+                                <div class="owl-stage-outer owl-height" style="height: 396.76px;">
+                                    <div class="owl-stage"
+                                         style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 6390px;">
+                                        <div class="owl-item active" style="width: 710px;">
+                                            <a href="javascript:void(0)"
+                                               class="slider-item video-item" data-gallery-id="featured-images-gallery" data-color-id="0"
+                                               data-picture-id="217102" data-video-id="zPBdbSH0iSE" data-index="0" data-time="0">
+                                                <img src="@Model.Images.FirstOrDefault().link_image"
+                                                     alt="Xiaomi Redmi Note 11 Pro" width="710" height="394">
+                                                <i class="icondetail-videoop iconvideo"></i>
+
+
+                                            </a>
+                                        </div>
+
+
+                                        <div class="owl-item" style="width: 710px; display: none;">
+                                            <a href="javascript:void(0)"
+                                               class="slider-item slider-policy" data-gallery-id="featured-images-gallery" data-color-id="0"
+                                               data-index="8">
+                                                <img class="owl-lazy"
+                                                     data-src="//cdn.tgdd.vn/mwgcart/mwgcore/ContentMwg/images/bg_csmh_tgdd-min.png?v=11"
+                                                     width="710" height="394" alt="Chính sách đổi trả" style="opacity:0;">
+                                                <img class="si-ghtn hide"
+                                                     data-src="//cdn.tgdd.vn/mwgcart/mwgcore/ContentMwg/images/img_giaohang_tgdd-min.png"
+                                                     alt="Giao hàng tận nhà nhanh chóng">
+                                                <div>
+                                                    <p>
+                                                        Bảo hành <b>chính hãng điện thoại 18 tháng</b> tại các trung tâm bảo hành hãng
+                                                        <a href="/bao-hanh/xiaomi" target="_blank" title="Chính sách bảo hành">
+                                                            Xem địa chỉ bảo hành
+                                                        </a>
+
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-nav">
+                                    <button type="button" role="presentation"
+                                            class="owl-prev disabled"></button><button type="button" role="presentation"
+                                                                                       class="owl-next"></button>
+                                </div>
+                                <div class="owl-dots disabled"></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="scrolling_inner">
+                    </div>
+                </div>
+
+                <div class="popup-overlay">
+                </div>
+                <span style="display: none;" id="show-popup-unbox-gallery" data-is-360-gallery="false" class="read-full"
+                      data-gallery-id="unbox-gallery" data-color-id="0"></span>
+                <span style="display: none;" id="show-popup-360-degree-gallery" data-is-360-gallery="true" class="read-full"
+                      data-gallery-id="360-degree-gallery" data-color-id="0"></span>
+                <span style="display: none;" id="show-popup-specification-gallery" data-is-360-gallery="false" class="read-full"
+                      data-gallery-id="specification-gallery" data-color-id="0"></span>
+                <span style="display: none;" id="show-popup-article-gallery" data-is-360-gallery="false"
+                      data-is-article-gallery="true" class="read-full" data-gallery-id="article-gallery" data-color-id="0"></span>
+
+
+                <div class="manu-info-popup">
+                    <div class="manu-info-popup__content">
+                        <span class="manu-info-popup__content__btn-close"></span>
+                        <p class="manu-info-popup__content__title">
+                            Giới thiệu về hãng
+                            <img width="70" height="30" data-src="//cdn.tgdd.vn/Brand/1/logo-xiaomi-220x48-5.png" alt="Xiaomi"
+                                 class="lazyload">
+                        </p>
+                        <div class="manu-info-popup__content__desc">
+                            <p>
+                                <span style="color: rgb(0, 0, 0); font-family: Arial; white-space: pre-wrap;">
+                                    1 đổi 1 trong 30 ngày đối
+                                    với sản phẩm lỗi
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <script type="text/javascript" id="www-widgetapi-script"
+                        src="https://www.youtube.com/s/player/2fd212f2/www-widgetapi.vflset/www-widgetapi.js" async=""></script>
+                <script type="text/javascript" async=""
+                        src="https://www.googletagmanager.com/gtag/destination?id=G-TLRZMSX5ME&amp;l=dataLayer&amp;cx=c"></script>
+                <script type="text/javascript" async=""
+                        src="https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CANVQ2RC77UFDAKT9FD0&amp;lib=ttq"></script>
+                <script src="https://connect.facebook.net/signals/config/1634413043451608?v=2.9.71&amp;r=stable"
+                        async=""></script>
+                <script async="" src="//connect.facebook.net/en_US/fbevents.js"></script>
+                <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+                <script type="text/javascript" async="" src="https://script.crazyegg.com/pages/scripts/0017/3880.js"></script>
+                <script type="text/javascript" async=""
+                        src="https://www.googleadservices.com/pagead/conversion_async.js"></script>
+                <script type="text/javascript" async=""
+                        src="https://www.googletagmanager.com/gtag/js?id=G-TLRZMSX5ME&amp;l=dataLayer&amp;cx=c"></script>
+                <script src="https://www.youtube.com/iframe_api"></script>
+                <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-WKQZL8"></script>
+                <script>
+                    setTimeout(function () {
+                      var tag = document.createElement('script');
+                      tag.src = "https://www.youtube.com/iframe_api";
+                      var firstScriptTag = document.getElementsByTagName('script')[0];
+                      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+                    }, 100);
+                </script>
+
+
+
+                <div class="policy_intuitive cate42 scenarioNomal" style="display: none;">
+                    <div class="policy">
+                        <ul class="policy__list">
+                            <li>
+                                <div class="iconl">
+                                    <i class="icondetail-doimoi"></i>
+                                </div>
+                                <p>
+                                    Hư gì đổi nấy <b>12 tháng</b> tại 3256 siêu thị toàn quốc (miễn phí tháng đầu) <a href="https://www.thegioididong.com/chinh-sach-bao-hanh-san-pham"></a>
+                                    <a href="javascript:;" onclick="showPopupPolicy()" title="Chính sách đổi trả">
+                                        Xem chi tiết
+                                    </a>
+                                </p>
+                            </li>
+                            <li data-field="IsSameBHAndDT">
+                                <div class="iconl">
+                                    <i class="icondetail-baohanh"></i>
+                                </div>
+                                <p>
+                                    Bảo hành <b>chính hãng điện thoại 18 tháng</b> tại các trung tâm bảo hành hãng
+                                    <a href="/bao-hanh/xiaomi" target="_blank" title="Chính sách bảo hành">
+                                        Xem địa chỉ bảo hành
+                                    </a>
+
+                                </p>
+                            </li>
+
+                            <li>
+                                <div class="iconl"><i class="icondetail-sachhd"></i></div>
+                                <p>
+                                    Bộ sản phẩm gồm: Hộp, Sách hướng dẫn, Cây lấy sim, Ốp lưng, Cáp Type C, Củ sạc nhanh rời đầu Type A
+                                    <a href="javascript:" class="hinh-mo-hop-link">Xem hình</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+
+                <div class="wrap_wrtp hide" id="popup-materialsfee">
+                </div>
+
+
+                <div class="box-available"></div>
+                <div class="border7"></div>
+
+
+
+                <div class="policy_intuitive cate42 scenarioTwoPriceDetail" style="display: block;">
+                    <div class="policy">
+                        <ul class="policy__list">
+                            <li data-field="IsSameBHAndDT">
+                                <div class="iconl">
+                                    <i class="icondetail-baohanh"></i>
+                                </div>
+                                <p>
+                                    Bảo hành <b>chính hãng điện thoại 18 tháng</b> tại các trung tâm bảo hành hãng
+                                    <a href="/bao-hanh/xiaomi" target="_blank" title="Chính sách bảo hành">
+                                        Xem địa chỉ bảo hành
+                                    </a>
+
+                                </p>
+                            </li>
+
+                            <li>
+                                <div class="iconl"><i class="icondetail-sachhd"></i></div>
+                                <p>
+                                    Bộ sản phẩm gồm: Hộp, Sách hướng dẫn, Cây lấy sim, Ốp lưng, Cáp Type C, Củ sạc nhanh rời đầu Type A
+                                    <a href="javascript:" class="hinh-mo-hop-link">Xem hình</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <div class="wrap_wrtp hide" id="popup-materialsfee">
+                    <div class="pop">
+                    </div>
+                </div>
+
+
+                <div class="box-available"></div>
+                <div class="border7"></div>
+
+
+                <div class="border7"></div>
+
+
+
+                <div class="border7"></div>
+                <div class="article content-t-wrap">
+                    <div class="article__content short">
+
+                        <h3 class="article__content__title">Thông tin sản phẩm</h3>
+                        <div class="content-article">
+                            @*<h3 style="text-align: justify;">
+                                <a href="https://www.thegioididong.com/dtdd/xiaomi-redmi-note-11-pro-4g"
+                                target="_blank" title="Tham khảo thông tin sản phẩm tại Thế Giới Di Động">
+                                Xiaomi Redmi Note 11 Pro
+                                4G
+                                </a>&nbsp;mang trong mình khá nhiều những nâng cấp cực kì sáng giá. Là chiếc&nbsp;<a href="https://www.thegioididong.com/dtdd" target="_blank"
+                                title="Tham khảo điện thoại kinh doanh tại Thế Giới Di Động">điện thoại</a>&nbsp;có màn hình lớn, tần
+                                số quét 120 Hz, hiệu năng ổn định cùng một viên pin siêu trâu.
+                                </h3>
+                                <h3 style="text-align: justify;">Thiết kế cứng cáp, cầm nắm rất đầm tay</h3>*@
+                            <p style="text-align: justify;">
+                                @Model.Des
+                            </p>
+                            <p style="text-align: justify;"></p>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="border7"></div>
+
+
+
+                <div class="box-border">
+
+
+
+
+                    <div class="comment comment--all ratingLst">
+
+                        @if (@Model.Comments.FirstOrDefault() == null)
+                        {
+                            <p class="cmt-txt">
+                                Chưa có bình luận nào cho sản phẩm này
+                            </p>
+                        }
+                        else
+                        {
+                            @foreach (var item in Model.Comments)
+                            {
+                                <div class="comment__item par" id="r-50988378">
+                                    <div class="item-top">
+                                        <p class="txtname">@item.Name_cus</p>
+
+                                    </div>
+                                    <div class="item-rate">
+                                        <div class="comment-star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+
+
+                                    </div>
+
+                                    <div class="comment-content">
+                                        <p class="cmt-txt">
+                                            @item.content
+                                        </p>
+                                    </div>
+                                </div>
+                            }
+
+
+                        }
+
+
+
+
+
+
+
+
+                        @*viet commet*@
+                        <div class="comment__item rp-51842393 childC__item hide" id="r-51948506">
+                            <div class="item-top">
+                                <p class="txtname">Nguy&amp;#7877;n V&amp;#259;n T&amp;#7899;i</p>
+
+
+                            </div>
+                            <div class="item-rate">
+                            </div>
+
+                            <div class="comment-content">
+                                <p class="cmt-txt">Bên mình có miếng dán chuẩn của note 11 pro k ạ</p>
+                            </div>
+
+
+
+
+                            <div class="item-click">
+                                <a href="javascript:likeRating(51948506);" class="click-like" data-like="0">
+                                    <i class="icondetail-likewhite"></i>
+                                    Hữu ích
+                                </a>
+
+
+                                <div class="rr-51948506 reply hide">
+                                    <input placeholder="Nhập thảo luận của bạn">
+                                    <a href="javascript:ratingRelply(51948506);" class="rrSend">GỬI</a>
+                                    <div class="ifrl">
+                                        <span>Khách</span> | <a href="javascript:rCmtEditName()">Nhập tên</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        @*end*@
+                    </div>
+
+                    <div class="rRepPopup hide">
+                        <div class="rRepPopup__top">
+                            <p class="rRepPopup__title">Nhập thông tin</p>
+                            <div class="rRepPopup-close c-btnclose" onclick="hideReplyConfirmPopup()">Đóng</div>
+                        </div>
+                        <div class="rCfmInfo" data-gender="">
+                            <div class="cgd ed">
+                                <span class="c_male" onclick="rSelGender(this, 1)"><i class="icondetail-rad"></i>&nbsp;Anh</span>
+                                <span class="c_female" onclick="rSelGender(this, 2)"><i class="icondetail-rad"></i>&nbsp;Chị</span>
+                            </div>
+                            <input type="text" placeholder="Họ tên (bắt buộc)" class="cfmUserName">
+                            <input type="text" placeholder="Email (để nhận phản hồi qua mail)" class="cfmUserEmail">
+                            <input type="text" placeholder="Số điện thoại" class="cfmPhone">
+                            <button type="submit" onclick="rCmtConfirmUser(true, true);">Cập nhật</button>
+                        </div>
+                    </div>
+
+
+
+                    <div class="gallery">
+                    </div>
+                </div>
+            </div>
+            <div class="box_right">
+
+                <div class="scrolling_inner">
+                </div>
+
+                <div class="box04__main">
+                    <div class="price-two">
+                        <div class="box-price red jsClick active" data-price="price02">
+                            <p class="box-price-online">Giá rẻ Online</p>
+                            <p class="box-price-present">@Model.Price ₫ </p>
+
+                        </div>
+                    </div>
+                    <div class="box_normal block block-price2 blue" id="price01">
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <div class="block__promo">
+                            <div class="pr-top">
+                                <p class="pr-txtb">Khuyến mãi </p>
+                                <i class="pr-txt">Giá và khuyến mãi dự kiến áp dụng đến 23:00 | 14/08</i>
+                            </div>
+                            <div class="pr-content">
+                                <div class="pr-item">
+                                    <div class="divb t2" data-promotion="1154996" data-group="WebNote" data-discount="0"
+                                         data-productcode="" data-tovalue="0">
+                                        <span class="nb">1</span>
+                                        <div class="divb-right">
+                                            <p>
+                                                Nhập mã&nbsp;SPPMWG giảm 10% tối đa 100.000đ khi thanh toán qua Ví ShopeePay <a href="http://www.thegioididong.com/tin-tuc/nhap-ma-sppmwg-giam-10-toi-da-100000d-khi-thanh-toan-qua-vi-shopeepay-1451069">
+                                                    (click xem chi tiết)
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="divb t2" data-promotion="1111122" data-group="WebNote" data-discount="0"
+                                         data-productcode="" data-tovalue="0">
+                                        <span class="nb">2</span>
+                                        <div class="divb-right">
+                                            <p>
+                                                Nhập mã&nbsp;MWG18 giảm 3% tối đa 100.000đ khi thanh toán quét QRcode qua App của ngân hàng <a href="http://www.thegioididong.com/tin-tuc/nhap-ma-mwg18-giam-3-toi-da-100k-khi-thanh-toan-qua-vnpay-qr-1443092">
+                                                    (click xem chi tiết)
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+                            </div>
+                        </div>
+
+                        <div class="spmarket"></div>
+
+
+
+
+
+                        <style>
+                            .campaign.dt > div::-webkit-scrollbar {
+                                width: 6px;
+                                height: 6px
+                            }
+
+                            .campaign.dt > div::-webkit-scrollbar-track {
+                                border-radius: 10px;
+                                background: rgba(0, 0, 0, 0.1)
+                            }
+
+                            .campaign.dt > div::-webkit-scrollbar-thumb {
+                                border-radius: 10px;
+                                background: rgba(0, 0, 0, 0.2)
+                            }
+
+                                .campaign.dt > div::-webkit-scrollbar-thumb:hover {
+                                    background: rgba(0, 0, 0, 0.4)
+                                }
+
+                                .campaign.dt > div::-webkit-scrollbar-thumb:active {
+                                    background: rgba(0, 0, 0, .9)
+                                }
+
+                            .campaign {
+                                margin-bottom: 10px;
+                                padding-top: 12px;
+                                border-top: 1px solid #E0E0E0;
+                                white-space: nowrap;
+                                position: relative
+                            }
+
+                                .campaign > div.sliderX {
+                                    display: flex;
+                                    overflow-x: scroll;
+                                    -webkit-overflow-scrolling: touch;
+                                    -ms-scroll-chaining: chained;
+                                    padding-bottom: 5px;
+                                }
+
+                                .campaign > b {
+                                    display: block;
+                                    margin-bottom: 10px;
+                                    font-size: 16px
+                                }
+
+                                .campaign > div > div {
+                                    min-width: calc(40% - 3px);
+                                    display: inline-block;
+                                    vertical-align: top;
+                                    padding: 10px 10px 8px;
+                                    border: 1px solid #e0e0e0;
+                                    border-radius: 4px;
+                                    position: relative;
+                                    flex-shrink: 0;
+                                    margin-right: 5px;
+                                    cursor: pointer;
+                                    overflow: hidden;
+                                }
+
+                                    .campaign > div > div:last-of-type {
+                                        margin-right: 0
+                                    }
+
+                                    .campaign > div > div > * {
+                                        display: block;
+                                        margin-bottom: 2px
+                                    }
+
+                                    .campaign > div > div > figure {
+                                        height: 16px;
+                                        position: relative;
+                                        margin-bottom: 6px
+                                    }
+
+                                        .campaign > div > div > figure > img {
+                                            max-height: 100%;
+                                            top: 0;
+                                            bottom: 0;
+                                            left: 0;
+                                            margin: auto
+                                        }
+
+                                        .campaign > div > div > figure.jcb > img {
+                                            height: 15px
+                                        }
+
+                                        .campaign > div > div > figure.tpbank > img {
+                                            height: 13px
+                                        }
+
+                                        .campaign > div > div > figure.fecredit > img {
+                                            height: 8px
+                                        }
+
+                                        .campaign > div > div > figure.vnpayqr > img {
+                                            height: 10px
+                                        }
+
+                                        .campaign > div > div > figure.fundiin > img {
+                                            height: 15px
+                                        }
+
+                                    .campaign > div > div > b {
+                                        color: #000;
+                                        font-weight: 400
+                                    }
+
+                                        .campaign > div > div > b > span {
+                                            font-size: 12px;
+                                            color: #666
+                                        }
+
+                                    .campaign > div > div > span {
+                                        font-size: 12px;
+                                        color: #666
+                                    }
+
+                                    .campaign > div > div > a {
+                                        font-weight: 400;
+                                        color: #FB6E2E;
+                                        margin-bottom: 0
+                                    }
+
+                                    .campaign > div > div > div {
+                                        width: 16px;
+                                        height: 16px;
+                                        position: absolute;
+                                        right: 20px;
+                                        top: 10px
+                                    }
+
+                                        .campaign > div > div > div > i {
+                                            font-style: normal;
+                                            width: 16px;
+                                            height: 16px;
+                                            border-radius: 50%;
+                                            display: block;
+                                            background-color: #999;
+                                            color: #fff;
+                                            font-size: 10px;
+                                            text-align: center;
+                                            line-height: 16px;
+                                            position: relative;
+                                            cursor: pointer
+                                        }
+
+                                            .campaign > div > div > div > i.act {
+                                                background-color: #2F80ED
+                                            }
+
+                                                .campaign > div > div > div > i.act:before {
+                                                    content: "";
+                                                    position: absolute;
+                                                    width: 12px;
+                                                    height: 12px;
+                                                    background: #e0e0e0;
+                                                    transform: rotate(45deg);
+                                                    top: 15px;
+                                                    right: 2px;
+                                                    box-shadow: -2px -2px 5px -4px
+                                                }
+
+                                        .campaign > div > div > div > div {
+                                            display: none
+                                        }
+
+                                .campaign div.crule {
+                                    position: absolute;
+                                    right: 0;
+                                    top: 70px;
+                                    padding: 10px;
+                                    border-radius: 4px;
+                                    width: 100%;
+                                    background-color: #fff;
+                                    border: 1px solid #E0E0E0;
+                                    z-index: 5;
+                                    white-space: normal;
+                                    line-height: 1.5;
+                                    box-shadow: 0 0 8px #ccc
+                                }
+
+                                    .campaign div.crule > * {
+                                        margin-bottom: 10px;
+                                        color: #333;
+                                        white-space: normal
+                                    }
+
+                                .campaign .cpopup {
+                                    position: fixed !important;
+                                    left: 0 !important;
+                                    top: 0 !important;
+                                    width: 100%;
+                                    height: 100vh;
+                                    background: rgba(0, 0, 0, .85);
+                                    z-index: 10
+                                }
+
+                                    .campaign .cpopup > div {
+                                        width: 320px;
+                                        position: absolute;
+                                        left: 0;
+                                        right: 0;
+                                        top: 0;
+                                        bottom: 0;
+                                        margin: auto;
+                                        background-color: #fff;
+                                        border-radius: 4px;
+                                        padding: 20px;
+                                        line-height: 1.5;
+                                        text-align: center;
+                                        height: 105px;
+                                        display: block;
+                                        white-space: normal
+                                    }
+
+                                        .campaign .cpopup > div:before {
+                                            content: "×";
+                                            position: absolute;
+                                            right: 7px;
+                                            top: -5px;
+                                            font-size: 26px
+                                        }
+
+                                .campaign.dt.c1 > div > div > a {
+                                    float: right
+                                }
+
+                                .campaign.mb > div {
+                                    overflow-x: scroll;
+                                    -webkit-overflow-scrolling: touch;
+                                    -ms-scroll-chaining: chained
+                                }
+
+                                    .campaign.mb > div > div {
+                                        min-width: calc(43% - 3px)
+                                    }
+
+                                .campaign.mb.c1 > div > div > a {
+                                    display: block;
+                                    padding-top: 2px
+                                }
+
+                                .campaign.c1 > div > div {
+                                    width: calc(100% - 3px)
+                                }
+
+                                    .campaign.c1 > div > div > * {
+                                        display: inline-block;
+                                        vertical-align: middle;
+                                        margin-right: 2px
+                                    }
+
+                                    .campaign.c1 > div > div > div {
+                                        position: relative;
+                                        left: 0;
+                                        top: 0
+                                    }
+
+                                    .campaign.c1 > div > div > figure > * {
+                                        display: inline-block;
+                                        vertical-align: middle;
+                                    }
+
+                                    .campaign.c1 > div > div > figure.fecredit {
+                                        height: 20px
+                                    }
+
+                                    .campaign.c1 > div > div > figure > img {
+                                        position: relative
+                                    }
+
+                                .campaign.c2 > div > div {
+                                    width: calc((100% / 2) - 3px)
+                                }
+
+                                .campaign.c2 .sliderX::-webkit-scrollbar,
+                                .campaign.c1 .sliderX::-webkit-scrollbar {
+                                    display: none
+                                }
+
+                                .campaign.c2 .sliderX {
+                                    justify-content: center;
+                                }
+
+                                .campaign:not(.c1) .sliderX > div > b > span:last-of-type {
+                                    display: block
+                                }
+
+                            .campaign-option > figure > i {
+                                width: 16px;
+                                height: 16px;
+                                border: 1px solid #ccc;
+                                border-radius: 50%;
+                                padding: 3px;
+                                border: 1px solid #fb6e2e;
+                                display: inline-block;
+                                font-size: 16px;
+                                cursor: pointer;
+                            }
+
+                            .campaign-option.active {
+                                border: 1px solid #fb6e2e;
+                            }
+
+                                .campaign-option.active > figure > i::before {
+                                    content: "";
+                                    display: block;
+                                    height: 100%;
+                                    background-color: #fb6e2e;
+                                    border-radius: 50%;
+                                }
+
+                                .campaign-option.active:after {
+                                    content: '';
+                                    width: 4px;
+                                    height: 8px;
+                                    border: solid #fff;
+                                    border-width: 0 2px 2px 0;
+                                    transform: rotate(45deg);
+                                    background: none;
+                                    margin: -2px 0 0 2px;
+                                    border-radius: 0;
+                                    position: absolute;
+                                    right: 5px;
+                                    top: 3px
+                                }
+
+                                .campaign-option.active:before {
+                                    content: '';
+                                    width: 0;
+                                    height: 0;
+                                    border-top: 30px solid #fb6e2e;
+                                    border-left: 30px solid transparent;
+                                    position: absolute;
+                                    right: -1px;
+                                    top: -1px
+                                }
+
+                            .block-button .btn-camp {
+                                border-radius: 4px;
+                                display: block;
+                                font-size: 15px;
+                                padding: 14px 10px;
+                                text-align: center;
+                                margin-bottom: 8px;
+                                display: block;
+                                padding-left: 0;
+                                padding-right: 0;
+                                text-transform: uppercase;
+                                width: 100%;
+                                cursor: pointer;
+                                color: #fff;
+                            }
+
+                                .block-button .btn-camp span {
+                                    display: block;
+                                    font-size: 12px;
+                                    font-weight: normal;
+                                }
+
+                            .block-button.normal .btn-camp {
+                                background-color: #fb6e2e;
+                            }
+
+                            .block-button.saving .btn-camp {
+                                background-color: #d0021c;
+                                font-weight: bold;
+                            }
+
+                            .block-button.twoprice .btn-camp {
+                                background-color: #d0021c;
+                                padding: 6px 0;
+                                text-transform: inherit;
+                                font-weight: bold;
+                            }
+
+                            .avaworld .campaign-option.active,
+                            .avaworld .campaign-option > figure > i {
+                                border-color: #000020;
+                            }
+
+                                .avaworld .campaign-option.active > figure > i::before {
+                                    background-color: #000020;
+                                }
+
+                                .avaworld .campaign-option.active:before {
+                                    border-top-color: #000020;
+                                }
+
+                            .box_saving .bs_content .campaign {
+                                padding-left: 10px;
+                                padding-right: 7px;
+                            }
+
+                                .box_saving .bs_content .campaign > div.sliderX {
+                                    padding-bottom: 0;
+                                }
+
+                            .box_twoprice .campaign > div.sliderX {
+                                padding-bottom: 0;
+                            }
+                        </style>
+
+
+
+
+
+
+
+                        <div class="block-button normal">
+                            <a href="javascript:void(0);" class="btn-buynow jsBuy"></a>
+                            @Html.ActionLink("Thêm vào giỏ hàng", "addtoCart","Orders", new { id=@Model.Id_pro})
+                        </div>
+                        <script>
+                            var isMobile = 0;
+                            var versionjs = '30d47e64f5138fa12f15';
+                            var linkCss = '//cdn.tgdd.vn/mwgcart/vue-pro';
+                            var linkJs = `//cdn.tgdd.vn/mwgcart/vue-pro/js/index2.${versionjs}.js`;
+                            window.provinceId = 3;
+                            window.index3State = {
+                              productId: 270471,
+                              productCode: '0131491002965',
+                              productName: '&#x110;i&#x1EC7;n tho&#x1EA1;i Xiaomi Redmi Note 11 Pro',
+                              productType: 1,
+                              isTransContact: false,
+                              isUserManual: false,
+                              lstProductCodeMoreColors: "",
+                              bringProductsName: '',
+                              indexGiftAdds: []
+                            };
+
+                            function getScript(source, callback) {
+                              //document.getElementById("cartloading").style.display = 'block';
+                              var el = document.createElement('script');
+                              el.onload = callback;
+                              el.src = source;
+                              el.async = true;
+                              document.body.appendChild(el);
+                            }
+                            function getCss(source) {
+                              var link = document.createElement('link');
+                              link.rel = 'stylesheet';
+                              link.type = 'text/css';
+                              link.href = source;
+                              document.head.appendChild(link);
+                            }
+
+                            function updateListSelectedPromotionsInPageDetail(listSelecteGiftPromotions) {
+                              window.index2State.indexGiftAdds = listSelecteGiftPromotions;
+                              if (listSelecteGiftPromotions.length > 0) {
+                                var classParent = ".box_normal";
+                                if (listSelecteGiftPromotions[0].productType === 2)
+                                  classParent = ".box_saving";
+                                else if (listSelecteGiftPromotions[0].productType === 7)
+                                  classParent = ".box_cleanstock";
+                                $(classParent + ' .label-radio').removeClass('active');
+                                for (var i = 0; i < listSelecteGiftPromotions.length; i++) {
+                                  var item = listSelecteGiftPromotions[i];
+                                  $(classParent + ' .label-radio[data-promotion="' + item.promotionId + '"]:eq(' + item.promotionGiftIndex + ')').addClass('active');
+                                }
+                              }
+                            }
+
+                            function choosePromotion($this, type) {
+                              var box = ".box_normal";
+                              if (type == 2) box = ".box_saving";
+                              else if (type == 7) box = ".box_cleanstock";
+
+                              var $parent = $this.parent().parent();
+                              $parent.find('.label-radio').removeClass('active');
+                              $this.addClass('active');
+
+                              var text = '';
+                              $(box + ' .label-radio.active').each(function () {
+                                text += $(this).html() + ' và ';
+                              });
+
+                              $(box + ' .showpromo-radio').removeClass('hide');
+                              var htmlDisPrice = "";
+                              if ($(box + ' .showpromo-radio.active-promo').length > 0) {
+                                let gift = 0;
+                                let disPrice = 0;
+                                $(box + ' .label-radio.active').each(function () {
+                                  if ($(this).parent(".choosepromo").data("discount") > 0) {
+                                    gift += parseFloat($(this).parent(".choosepromo").data("discount"));
+                                    disPrice = parseFloat($(this).parent(".choosepromo").data("disprice"));
+                                  }
+                                });
+                                if (gift > 0 && disPrice > gift) {
+                                  let priceLine = disPrice - gift;
+                                  htmlDisPrice = ' còn ' + '<b class="must-show">' + toCurrency(priceLine) + '</b>';
+                                }
+                              }
+                              $(box + ' .showpromo-radio span').html(text.substring(0, text.length - 4) + htmlDisPrice);
+
+                              PushPromotion(box, type);
+                            }
+                            function toCurrency(number) {
+                              if (number == undefined || number == "" || number > 0 === false) {
+                                return "";
+                              }
+                              number = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(number);
+                              return number.replace(/\s/g, '');
+                            }
+                            function PushPromotion(box, type) {
+                              if (typeof window.index2State !== "undefined") {
+                                window.index2State.indexGiftAdds = [];
+                                $(box + ' .label-radio.active').each(function () {
+                                  window.index2State.indexGiftAdds.push({
+                                    promotionId: $(this).data('promotion'),
+                                    promotionGiftIndex: $(this).data('index'),
+                                    productType: type
+                                  });
+                                });
+                              }
+                            }
+                            function CallBackVue() {
+                              window.index2State = window.index3State;
+                              var list = document.querySelectorAll(".normal .jsBuy");
+                              for (var i = 0; i < list.length; i++) {
+                                if (list[i].className.indexOf('skip') !== -1)
+                                  continue;
+                                list[i].href = "javascript:void(0);";
+                                list[i].addEventListener("click", function () {
+                                  PushPromotion('.box_normal', 1);
+                                  if (!dataDeli.IsCheckSubmit) {
+                                    //CheckDelivery();
+                                    return false;
+                                  } else {
+                                    window.index2State.productType = 1;
+                                    $("#btn-add-product").click();
+                                    return false;
+                                  }
+                                });
+                              }
+
+                              var listsaving = document.querySelectorAll(".saving .jsBuy");
+                              for (var i = 0; i < listsaving.length; i++) {
+                                if (listsaving[i].className.indexOf('skip') !== -1)
+                                  continue;
+                                listsaving[i].href = "javascript:void(0);";
+                                listsaving[i].addEventListener("click", function () {
+                                  PushPromotion('.box_saving', 2);
+
+                                  if (!dataDeli.IsCheckSubmit) {
+                                    //CheckDelivery();
+                                    return false;
+                                  }
+                                  else {
+                                    window.index2State.productType = 2;
+                                    $("#btn-add-product").click();
+                                    return false;
+                                  }
+                                });
+                              }
+
+                              var listOLOL = document.querySelectorAll(".onlineonly .jsBuy");
+                              for (var i = 0; i < listOLOL.length; i++) {
+                                if (listOLOL[i].className.indexOf('skip') !== -1)
+                                  continue;
+                                listOLOL[i].href = "javascript:void(0);";
+                                listOLOL[i].addEventListener("click", function () {
+                                  if (!dataDeli.IsCheckSubmit) {
+                                    return false;
+                                  }
+                                  else {
+                                    window.index2State.productType = 4;
+                                    $("#btn-add-product").click();
+                                    return false;
+                                  }
+                                });
+                              }
+
+                              var listTwoPrice = document.querySelectorAll(".twoprice .jsBuy");
+                              for (var i = 0; i < listTwoPrice.length; i++) {
+                                if (listTwoPrice[i].className.indexOf('skip') !== -1)
+                                  continue;
+                                listTwoPrice[i].href = "javascript:void(0);";
+                                listTwoPrice[i].addEventListener("click", function () {
+                                  if (!dataDeli.IsCheckSubmit) {
+                                    return false;
+                                  }
+                                  else {
+                                    window.index2State.productType = 3;
+                                    $("#btn-add-product").click();
+                                    return false;
+                                  }
+                                });
+                              }
+
+                              var listTwoPriceOLOL = document.querySelectorAll(".twopriceolol .jsBuy");
+                              for (var i = 0; i < listTwoPriceOLOL.length; i++) {
+                                if (listTwoPriceOLOL[i].className.indexOf('skip') !== -1)
+                                  continue;
+                                listTwoPriceOLOL[i].href = "javascript:void(0);";
+                                listTwoPriceOLOL[i].addEventListener("click", function () {
+                                  if (!dataDeli.IsCheckSubmit) {
+                                    return false;
+                                  }
+                                  else {
+                                    window.index2State.productType = 6;
+                                    $("#btn-add-product").click();
+                                    return false;
+                                  }
+                                });
+                              }
+
+                              var listCleanStock = document.querySelectorAll(".cleanstock .jsBuy");
+                              for (var i = 0; i < listCleanStock.length; i++) {
+                                if (listCleanStock[i].className.indexOf('skip') !== -1)
+                                  continue;
+                                listCleanStock[i].href = "javascript:void(0);";
+                                listCleanStock[i].addEventListener("click", function () {
+                                  PushPromotion('.box_cleanstock', 7);
+                                  window.index2State.productType = 7;
+                                  $("#btn-add-product").click();
+                                  return false;
+                                });
+                              }
+                            }
+
+                            setTimeout(function () {
+                              getScript(linkJs, function () {
+                                console.log('getScript ' + versionjs);
+                              });
+
+                              if (isMobile == 1) {
+                                getCss(linkCss + "/css/mobile/global-detail.css?v=" + versionjs);
+                                getCss(linkCss + "/css/mobile/popup-detail.css?v=" + versionjs);
+                                getCss(linkCss + "/css/mobile/alert.css?v=" + versionjs);
+                              } else {
+                                getCss(linkCss + "/css/desktop/global-detail.css?v=" + versionjs);
+                                getCss(linkCss + "/css/desktop/popup-detail.css?v=" + versionjs);
+                                getCss(linkCss + "/css/desktop/alert.css?v=" + versionjs);
+                              }
+                            }, 100);
+                        </script>
+
+
+
+                        <p class="callorder">
+                            Gọi đặt mua <a href="tel:18001060">1800.1060</a> (7:30 - 22:00)
+                        </p>
+
+
+
+
+
+                        <div class="promoadd" data-max="2">
+                            <p class="promoadd__ttl">
+                                <em><b class="bonus_count">8</b> ưu đãi thêm</em>
+                                <span>Dự kiến áp dụng đến 23:00 | 31/08</span>
+                            </p>
+                            <ul class="promoadd__list">
+                                <li class="bhx">
+                                    <i class="icondetail-tick"></i>
+                                    <div class="promo_BHX">
+                                        <div class="l2">
+                                            <span>
+                                                Tặng cho khách lần đầu mua hàng online tại web <a href="https://www.bachhoaxanh.com/?utm_source=tgdd_ttc_tct_20%&amp;utm_medium=link_tct&amp;utm_campaign=tgdd">BachhoaXANH.com</a>
+                                            </span>
+                                            <div class="content">
+                                                <p class="first-pap">Mã giảm <strong>100.000đ áp dụng đơn hàng từ 400.000đ</strong></p>
+
+                                                <p>Đại siêu thị Online với <b>15.000</b> sản phẩm tiêu dùng, thịt, cá, rau…</p>
+                                                <p><b>FREEship</b> đơn hàng từ 300.000đ hoặc thành viên VÀNG</p>
+                                                <p>Giao nhanh trong <b>2 giờ</b></p>
+                                            </div>
+                                            <span>
+                                                Áp dụng tại Tp.HCM và 22 tỉnh thành
+                                            </span>
+                                            <a href="https://www.bachhoaxanh.com/kinh-nghiem-hay/tang-phieu-mua-hang-bachhoaxanhcom-khi-mua-sam-tai-thegioididongcom-va-dienmayxanhcom-1276540?utm_source=tgdd_ttc_tct_the_le_20%&amp;utm_medium=link_tct&amp;utm_campaign=tgdd"
+                                               target="_blank">(Xem chi tiết)</a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="" data-tovalue="200" data-promotion="1145645">
+                                    <i class="icondetail-tick"></i>
+                                    <p>
+                                        Tặng suất mua Máy lọc nước giảm đến 3,500,000đ.<a href="https://www.dienmayxanh.com/khuyen-mai/mua-tivi-tu-lanh-may-lanh-may-giat-giam-2-trieu-mu-1321896"
+                                                                                          target="_blank">(click xem chi tiết)</a>
+                                    </p>
+                                </li>
+                                <li class="hide" data-tovalue="97" data-promotion="1143377">
+                                    <i class="icondetail-tick"></i>
+                                    <p>
+                                        Tặng suất mua xe đạp giảm đến 30%(không kèm khuyến mãi khác) <a href="https://www.dienmayxanh.com/khuyen-mai/xe-dap-giam-den-20-khi-mua-kem-tv-tu-lanh-may-g-1377323"
+                                                                                                        target="_blank">(click xem chi tiết)</a>
+                                    </p>
+                                </li>
+                                <li class="hide" data-tovalue="90" data-promotion="1145384">
+                                    <i class="icondetail-tick"></i>
+                                    <p>Tặng suất mua kèm đồng hồ Beu giảm 30% (không áp dụng khuyến mãi khác của đồng hồ)</p>
+                                </li>
+                                <li class="hide" data-tovalue="0" data-promotion="1161322">
+                                    <i class="icondetail-tick"></i>
+                                    <p>Tai nghe giảm 40% khi mua kèm điện thoại/laptop</p>
+                                </li>
+                                <li class="hide" data-tovalue="0" data-promotion="1161320">
+                                    <i class="icondetail-tick"></i>
+                                    <p>Tai nghe giảm 30% khi mua kèm điện thoại/laptop</p>
+                                </li>
+                                <li class="hide" data-tovalue="0" data-promotion="1158204">
+                                    <i class="icondetail-tick"></i>
+                                    <p>
+                                        Tặng suất mua Bếp điện từ giảm đến 5 triệu.<a href="https://www.dienmayxanh.com/khuyen-mai/bep-tu-giam-den-4-trieu-khi-mua-kem-san-pham-dien-1425097"
+                                                                                      target="_blank">(click xem chi tiết)</a>
+                                    </p>
+                                </li>
+                                <li class="hide" data-tovalue="0" data-promotion="1152284">
+                                    <i class="icondetail-tick"></i>
+                                    <p>
+                                        Mua Đồng hồ thời trang giảm 40% cho Đồng hồ dưới 3 triệu, giảm 30% cho Đồng hồ từ 3 triệu trở lên
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+                    <div id="app">
+                        <section>
+                            <!--fragment#9ee4d56e42#head-->
+                            <div fragment="9ee4d56e42" id="box-input-product">
+                                <input id="product-id-input" type="number"
+                                       placeholder="id sản phẩm"><input id="product-type-input" type="number" placeholder="kịch bản"><button id="btn-add-product">
+                                    Thêm vào giỏ hàng
+                                </button>
+                            </div>
+                            <!--fragment#fa67295aff#head-->
+                            <div class="popup-detail" fragment="fa67295aff">
+                                <div class="bg-detail"></div>
+                                <div class="choose-promo">
+
+                                    <div class="namePro">
+                                        <span class="namePro__product-name">Điện thoại Samsung Galaxy A31</span><span>
+                                            6.490.000₫ <strike>6.990.000₫</strike>
+                                        </span>
+                                    </div>
+                                    <!---->
+                                    <div class="loading-cart-popup">
+                                        <span class="cswrap">
+                                            <span class="csdot"></span><span class="csdot"></span><span class="csdot"></span>
+                                        </span>
+                                    </div>
+                                    <!---->
+                                    <div class="choose-amount">
+                                        <span>Chọn số lượng: </span>
+                                        <div class="choosenumber">
+                                            <div class="minus" style="pointer-events: none;">
+                                                <i style="background-color: rgb(204, 204, 204);"></i>
+                                            </div>
+                                            <div class="number">1</div>
+                                            <div class="plus" style="pointer-events: all;">
+                                                <i style="background-color: rgb(40, 138, 214);"></i><i style="background-color: rgb(40, 138, 214);"></i>
+                                            </div><input type="hidden">
+                                        </div>
+                                    </div>
+                                    <!---->
+                                    <!----><span><input type="hidden" value="true"></span><span class="plChoose-proColor"></span><button class="ordered">
+                                        Đặt mua
+                                    </button><a href="https://www.thegioididong.com/cart" target="_blank"
+                                                class="seecart" style="display: none;">Xem giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="popup-detail" fragment="fa67295aff">
+                                <div class="bg-detail"></div>
+                                <div class="choose-promo">
+
+                                    <div class="addPrsuccess">
+                                        <i class="cartnew-tick"></i>&nbsp; <span>
+                                            Sản phẩm đã được thêm vào giỏ
+                                            hàng
+                                        </span>
+                                    </div>
+                                    <div class="namePro-success">
+                                        <div class="imgSu"><span class="imgPro__helper"></span><img src="" alt="" loading="lazy"></div>
+                                        <p>
+                                            <span></span><span>
+                                                <!---->
+                                                <!----><small>Số lượng: 0</small>
+                                            </span><span>0₫</span>
+                                        </p>
+                                    </div><button class="ordered">Xem giỏ hàng</button>
+                                </div>
+                            </div>
+                            <!--fragment#fa67295aff#tail-->
+                            <!--fragment#9ee4d56e42#tail-->
+                            <div class="error-handler">
+                                <div class="popup-promo">
+                                    <div class="bg-promo"></div>
+                                    <div class="alert-promo">
+
+                                        <p class=""></p><a href="javascript:void(0)" class="">Đồng ý</a>
+                                        <div class="resize-triggers">
+                                            <div class="expand-trigger">
+                                                <div style="width: 1px; height: 1px;"></div>
+                                            </div>
+                                            <div class="contract-trigger"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popup-max1Pro">
+                                    <div class="popup-bot">
+                                        <div class="close-max1Pro"><i></i><i></i></div><span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="loading-cart">
+                                <span class="cswrap">
+                                    <span class="csdot"></span><span class="csdot"></span><span class="csdot"></span>
+                                </span>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+
+
+
+                <p class="parameter__title">Cấu hình Điện thoại Xiaomi Redmi Note 11 Pro</p>
+                @* dien thoai*@
+                <div class="parameter">
+                    <ul class="parameter__list 270471 active">
+                        <li data-index="0" data-prop="0">
+                            <p class="lileft">Màn hình:</p>
+                            <div class="liright">
+                                <span class="comma">AMOLED</span>
+                                <span class="comma">6.67"</span>
+                                <span class="">Full HD+</span>
+                            </div>
+                        </li>
+                        <li data-index="0" data-prop="0">
+                            <p class="lileft">Hệ điều hành:</p>
+                            <div class="liright">
+                                <span class="">Android 11</span>
+                            </div>
+                        </li>
+                        <li data-index="0" data-prop="0">
+                            <p class="lileft">Camera sau:</p>
+                            <div class="liright">
+                                <span class="">Chính 108 MP &amp; Phụ 8 MP, 2 MP, 2 MP</span>
+                            </div>
+                        </li>
+                        <li data-index="0" data-prop="0">
+                            <p class="lileft">Camera trước:</p>
+                            <div class="liright">
+                                <span class="">16 MP</span>
+                            </div>
+                        </li>
+                        <li data-index="0" data-prop="0">
+                            <p class="lileft">Chip:</p>
+                            <div class="liright">
+                                <span class="">MediaTek Helio G96</span>
+                            </div>
+                        </li>
+                        <li data-index="0" data-prop="0">
+                            <p class="lileft">RAM:</p>
+                            <div class="liright">
+                                <span class="">8 GB</span>
+                            </div>
+                        </li>
+                        <li data-index="0" data-prop="0">
+                            <p class="lileft">Bộ nhớ trong:</p>
+                            <div class="liright">
+                                <span class="">128 GB</span>
+                            </div>
+                        </li>
+                        <li data-index="0" data-prop="0">
+                            <p class="lileft">SIM:</p>
+                            <div class="liright">
+                                <span class="comma">2 Nano SIM (SIM 2 chung khe thẻ nhớ)</span>
+                                <span class="">Hỗ trợ 4G</span>
+                            </div>
+                        </li>
+                        <li data-index="0" data-prop="0">
+                            <p class="lileft">Pin, Sạc:</p>
+                            <div class="liright">
+                                <span class="comma">5000 mAh</span>
+                                <span class="">67 W</span>
+                            </div>
+                        </li>
+                        <li data-index="99999" data-prop="0">
+                            <p class="lileft">Hãng</p>
+                            <div class="liright">
+                                <span class="">Xiaomi. <span class="parameter__manu">Xem thông tin hãng</span></span>
+                            </div>
+                        </li>
+                    </ul>
+
+
+                </div>
+                @* dien thoai*@
+
+                @* laptop*@
+
+            </div>
+
+        </div>
+
+
+        <div class="wrap_comment" title="Bình luận sản phẩm" id="comment" cmtcategoryid="2" siteid="1" detailid="270471"
+
+                </div>
+
+        <!-- form commnet -->
+        <form asp-action="comment"  class="form-info">
+
+            <div class="infor-customer">
+                <h4>Thông tin khách hàng</h4>
+                <form  class="form-customer">
+                    <div class="sex-customer">
+                    </div>
+                    <div class="fillinform">
+                        <div class="fillname">
+
+                            <div class="input-in">
+                                <input placeholder="" maxlength="50" id="cusName" name="id_pro" required="required"
+                                       class="capitalize untouched pristine required" value=@Model.Id_pro hidden >
+                            </div>
+                            <!---->
+                        </div>
+                        <div class="fillname">
+                            <label for="cusName" class="form-label">
+                                Họ và
+                                Tên
+                            </label>
+                            <div class="input-in">
+                                <input placeholder="" maxlength="50" id="cusName" name="cusName" required="required"
+                                       class="capitalize untouched pristine required" >
+                            </div>
+                            <!---->
+                        </div>
+                        <div class="fillname phoneNumber" style="margin-top:10px;">
+                            <label for="cusPhone" class="form-label">
+                                Số điện
+                                thoại
+                            </label>
+                            <div class="input-in">
+                                <input placeholder="" type="tel" maxlength="10" id="cusPhone" name="cusPhone" required="required"
+                                       class="untouched pristine required phoneNumber__input">
+                            </div>
+                            <!---->
+                        </div>
+
+                        <div class="fillname" style="margin-top:10px;" name="">
+                            <label for="cusName" class="form-label">Địa chỉ Mail</label>
+                            <div class="input-in">
+                                <input placeholder="" maxlength="50" id="cusName" name="cusMail" required="required"
+                                       class="capitalize untouched pristine required">
+                                <!---->
+                            </div>
+                        </div>
+                        <!---->
+                        <!---->
+                        <div class="tltCmt" style="margin-top: 20px;">
+                            <textarea id="txtEditor" name="noidung" cols="" rows=""
+                                      class="parent_input txtEditor" placeholder="Mời bạn để lại bình luận..." onclick="cmtaddcommentclick();"
+                                      onkeyup="cmtaddcommentclick();"></textarea>
+
+                            <div class="clr"></div>
+                        </div>
+                        
+                        <button type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                </form>
+
+        </form>
+
+
+        <!-- end -->
+
+
+
+
+
+
+
+
+        <form class="article-rating__form" style="display: none;">
+            <input type="hidden" name="inputPhoneNumber" value="">
+            <input type="hidden" name="inputGender" value="3">
+            <input type="hidden" name="inputFullName" value="Bạn">
+            <input type="hidden" name="inputProductId" value="270471">
+            <input type="hidden" name="inputAge">
+            <input type="hidden" name="inputContent">
+            <input type="hidden" name="inputLink"
+                   value="http://www.thegioididong.com/dtdd/xiaomi-redmi-note-11-pro-4g?src=osp">
+        </form>
+
+        <div class="gallery-loading">
+            <span class="gallery-loading__cswrap">
+                <span class="gallery-loading__cswrap__csdot"></span>
+                <span class="gallery-loading__cswrap__csdot"></span>
+                <span class="gallery-loading__cswrap__csdot"></span>
+            </span>
+        </div>
+
+
+        </div>
+
+        <div class="errorcompare" style="display:none;"></div>
+    </section>
+
+
+
+
+
+
+
+    <!-- footer-->
+    <footer class="footer" style="margin-top: 10px;">
+        <section class="clearfix footer__top">
+            <div class="footer__col">
+                <ul class="f-listmenu">
+                    <li>
+                        <a rel="nofollow" href="/tin-tuc/chuong-trinh-tich-diem-danh-cho-khach-hang-than-thiet-1434806">
+                            Tích điểm
+                            Quà tặng VIP
+                        </a>
+                    </li>
+                    <li><a rel="nofollow" href="/lich-su-mua-hang">Lịch sử mua hàng</a></li>
+                    <li><a rel="nofollow" href="/daily">Cộng tác bán hàng cùng TGDĐ</a></li>
+                    <li><a rel="nofollow" href="/tra-gop">Tìm hiểu về mua trả góp</a></li>
+                    <li><a rel="nofollow" href="/bao-hanh">Chính sách bảo hành</a></li>
+                    <li><a href="javascript:void(0)" class="arrow showtaga">Xem thêm</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/chinh-sach-bao-hanh-san-pham">Chính sách đổi trả</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/giao-hang">Giao hàng &amp; Thanh toán</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/huong-dan-mua-hang">Hướng dẫn mua online</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/b2b">Bán hàng doanh nghiệp</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/phieu-mua-hang">Phiếu mua hàng</a></li>
+                    <li class="hidden"><a rel="nofollow" href="https://hddt.thegioididong.com">In hóa đơn điện tử</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/tos">Quy chế hoạt động</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/noi-quy-cua-hang">Nội quy cửa hàng</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/chat-luong-phuc-vu">Chất lượng phục vụ</a></li>
+                    <li class="hidden">
+                        <a rel="nofollow"
+                           href="/tin-tuc/can-trong-voi-nhung-sieu-thi-thegioididong-khong-chinh-chu--683321">Cảnh báo giả mạo</a>
+                    </li>
+                    <li class="hidden">
+                        <a rel="nofollow" href="/chinh-sach-khui-hop-apple">Chính sách khui hộp sản phẩm Apple</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <ul class="f-listmenu">
+                    <li><a rel="nofollow" href="https://mwg.vn">Giới thiệu công ty (MWG.vn)</a></li>
+                    <li><a rel="nofollow" href="https://vieclam.thegioididong.com">Tuyển dụng</a></li>
+                    <li><a rel="nofollow" href="/lien-he">Gửi góp ý, khiếu nại</a></li>
+                    <li><a rel="nofollow" href="/he-thong-sieu-thi-the-gioi-di-dong">Tìm siêu thị (3.256 shop)</a></li>
+                    <li>
+                        <a rel="nofollow" class="linkversion" href="https://www.thegioididong.com/pc-may-in-hp?sclient=mobile">
+                            Xem
+                            bản mobile
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <div class="f-listtel">
+                    <p class="f-listtel__title">
+                        <strong>Tổng đài hỗ trợ</strong>
+                        (Miễn phí gọi)
+                    </p>
+                    <p class="f-listtel__content"><span>Gọi mua:</span> <a href="tel:18001060">1800.1060</a> (7:30 - 22:00)</p>
+                    <p class="f-listtel__content"><span>Kỹ thuật:</span> <a href="tel:18001763">1800.1763</a> (7:30 - 22:00)</p>
+                    <p class="f-listtel__content"><span>Khiếu nại:</span> <a href="tel:18001062">1800.1062</a> (8:00 - 21:30)</p>
+                    <p class="f-listtel__content"><span>Bảo hành:</span> <a href="tel:18001064">1800.1064</a> (8:00 - 21:00)</p>
+                </div>
+            </div>
+            <div class="footer__col">
+                <div class="f-social">
+                    <a href="https://www.facebook.com/thegioididongcom" class="link-fb">
+                        <i class="fa-brands fa-facebook" style="color: blue;"></i>
+                        3750.1k Fan
+                    </a>
+                    <a href="https://www.youtube.com/user/TGDDVideoReviews" class="link-ytb">
+                        <i class="fa-brands fa-youtube" style="color: red;"></i>
+                        847k Đăng ký
+                    </a>
+                </div>
+                <div class="f-certify">
+                </div>
+
+            </div>
+        </section>
+
+    </footer>
+    <!-- end -->
+
+</body>
+
+</html>

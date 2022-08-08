@@ -1,0 +1,1339 @@
+D:\OJT\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.csproj.AssemblyReference.cache
+D:\OJT\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.GeneratedMSBuildEditorConfig.editorconfig
+D:\OJT\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.AssemblyInfoInputs.cache
+D:\OJT\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.AssemblyInfo.cs
+D:\OJT\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.csproj.CoreCompileInputs.cache
+D:\OJT\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.MvcApplicationPartsAssemblyInfo.cs
+D:\OJT\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.MvcApplicationPartsAssemblyInfo.cache
+D:\OJT\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.RazorAssemblyInfo.cache
+D:\OJT\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.RazorAssemblyInfo.cs
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\appsettings.Development.json
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\appsettings.json
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.staticwebassets.runtime.json
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.exe
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.deps.json
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.runtimeconfig.json
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.pdb
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Humanizer.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\MessagePack.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Build.Locator.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Common.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Configuration.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.LibraryModel.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Packaging.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.ProjectModel.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Protocol.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.Convention.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.Hosting.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.Runtime.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.TypedParts.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\OJT\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\OJT\Project\thegioididong\thegioididong\obj\Debug\net6.0\staticwebassets.build.json
+D:\OJT\Project\thegioididong\thegioididong\obj\Debug\net6.0\staticwebassets.development.json
+D:\OJT\Project\thegioididong\thegioididong\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\OJT\Project\thegioididong\thegioididong\obj\Debug\net6.0\scopedcss\bundle\thegioididong.styles.css
+D:\OJT\Project\thegioididong\thegioididong\obj\Debug\net6.0\scopedcss\projectbundle\thegioididong.bundle.scp.css
+D:\OJT\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.csproj.CopyComplete
+D:\OJT\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.dll
+D:\OJT\Project\thegioididong\thegioididong\obj\Debug\net6.0\refint\thegioididong.dll
+D:\OJT\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.pdb
+D:\OJT\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.genruntimeconfig.cache
+D:\OJT\Project\thegioididong\thegioididong\obj\Debug\net6.0\ref\thegioididong.dll
+D:\code\New folder\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\New folder\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.AssemblyInfoInputs.cache
+D:\code\New folder\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.AssemblyInfo.cs
+D:\code\New folder\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.csproj.CoreCompileInputs.cache
+D:\code\New folder\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.MvcApplicationPartsAssemblyInfo.cs
+D:\code\New folder\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.MvcApplicationPartsAssemblyInfo.cache
+D:\code\New folder\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.RazorAssemblyInfo.cache
+D:\code\New folder\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.RazorAssemblyInfo.cs
+D:\code\New folder\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.dll
+D:\code\New folder\Project\thegioididong\thegioididong\obj\Debug\net6.0\ref\thegioididong.dll
+D:\code\New folder\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.pdb
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\appsettings.Development.json
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\appsettings.json
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.staticwebassets.runtime.json
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.exe
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.deps.json
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.runtimeconfig.json
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ref\thegioididong.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.pdb
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Humanizer.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\MessagePack.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Build.Locator.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Common.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Configuration.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.LibraryModel.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Packaging.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.ProjectModel.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Protocol.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.Convention.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.Hosting.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.Runtime.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.TypedParts.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\code\New folder\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\code\New folder\Project\thegioididong\thegioididong\obj\Debug\net6.0\staticwebassets.build.json
+D:\code\New folder\Project\thegioididong\thegioididong\obj\Debug\net6.0\staticwebassets.development.json
+D:\code\New folder\Project\thegioididong\thegioididong\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\code\New folder\Project\thegioididong\thegioididong\obj\Debug\net6.0\scopedcss\bundle\thegioididong.styles.css
+D:\code\New folder\Project\thegioididong\thegioididong\obj\Debug\net6.0\scopedcss\projectbundle\thegioididong.bundle.scp.css
+D:\code\New folder\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.csproj.CopyComplete
+D:\code\New folder\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.genruntimeconfig.cache
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\appsettings.json
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.staticwebassets.runtime.json
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.exe
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.deps.json
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.runtimeconfig.json
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.pdb
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Humanizer.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\MessagePack.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\MessagePack.Annotations.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Build.Locator.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Common.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Configuration.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.LibraryModel.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Packaging.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.ProjectModel.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Protocol.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Versioning.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.Convention.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.Hosting.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.Runtime.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.TypedParts.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.csproj.AssemblyReference.cache
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.AssemblyInfoInputs.cache
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.AssemblyInfo.cs
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.csproj.CoreCompileInputs.cache
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.RazorAssemblyInfo.cache
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.RazorAssemblyInfo.cs
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\obj\Debug\net6.0\scopedcss\bundle\thegioididong.styles.css
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\obj\Debug\net6.0\scopedcss\projectbundle\thegioididong.bundle.scp.css
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.csproj.CopyComplete
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\obj\Debug\net6.0\refint\thegioididong.dll
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.pdb
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.genruntimeconfig.cache
+C:\Users\HUNG\Downloads\Project\thegioididong\thegioididong\obj\Debug\net6.0\ref\thegioididong.dll
+D:\Study\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.csproj.AssemblyReference.cache
+D:\Study\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.AssemblyInfoInputs.cache
+D:\Study\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.AssemblyInfo.cs
+D:\Study\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.csproj.CoreCompileInputs.cache
+D:\Study\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.MvcApplicationPartsAssemblyInfo.cs
+D:\Study\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.MvcApplicationPartsAssemblyInfo.cache
+D:\Study\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.RazorAssemblyInfo.cache
+D:\Study\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.RazorAssemblyInfo.cs
+D:\Study\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.dll
+D:\Study\Project\thegioididong\thegioididong\obj\Debug\net6.0\refint\thegioididong.dll
+D:\Study\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.pdb
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\appsettings.Development.json
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\appsettings.json
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.staticwebassets.runtime.json
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.exe
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.deps.json
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.runtimeconfig.json
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.pdb
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Humanizer.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\MessagePack.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Build.Locator.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Common.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Configuration.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.LibraryModel.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Packaging.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.ProjectModel.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Protocol.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.Convention.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.Hosting.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.Runtime.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.TypedParts.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Study\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Study\Project\thegioididong\thegioididong\obj\Debug\net6.0\staticwebassets.build.json
+D:\Study\Project\thegioididong\thegioididong\obj\Debug\net6.0\staticwebassets.development.json
+D:\Study\Project\thegioididong\thegioididong\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Study\Project\thegioididong\thegioididong\obj\Debug\net6.0\scopedcss\bundle\thegioididong.styles.css
+D:\Study\Project\thegioididong\thegioididong\obj\Debug\net6.0\scopedcss\projectbundle\thegioididong.bundle.scp.css
+D:\Study\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.csproj.CopyComplete
+D:\Study\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.genruntimeconfig.cache
+D:\Study\Project\thegioididong\thegioididong\obj\Debug\net6.0\ref\thegioididong.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\appsettings.json
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.staticwebassets.runtime.json
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.exe
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.deps.json
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.runtimeconfig.json
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\thegioididong.pdb
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Humanizer.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\MessagePack.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\MessagePack.Annotations.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Build.Locator.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Common.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Configuration.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.LibraryModel.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Packaging.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.ProjectModel.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Protocol.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\NuGet.Versioning.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.Convention.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.Hosting.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.Runtime.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Composition.TypedParts.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.csproj.AssemblyReference.cache
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.AssemblyInfoInputs.cache
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.AssemblyInfo.cs
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.csproj.CoreCompileInputs.cache
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.RazorAssemblyInfo.cache
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.RazorAssemblyInfo.cs
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\obj\Debug\net6.0\scopedcss\bundle\thegioididong.styles.css
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\obj\Debug\net6.0\scopedcss\projectbundle\thegioididong.bundle.scp.css
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.csproj.CopyComplete
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\obj\Debug\net6.0\refint\thegioididong.dll
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.pdb
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\obj\Debug\net6.0\thegioididong.genruntimeconfig.cache
+C:\Users\HUNG\Downloads\Projectf\Project\thegioididong\thegioididong\obj\Debug\net6.0\ref\thegioididong.dll

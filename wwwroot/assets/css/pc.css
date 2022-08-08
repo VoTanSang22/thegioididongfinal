@@ -1,0 +1,44 @@
+.bg-quickfilter {
+    width: 100%;
+    background: #fff;
+    position: relative;
+}
+.quickfilter {
+    display: flex;
+    flex-flow: wrap;
+    padding-top: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.quickfilter a {
+    cursor: pointer;
+    margin: 0 6px 10px;
+    width: 120px;
+}
+.quickfilter img {
+    align-items: center;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    margin: 0 auto;
+    width: 60px;
+}
+.quickfilter span {
+    font-size: 13px;
+    line-height: 17px;
+    max-width: 96px;
+    margin: 5px auto 0;
+    text-align: center;
+    color: #333;
+    display: block;
+}
+.c-btnbox img {
+    display: flex;
+    width: auto;
+    max-height: 25px;
+    max-width: 98%;
+    object-fit: contain;
+    justify-content: center;
+}
